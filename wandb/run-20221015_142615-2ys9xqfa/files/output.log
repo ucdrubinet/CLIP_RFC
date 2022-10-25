@@ -1,0 +1,87 @@
+/home/zhli/Current-Work/Pcam_Experiment/dataset/DATA/pcamv1/camelyonpatch_level_2_split_train
+/home/zhli/Current-Work/Pcam_Experiment/dataset/DATA/pcamv1/camelyonpatch_level_2_split_train
+/home/zhli/Current-Work/Pcam_Experiment/dataset/DATA/pcamv1/camelyonpatch_level_2_split_test
+/home/zhli/Current-Work/Pcam_Experiment/dataset/DATA/pcamv1/camelyonpatch_level_2_split_test
+/home/zhli/Current-Work/Pcam_Experiment/dataset/DATA/pcamv1/camelyonpatch_level_2_split_valid
+/home/zhli/Current-Work/Pcam_Experiment/dataset/DATA/pcamv1/camelyonpatch_level_2_split_valid
+
+  0%|                                                     | 4/2048 [00:03<22:22,  1.52it/s]
+loss:  tensor(0.6698, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(2.9357, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.8086, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+  0%|▏                                                    | 8/2048 [00:05<16:01,  2.12it/s]
+loss:  tensor(1.1154, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(1.8852, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.8659, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.7164, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+  1%|▎                                                   | 13/2048 [00:07<14:57,  2.27it/s]
+loss:  tensor(0.7649, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(1.1673, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6558, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(1.7670, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+  1%|▍                                                   | 18/2048 [00:09<14:05,  2.40it/s]
+loss:  tensor(1.5676, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.9135, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(1.6118, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(1.1424, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+  1%|▌                                                   | 23/2048 [00:11<13:34,  2.49it/s]
+loss:  tensor(0.8653, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6458, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.7409, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+  1%|▋                                                   | 27/2048 [00:13<14:11,  2.37it/s]
+loss:  tensor(1.0029, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.8452, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.7904, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.9502, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+  2%|▊                                                   | 33/2048 [00:15<13:34,  2.47it/s]
+loss:  tensor(0.6960, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.7827, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6775, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6190, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+  2%|▉                                                   | 37/2048 [00:17<13:50,  2.42it/s]
+loss:  tensor(0.7651, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5785, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6118, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6094, device='cuda:0', grad_fn=<NllLossBackward0>)
+  2%|█                                                   | 42/2048 [00:19<15:22,  2.17it/s]
+Traceback (most recent call last):
+  File "train_rn18_base.py", line 107, in <module>
+    train(train_dataset, test_dataset, model_backbone, max_epoch)
+  File "train_rn18_base.py", line 44, in train
+    for images, labels, index in tqdm(DataLoader(train_data, batch_size=128)):
+  File "/home/zhli/.local/lib/python3.8/site-packages/tqdm/std.py", line 1195, in __iter__
+    for obj in iterable:
+  File "/opt/anaconda/envs/dassl/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 681, in __next__
+    data = self._next_data()
+  File "/opt/anaconda/envs/dassl/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 721, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/opt/anaconda/envs/dassl/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/opt/anaconda/envs/dassl/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/zhli/Current-Work/Pcam_Experiment/dataset/Pcam.py", line 35, in __getitem__
+    image = self.transform(image)
+  File "/opt/anaconda/envs/dassl/lib/python3.8/site-packages/torchvision/transforms/transforms.py", line 94, in __call__
+    img = t(img)
+  File "/opt/anaconda/envs/dassl/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/anaconda/envs/dassl/lib/python3.8/site-packages/torchvision/transforms/transforms.py", line 349, in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+  File "/opt/anaconda/envs/dassl/lib/python3.8/site-packages/torchvision/transforms/functional.py", line 430, in resize
+    return F_pil.resize(img, size=size, interpolation=pil_interpolation, max_size=max_size)
+  File "/opt/anaconda/envs/dassl/lib/python3.8/site-packages/torchvision/transforms/functional_pil.py", line 275, in resize
+    return img.resize((new_w, new_h), interpolation)
+  File "/opt/anaconda/envs/dassl/lib/python3.8/site-packages/PIL/Image.py", line 2082, in resize
+    return self._new(self.im.resize(size, resample, box))
+KeyboardInterrupt
+loss:  tensor(0.5338, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5684, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5641, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5599, device='cuda:0', grad_fn=<NllLossBackward0>)

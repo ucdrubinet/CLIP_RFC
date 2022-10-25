@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "train_rn18_base.py", line 100, in <module>
+    transforms.randomHorizontalFlip(0.5),
+AttributeError: module 'torchvision.transforms' has no attribute 'randomHorizontalFlip'

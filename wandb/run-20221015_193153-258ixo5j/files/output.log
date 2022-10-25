@@ -1,0 +1,19 @@
+/home/zhli/Current-Work/Pcam_Experiment/dataset/DATA/pcamv1/camelyonpatch_level_2_split_train
+/home/zhli/Current-Work/Pcam_Experiment/dataset/DATA/pcamv1/camelyonpatch_level_2_split_train
+/home/zhli/Current-Work/Pcam_Experiment/dataset/DATA/pcamv1/camelyonpatch_level_2_split_test
+/home/zhli/Current-Work/Pcam_Experiment/dataset/DATA/pcamv1/camelyonpatch_level_2_split_test
+/home/zhli/Current-Work/Pcam_Experiment/dataset/DATA/pcamv1/camelyonpatch_level_2_split_valid
+/home/zhli/Current-Work/Pcam_Experiment/dataset/DATA/pcamv1/camelyonpatch_level_2_split_valid
+  0%|                                                                                                                                                | 0/2048 [00:02<?, ?it/s]
+Traceback (most recent call last):
+  File "train_rn18_base.py", line 118, in <module>
+    train(train_dataset, test_dataset, model_backbone, max_epoch)
+  File "train_rn18_base.py", line 55, in train
+    loss = loss_fn(y_pred, label)
+  File "/opt/anaconda/envs/dassl/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/anaconda/envs/dassl/lib/python3.8/site-packages/torch/nn/modules/loss.py", line 714, in forward
+    return F.binary_cross_entropy_with_logits(input, target,
+  File "/opt/anaconda/envs/dassl/lib/python3.8/site-packages/torch/nn/functional.py", line 3148, in binary_cross_entropy_with_logits
+    raise ValueError("Target size ({}) must be the same as input size ({})".format(target.size(), input.size()))
+ValueError: Target size (torch.Size([128])) must be the same as input size (torch.Size([128, 2]))

@@ -1,0 +1,18 @@
+{
+    "os": "Linux-5.8.0-36-generic-x86_64-with-glibc2.17",
+    "python": "3.8.13",
+    "heartbeatAt": "2022-10-11T21:07:45.347066",
+    "startedAt": "2022-10-11T21:07:39.997268",
+    "docker": null,
+    "gpu": "GeForce RTX 2080 Ti",
+    "gpu_count": 2,
+    "cpu_count": 28,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "train_rn18_base.py",
+    "codePath": "train_rn18_base.py",
+    "host": "hades",
+    "username": "zhli",
+    "executable": "/opt/anaconda/envs/dassl/bin/python"
+}

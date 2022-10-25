@@ -1,0 +1,715 @@
+/home/zhli/Current-Work/Pcam_Experiment/dataset/DATA/pcamv1/camelyonpatch_level_2_split_train
+/home/zhli/Current-Work/Pcam_Experiment/dataset/DATA/pcamv1/camelyonpatch_level_2_split_train
+/home/zhli/Current-Work/Pcam_Experiment/dataset/DATA/pcamv1/camelyonpatch_level_2_split_test
+/home/zhli/Current-Work/Pcam_Experiment/dataset/DATA/pcamv1/camelyonpatch_level_2_split_test
+/home/zhli/Current-Work/Pcam_Experiment/dataset/DATA/pcamv1/camelyonpatch_level_2_split_valid
+/home/zhli/Current-Work/Pcam_Experiment/dataset/DATA/pcamv1/camelyonpatch_level_2_split_valid
+
+  0%|▍                                                                                                                                                        | 7/2622 [00:03<12:29,  3.49it/s]
+loss:  tensor(0.7858, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6330, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5890, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5835, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5675, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5451, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4772, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5936, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+  1%|█                                                                                                                                                       | 18/2622 [00:05<08:33,  5.07it/s]
+loss:  tensor(0.4486, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6967, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5010, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5064, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6256, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5233, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.9425, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.8711, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5210, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.7077, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+  1%|█▌                                                                                                                                                      | 27/2622 [00:07<09:12,  4.70it/s]
+loss:  tensor(0.6545, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.7044, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5944, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6530, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.7987, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6937, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5579, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5509, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+  1%|██▏                                                                                                                                                     | 37/2622 [00:09<08:29,  5.07it/s]
+loss:  tensor(0.6483, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.7333, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.7162, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5393, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5132, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4780, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5596, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6502, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6851, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+  2%|██▋                                                                                                                                                     | 47/2622 [00:11<08:57,  4.79it/s]
+loss:  tensor(0.5570, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5064, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5664, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6287, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5521, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5139, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4497, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5860, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5639, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+  2%|███▏                                                                                                                                                    | 56/2622 [00:13<08:50,  4.84it/s]
+loss:  tensor(0.5579, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6396, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5552, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4991, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4940, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5077, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3459, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4864, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+  3%|███▊                                                                                                                                                    | 66/2622 [00:15<08:23,  5.07it/s]
+loss:  tensor(0.5546, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5026, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4011, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3900, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4801, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3768, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5028, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4629, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3881, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+  3%|████▍                                                                                                                                                   | 77/2622 [00:17<08:14,  5.14it/s]
+loss:  tensor(0.4147, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4416, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4475, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4129, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2251, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3196, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4920, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3626, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4440, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3055, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+  3%|█████                                                                                                                                                   | 87/2622 [00:19<08:11,  5.16it/s]
+loss:  tensor(0.8174, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3907, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3487, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4558, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2238, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.7702, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5101, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3816, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3187, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+  4%|█████▌                                                                                                                                                  | 96/2622 [00:21<08:40,  4.85it/s]
+loss:  tensor(0.1537, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2079, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4093, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6535, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2645, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4690, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2334, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2501, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6439, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+  4%|██████▏                                                                                                                                                | 107/2622 [00:23<08:08,  5.15it/s]
+loss:  tensor(0.4327, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6104, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1845, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3110, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6760, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3742, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3415, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4908, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3682, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+  4%|██████▋                                                                                                                                                | 117/2622 [00:25<08:08,  5.12it/s]
+loss:  tensor(0.4621, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3210, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4384, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1549, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1116, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6142, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3396, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3964, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3734, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+  5%|███████▎                                                                                                                                               | 128/2622 [00:27<08:07,  5.11it/s]
+loss:  tensor(0.7001, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4955, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2312, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2791, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5340, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1067, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2862, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.8074, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4733, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+  5%|███████▉                                                                                                                                               | 137/2622 [00:29<08:52,  4.67it/s]
+loss:  tensor(0.3404, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6124, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4138, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4122, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2467, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2240, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3331, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1495, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2369, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+  6%|████████▍                                                                                                                                              | 147/2622 [00:31<08:07,  5.08it/s]
+loss:  tensor(0.2695, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2416, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5023, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1761, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1011, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6029, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3046, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2437, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3696, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+  6%|█████████                                                                                                                                              | 158/2622 [00:33<08:02,  5.11it/s]
+loss:  tensor(0.1583, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5409, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3589, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2005, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3974, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1909, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1503, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4114, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4946, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+  6%|█████████▋                                                                                                                                             | 168/2622 [00:35<08:28,  4.82it/s]
+loss:  tensor(0.4316, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.0883, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2624, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3537, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2705, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2028, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4478, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.7368, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6660, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+  7%|██████████▏                                                                                                                                            | 177/2622 [00:37<08:05,  5.04it/s]
+loss:  tensor(0.2298, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2466, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5120, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.0778, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2319, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(1.1017, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4540, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4112, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3180, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+  7%|██████████▊                                                                                                                                            | 187/2622 [00:39<08:02,  5.05it/s]
+loss:  tensor(0.4261, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2703, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1511, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4092, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5644, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4937, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3823, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3698, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2760, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+  8%|███████████▎                                                                                                                                           | 197/2622 [00:41<08:37,  4.69it/s]
+loss:  tensor(0.1026, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2317, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4621, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2967, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4522, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3159, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.0825, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5422, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+  8%|███████████▊                                                                                                                                           | 206/2622 [00:43<09:03,  4.45it/s]
+loss:  tensor(0.2217, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2638, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2804, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.0716, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4525, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3337, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2413, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4276, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1992, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+  8%|████████████▍                                                                                                                                          | 216/2622 [00:45<08:01,  5.00it/s]
+loss:  tensor(0.4631, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4143, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2464, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3960, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.0755, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.0765, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4918, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3378, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+  9%|█████████████                                                                                                                                          | 226/2622 [00:47<08:25,  4.74it/s]
+loss:  tensor(0.4907, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.0891, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1243, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5320, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2035, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1954, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3994, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2122, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2301, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+  9%|█████████████▌                                                                                                                                         | 235/2622 [00:49<08:05,  4.91it/s]
+loss:  tensor(0.2899, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2344, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4496, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.0726, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1211, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6183, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3267, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3159, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3402, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+  9%|██████████████                                                                                                                                         | 245/2622 [00:51<07:58,  4.97it/s]
+loss:  tensor(0.3640, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2738, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2027, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4840, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1128, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.0975, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3888, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4709, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3810, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 10%|██████████████▋                                                                                                                                        | 255/2622 [00:53<07:50,  5.03it/s]
+loss:  tensor(0.0786, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4120, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3560, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1798, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1891, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2526, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1615, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1685, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4484, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 10%|███████████████▎                                                                                                                                       | 266/2622 [00:55<07:40,  5.12it/s]
+loss:  tensor(0.1344, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3035, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2442, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1012, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2685, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3789, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1656, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3523, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.0933, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 10%|███████████████▊                                                                                                                                       | 275/2622 [00:57<08:28,  4.61it/s]
+loss:  tensor(0.6220, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3056, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4380, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1941, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1814, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5518, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2042, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2616, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4009, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 11%|████████████████▍                                                                                                                                      | 285/2622 [00:59<07:36,  5.12it/s]
+loss:  tensor(0.3919, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4920, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2229, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2435, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4329, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.0565, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3830, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3387, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1427, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 11%|████████████████▉                                                                                                                                      | 295/2622 [01:01<07:49,  4.95it/s]
+loss:  tensor(0.2549, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.0524, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5570, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4374, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2450, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3652, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2488, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.0957, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3760, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 12%|█████████████████▌                                                                                                                                     | 305/2622 [01:03<08:28,  4.56it/s]
+loss:  tensor(0.1551, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4480, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1782, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1194, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3822, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1500, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1473, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3722, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 12%|██████████████████▏                                                                                                                                    | 315/2622 [01:05<07:54,  4.86it/s]
+loss:  tensor(0.0666, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4292, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2751, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2033, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3179, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.0826, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1417, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.7141, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3384, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 12%|██████████████████▋                                                                                                                                    | 325/2622 [01:07<07:34,  5.05it/s]
+loss:  tensor(0.3510, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.0729, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4134, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2704, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2055, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3739, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2584, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4827, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5109, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 13%|███████████████████▎                                                                                                                                   | 335/2622 [01:09<07:45,  4.91it/s]
+loss:  tensor(0.1564, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6029, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.0518, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1873, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5764, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3777, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1470, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4473, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3226, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 13%|███████████████████▊                                                                                                                                   | 345/2622 [01:11<07:27,  5.08it/s]
+loss:  tensor(0.4115, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2284, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2005, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3115, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2169, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3245, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3304, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1742, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4716, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 14%|████████████████████▍                                                                                                                                  | 355/2622 [01:13<07:20,  5.15it/s]
+loss:  tensor(0.1528, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3063, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1332, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2042, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2460, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.0962, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.0848, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3381, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2694, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1910, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 14%|█████████████████████                                                                                                                                  | 366/2622 [01:15<07:18,  5.15it/s]
+loss:  tensor(0.0706, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2217, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4224, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2115, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4519, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5662, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.0804, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5969, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3128, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 14%|█████████████████████▋                                                                                                                                 | 376/2622 [01:17<07:17,  5.14it/s]
+loss:  tensor(0.4226, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1824, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1856, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3040, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2084, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1581, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4069, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1340, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.0949, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 15%|██████████████████████▏                                                                                                                                | 386/2622 [01:19<07:25,  5.02it/s]
+loss:  tensor(0.3109, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1489, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3685, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1940, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.0697, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6173, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3278, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2427, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3132, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 15%|██████████████████████▊                                                                                                                                | 396/2622 [01:21<07:13,  5.13it/s]
+loss:  tensor(0.0795, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2670, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2966, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1121, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1012, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3882, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1172, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5016, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4181, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 15%|███████████████████████▍                                                                                                                               | 406/2622 [01:23<07:13,  5.11it/s]
+loss:  tensor(0.4231, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2047, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.0567, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.9406, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3317, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1506, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4311, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1404, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.0769, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3515, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 16%|████████████████████████                                                                                                                               | 417/2622 [01:25<07:14,  5.08it/s]
+loss:  tensor(0.1453, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1727, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.9960, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(1.9282, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5277, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4528, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2426, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3221, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3196, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 16%|████████████████████████▌                                                                                                                              | 427/2622 [01:27<07:10,  5.10it/s]
+loss:  tensor(0.2586, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6987, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3323, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5989, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3061, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.0804, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3080, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4242, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1578, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 17%|█████████████████████████                                                                                                                              | 436/2622 [01:29<07:36,  4.79it/s]
+loss:  tensor(0.5120, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1065, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5254, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2749, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1786, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3683, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1117, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.0584, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 17%|█████████████████████████▋                                                                                                                             | 446/2622 [01:31<07:20,  4.94it/s]
+loss:  tensor(0.4071, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2708, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6569, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1173, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.0923, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3199, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1696, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1287, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2414, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 17%|██████████████████████████▎                                                                                                                            | 457/2622 [01:33<07:05,  5.09it/s]
+loss:  tensor(0.1146, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2805, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3908, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2016, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1581, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4484, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.0511, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.0459, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6785, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3101, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 18%|██████████████████████████▉                                                                                                                            | 467/2622 [01:35<07:01,  5.11it/s]
+loss:  tensor(0.3636, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1866, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.0784, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4477, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3307, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2041, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4275, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2113, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6567, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 18%|███████████████████████████▍                                                                                                                           | 477/2622 [01:37<06:58,  5.13it/s]
+loss:  tensor(0.2057, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1138, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4326, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2481, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.0623, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5256, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5772, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1907, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4338, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 19%|████████████████████████████                                                                                                                           | 487/2622 [01:39<07:02,  5.05it/s]
+loss:  tensor(0.2738, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5019, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3069, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3440, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3142, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1689, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5485, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2281, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1875, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 19%|████████████████████████████▌                                                                                                                          | 497/2622 [01:41<07:30,  4.71it/s]
+loss:  tensor(0.0747, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2038, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3421, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1891, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2464, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4357, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.0644, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1646, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3243, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 19%|█████████████████████████████▏                                                                                                                         | 507/2622 [01:43<06:58,  5.05it/s]
+loss:  tensor(0.2105, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5803, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.0991, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2410, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3897, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2123, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2219, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3420, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1047, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 20%|█████████████████████████████▊                                                                                                                         | 518/2622 [01:46<06:53,  5.08it/s]
+loss:  tensor(0.2909, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1418, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3017, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1787, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.0647, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2711, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3813, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1308, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1344, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 20%|██████████████████████████████▎                                                                                                                        | 527/2622 [01:47<07:08,  4.88it/s]
+loss:  tensor(0.0537, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.0542, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3479, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2594, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1727, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4899, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.0987, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2004, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3579, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 20%|██████████████████████████████▉                                                                                                                        | 537/2622 [01:49<06:50,  5.08it/s]
+loss:  tensor(0.2345, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2598, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.0530, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3396, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2014, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2242, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2915, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.0407, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5227, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 21%|███████████████████████████████▌                                                                                                                       | 548/2622 [01:52<06:46,  5.10it/s]
+loss:  tensor(0.2398, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4278, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.0497, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1524, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3504, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1775, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2571, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2829, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.0955, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2760, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 21%|████████████████████████████████▏                                                                                                                      | 558/2622 [01:53<06:43,  5.12it/s]
+loss:  tensor(0.2557, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3877, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1084, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2027, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3735, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2268, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2918, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2500, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1465, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 22%|████████████████████████████████▋                                                                                                                      | 568/2622 [01:55<06:40,  5.12it/s]
+loss:  tensor(0.3425, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1495, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2515, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3301, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.0387, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4388, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3566, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1914, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2723, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 22%|█████████████████████████████████▎                                                                                                                     | 578/2622 [01:57<06:46,  5.03it/s]
+loss:  tensor(0.0666, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4178, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3770, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1057, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3738, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5100, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1140, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2946, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2208, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 22%|█████████████████████████████████▊                                                                                                                     | 588/2622 [01:59<06:40,  5.08it/s]
+loss:  tensor(0.3397, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1338, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.0390, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3036, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3675, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2354, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1721, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3620, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.0390, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 23%|██████████████████████████████████▍                                                                                                                    | 599/2622 [02:02<06:34,  5.13it/s]
+loss:  tensor(0.5384, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1837, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2004, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3064, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.0625, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2643, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3858, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1248, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3882, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.8082, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 23%|███████████████████████████████████                                                                                                                    | 609/2622 [02:04<06:44,  4.97it/s]
+loss:  tensor(0.7226, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2456, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1799, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3514, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1179, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.0707, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6403, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(1.0237, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5233, device='cuda:0', grad_fn=<NllLossBackward0>)
+ 24%|███████████████████████████████████▌                                                                                                                   | 617/2622 [02:05<06:48,  4.91it/s]
+Traceback (most recent call last):
+  File "train_rn18_base.py", line 114, in <module>
+    train(train_dataset, test_dataset, model_backbone, max_epoch)
+  File "train_rn18_base.py", line 53, in train
+    for images, labels, index in tqdm(DataLoader(train_data, batch_size=100)):
+  File "/home/zhli/.local/lib/python3.8/site-packages/tqdm/std.py", line 1195, in __iter__
+    for obj in iterable:
+  File "/opt/anaconda/envs/dassl/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 681, in __next__
+    data = self._next_data()
+  File "/opt/anaconda/envs/dassl/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 721, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/opt/anaconda/envs/dassl/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/opt/anaconda/envs/dassl/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/zhli/Current-Work/Pcam_Experiment/dataset/Pcam.py", line 35, in __getitem__
+    image = self.transform(image)
+  File "/opt/anaconda/envs/dassl/lib/python3.8/site-packages/torchvision/transforms/transforms.py", line 94, in __call__
+    img = t(img)
+  File "/opt/anaconda/envs/dassl/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/anaconda/envs/dassl/lib/python3.8/site-packages/torchvision/transforms/transforms.py", line 349, in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+  File "/opt/anaconda/envs/dassl/lib/python3.8/site-packages/torchvision/transforms/functional.py", line 430, in resize
+    return F_pil.resize(img, size=size, interpolation=pil_interpolation, max_size=max_size)
+  File "/opt/anaconda/envs/dassl/lib/python3.8/site-packages/torchvision/transforms/functional_pil.py", line 275, in resize
+    return img.resize((new_w, new_h), interpolation)
+  File "/opt/anaconda/envs/dassl/lib/python3.8/site-packages/PIL/Image.py", line 2082, in resize
+    return self._new(self.im.resize(size, resample, box))
+KeyboardInterrupt
+loss:  tensor(0.1533, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.1304, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.8373, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2521, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2535, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.9060, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(1.1168, device='cuda:0', grad_fn=<NllLossBackward0>)
