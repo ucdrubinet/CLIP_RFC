@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "train_rn18_base.py", line 115, in <module>
+    transforms.resize(224, 224),
+AttributeError: module 'torchvision.transforms' has no attribute 'resize'

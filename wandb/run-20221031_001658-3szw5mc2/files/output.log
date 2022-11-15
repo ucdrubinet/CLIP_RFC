@@ -1,0 +1,10 @@
+/opt/anaconda/envs/dassl/lib/python3.8/site-packages/torchvision/transforms/transforms.py:332: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  warnings.warn(
+Traceback (most recent call last):
+  File "train_rn18_base.py", line 115, in <module>
+    transforms.Resize(224, 224),
+  File "/opt/anaconda/envs/dassl/lib/python3.8/site-packages/torchvision/transforms/transforms.py", line 336, in __init__
+    interpolation = _interpolation_modes_from_int(interpolation)
+  File "/opt/anaconda/envs/dassl/lib/python3.8/site-packages/torchvision/transforms/functional.py", line 47, in _interpolation_modes_from_int
+    return inverse_modes_mapping[i]
+KeyError: 224

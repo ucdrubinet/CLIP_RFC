@@ -1,0 +1,7 @@
+  0%|                                                                                                                                                                   | 0/68 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "train_MHIST.py", line 132, in <module>
+    train(train_data, test_data, model_backbone, max_epoch)
+  File "train_MHIST.py", line 73, in train
+    scheduler.zero_grad()
+AttributeError: 'StepLR' object has no attribute 'zero_grad'

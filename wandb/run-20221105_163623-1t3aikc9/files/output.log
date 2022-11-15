@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "train_MHIST.py", line 53, in <module>
+    Ramdom90Rotation(),
+NameError: name 'Ramdom90Rotation' is not defined

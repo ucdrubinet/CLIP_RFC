@@ -1,0 +1,27 @@
+2022-11-02 10:04:00,741 INFO    MainThread:3258274 [wandb_setup.py:_flush():76] Configure stats pid to 3258274
+2022-11-02 10:04:00,742 INFO    MainThread:3258274 [wandb_setup.py:_flush():76] Loading settings from /home/zhli/.config/wandb/settings
+2022-11-02 10:04:00,742 INFO    MainThread:3258274 [wandb_setup.py:_flush():76] Loading settings from /home/zhli/Current-Work/Pcam_Experiment/wandb/settings
+2022-11-02 10:04:00,742 INFO    MainThread:3258274 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'_require_service': 'True'}
+2022-11-02 10:04:00,742 INFO    MainThread:3258274 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train_MHIST.py', 'program': 'train_MHIST.py'}
+2022-11-02 10:04:00,742 INFO    MainThread:3258274 [wandb_init.py:_log_setup():461] Logging user logs to /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221102_100400-2q2d3rko/logs/debug.log
+2022-11-02 10:04:00,742 INFO    MainThread:3258274 [wandb_init.py:_log_setup():462] Logging internal logs to /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221102_100400-2q2d3rko/logs/debug-internal.log
+2022-11-02 10:04:00,743 INFO    MainThread:3258274 [wandb_init.py:init():495] calling init triggers
+2022-11-02 10:04:00,743 INFO    MainThread:3258274 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {}
+2022-11-02 10:04:00,743 INFO    MainThread:3258274 [wandb_init.py:init():548] starting backend
+2022-11-02 10:04:00,743 INFO    MainThread:3258274 [wandb_init.py:init():552] setting up manager
+2022-11-02 10:04:00,748 INFO    MainThread:3258274 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-11-02 10:04:00,751 INFO    MainThread:3258274 [wandb_init.py:init():558] backend started and connected
+2022-11-02 10:04:00,755 INFO    MainThread:3258274 [wandb_init.py:init():636] updated telemetry
+2022-11-02 10:04:00,776 INFO    MainThread:3258274 [wandb_init.py:init():667] communicating run to backend with 30 second timeout
+2022-11-02 10:04:01,087 INFO    MainThread:3258274 [wandb_run.py:_on_init():1982] communicating current version
+2022-11-02 10:04:06,088 INFO    MainThread:3258274 [wandb_run.py:_on_init():1986] got version response None
+2022-11-02 10:04:06,088 INFO    MainThread:3258274 [wandb_init.py:init():700] starting run threads in backend
+2022-11-02 10:04:07,693 INFO    MainThread:3258274 [wandb_run.py:_console_start():1962] atexit reg
+2022-11-02 10:04:07,693 INFO    MainThread:3258274 [wandb_run.py:_redirect():1820] redirect: SettingsConsole.WRAP_RAW
+2022-11-02 10:04:07,694 INFO    MainThread:3258274 [wandb_run.py:_redirect():1885] Wrapping output streams.
+2022-11-02 10:04:07,694 INFO    MainThread:3258274 [wandb_run.py:_redirect():1907] Redirects installed.
+2022-11-02 10:04:07,695 INFO    MainThread:3258274 [wandb_init.py:init():732] run started, returning control to user process
+2022-11-02 10:04:07,698 INFO    MainThread:3258274 [wandb_run.py:_config_callback():1152] config_cb None None {'epochs': 100, 'lr': 0.001, 'rate_decay': 0.93, 'batch_size': 32, 'Shuffle': True, 'Augmentation': False, 'Augmentation_type': '', 'AUC': 'weighted', 'Backbone': 'ResNet34'}
+2022-11-02 10:04:09,388 INFO    MainThread:3258274 [wandb_watch.py:watch():47] Watching
+2022-11-02 10:24:46,766 WARNING MsgRouterThr:3258274 [router.py:message_loop():76] message_loop has been closed

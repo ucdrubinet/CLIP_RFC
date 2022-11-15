@@ -1,0 +1,27 @@
+2022-10-31 00:16:58,496 INFO    MainThread:2862775 [wandb_setup.py:_flush():76] Configure stats pid to 2862775
+2022-10-31 00:16:58,496 INFO    MainThread:2862775 [wandb_setup.py:_flush():76] Loading settings from /home/zhli/.config/wandb/settings
+2022-10-31 00:16:58,496 INFO    MainThread:2862775 [wandb_setup.py:_flush():76] Loading settings from /home/zhli/Current-Work/Pcam_Experiment/wandb/settings
+2022-10-31 00:16:58,496 INFO    MainThread:2862775 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'_require_service': 'True'}
+2022-10-31 00:16:58,496 INFO    MainThread:2862775 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train_rn18_base.py', 'program': 'train_rn18_base.py'}
+2022-10-31 00:16:58,496 INFO    MainThread:2862775 [wandb_init.py:_log_setup():461] Logging user logs to /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221031_001658-3szw5mc2/logs/debug.log
+2022-10-31 00:16:58,497 INFO    MainThread:2862775 [wandb_init.py:_log_setup():462] Logging internal logs to /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221031_001658-3szw5mc2/logs/debug-internal.log
+2022-10-31 00:16:58,497 INFO    MainThread:2862775 [wandb_init.py:init():495] calling init triggers
+2022-10-31 00:16:58,497 INFO    MainThread:2862775 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {}
+2022-10-31 00:16:58,497 INFO    MainThread:2862775 [wandb_init.py:init():548] starting backend
+2022-10-31 00:16:58,498 INFO    MainThread:2862775 [wandb_init.py:init():552] setting up manager
+2022-10-31 00:16:58,502 INFO    MainThread:2862775 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-10-31 00:16:58,505 INFO    MainThread:2862775 [wandb_init.py:init():558] backend started and connected
+2022-10-31 00:16:58,508 INFO    MainThread:2862775 [wandb_init.py:init():636] updated telemetry
+2022-10-31 00:16:58,530 INFO    MainThread:2862775 [wandb_init.py:init():667] communicating run to backend with 30 second timeout
+2022-10-31 00:16:58,750 INFO    MainThread:2862775 [wandb_run.py:_on_init():1982] communicating current version
+2022-10-31 00:16:58,827 INFO    MainThread:2862775 [wandb_run.py:_on_init():1986] got version response upgrade_message: "wandb version 0.13.4 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2022-10-31 00:16:58,827 INFO    MainThread:2862775 [wandb_init.py:init():700] starting run threads in backend
+2022-10-31 00:17:00,532 INFO    MainThread:2862775 [wandb_run.py:_console_start():1962] atexit reg
+2022-10-31 00:17:00,533 INFO    MainThread:2862775 [wandb_run.py:_redirect():1820] redirect: SettingsConsole.WRAP_RAW
+2022-10-31 00:17:00,534 INFO    MainThread:2862775 [wandb_run.py:_redirect():1885] Wrapping output streams.
+2022-10-31 00:17:00,534 INFO    MainThread:2862775 [wandb_run.py:_redirect():1907] Redirects installed.
+2022-10-31 00:17:00,535 INFO    MainThread:2862775 [wandb_init.py:init():732] run started, returning control to user process
+2022-10-31 00:17:00,537 INFO    MainThread:2862775 [wandb_run.py:_config_callback():1152] config_cb None None {'epochs': 5, 'lr': 0.0001, 'batch_size': 32, 'weight_decay': 0.005, 'Shuffle': True, 'augmentation': 'resize(224, 224), Pad(32, reflect), RandomRotation([0, 360]), RandomCrop((96, 96)), RandomHorizontransformsalFlip, transforms.ColorJitter(hue=0.4,saturation=0.4,brightness=0.4,contrast=0.4), ToTensor()', 'Backbone': 'ResNet34'}
+2022-10-31 00:17:04,939 WARNING MsgRouterThr:2862775 [router.py:message_loop():76] message_loop has been closed

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "train_MHIST.py", line 50, in <module>
+    model_backbone = torchvision.models.ResNet18_Weights(
+TypeError: __call__() got an unexpected keyword argument 'weights'

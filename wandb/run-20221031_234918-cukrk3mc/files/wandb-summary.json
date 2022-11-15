@@ -1,0 +1,1 @@
+{"Training loss - Step": 0.2051428109407425, "_timestamp": 1667285415.5470903, "_runtime": 57.47651028633118, "_step": 345, "Training loss - Epoch": 0.003512782460913576, "Training accuracy": 0.9540229885057471, "Accuracy": 0.631525076765609, "Precision": 0.0, "Recall": 0.0, "F1": 0.0, "_wandb": {"runtime": 52}}

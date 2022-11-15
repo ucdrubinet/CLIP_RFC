@@ -1,0 +1,4114 @@
+
+  7%|██████████▏                                                                                                                               | 5/68 [00:01<00:16,  3.86it/s]
+loss:  tensor(0.7058, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.7904, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.9445, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(1.1392, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5582, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(1.2359, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 21%|████████████████████████████▏                                                                                                            | 14/68 [00:03<00:12,  4.37it/s]
+loss:  tensor(0.7674, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4894, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(1.2734, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.9212, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.7689, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5533, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6390, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3178, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 34%|██████████████████████████████████████████████▎                                                                                          | 23/68 [00:05<00:10,  4.42it/s]
+loss:  tensor(0.4806, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5240, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5356, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4510, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5411, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4421, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3261, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4340, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 47%|████████████████████████████████████████████████████████████████▍                                                                        | 32/68 [00:07<00:08,  4.42it/s]
+loss:  tensor(0.3870, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6521, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5863, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5950, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4898, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4767, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6276, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 60%|██████████████████████████████████████████████████████████████████████████████████▌                                                      | 41/68 [00:09<00:05,  4.55it/s]
+loss:  tensor(0.5039, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4403, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4241, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4896, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3704, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6965, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4570, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3424, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4786, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 74%|████████████████████████████████████████████████████████████████████████████████████████████████████▋                                    | 50/68 [00:11<00:03,  4.61it/s]
+loss:  tensor(0.3362, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4675, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.7119, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6211, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4256, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5629, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4989, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4591, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 85%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                    | 58/68 [00:13<00:02,  4.04it/s]
+loss:  tensor(0.5010, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4666, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4136, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4387, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4058, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4000, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5406, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 99%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉  | 67/68 [00:15<00:00,  4.42it/s]
+loss:  tensor(0.4563, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5062, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5856, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5340, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4928, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3419, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4516, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3133, device='cuda:0', grad_fn=<NllLossBackward0>)
+Training loss: 0.017452007710248574, accuracy: 0.7301149425287357
+<class 'numpy.ndarray'>
+[0.13168012]
+<class 'numpy.ndarray'>
+[0.5106359]
+<class 'numpy.ndarray'>
+[0.06061481]
+<class 'numpy.ndarray'>
+[0.01042056]
+<class 'numpy.ndarray'>
+[0.1160043]
+<class 'numpy.ndarray'>
+[0.705199]
+<class 'numpy.ndarray'>
+[0.01007474]
+<class 'numpy.ndarray'>
+[0.323839]
+<class 'numpy.ndarray'>
+[0.34582564]
+<class 'numpy.ndarray'>
+[0.42176467]
+<class 'numpy.ndarray'>
+[0.4824914]
+<class 'numpy.ndarray'>
+[0.08624265]
+<class 'numpy.ndarray'>
+[0.00023958]
+<class 'numpy.ndarray'>
+[0.1659483]
+<class 'numpy.ndarray'>
+[0.34819946]
+<class 'numpy.ndarray'>
+[0.07646114]
+<class 'numpy.ndarray'>
+[0.06888717]
+<class 'numpy.ndarray'>
+[0.39759532]
+<class 'numpy.ndarray'>
+[0.00262458]
+<class 'numpy.ndarray'>
+[0.36679548]
+<class 'numpy.ndarray'>
+[0.03279727]
+<class 'numpy.ndarray'>
+[0.00914356]
+<class 'numpy.ndarray'>
+[0.02635249]
+<class 'numpy.ndarray'>
+[0.00537407]
+<class 'numpy.ndarray'>
+[0.00057496]
+<class 'numpy.ndarray'>
+[0.00466192]
+<class 'numpy.ndarray'>
+[0.02625346]
+<class 'numpy.ndarray'>
+[0.40673107]
+<class 'numpy.ndarray'>
+[0.11263943]
+<class 'numpy.ndarray'>
+[0.2847951]
+<class 'numpy.ndarray'>
+[0.08605851]
+<class 'numpy.ndarray'>
+[0.04905097]
+<class 'numpy.ndarray'>
+[0.0024464]
+<class 'numpy.ndarray'>
+[0.13119355]
+<class 'numpy.ndarray'>
+[0.00113225]
+<class 'numpy.ndarray'>
+[0.06926954]
+<class 'numpy.ndarray'>
+[0.46336862]
+<class 'numpy.ndarray'>
+[0.66207993]
+<class 'numpy.ndarray'>
+[0.08215522]
+<class 'numpy.ndarray'>
+[8.906762e-06]
+<class 'numpy.ndarray'>
+[0.00056896]
+<class 'numpy.ndarray'>
+[0.00331127]
+<class 'numpy.ndarray'>
+[0.17257169]
+<class 'numpy.ndarray'>
+[0.00021906]
+<class 'numpy.ndarray'>
+[0.3107454]
+<class 'numpy.ndarray'>
+[0.14593448]
+<class 'numpy.ndarray'>
+[0.20821127]
+<class 'numpy.ndarray'>
+[0.01070841]
+<class 'numpy.ndarray'>
+[0.7171001]
+<class 'numpy.ndarray'>
+[0.7358046]
+<class 'numpy.ndarray'>
+[0.5433909]
+<class 'numpy.ndarray'>
+[0.12955606]
+<class 'numpy.ndarray'>
+[0.30877966]
+<class 'numpy.ndarray'>
+[0.39106515]
+<class 'numpy.ndarray'>
+[0.00044277]
+<class 'numpy.ndarray'>
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 68/68 [00:15<00:00,  4.35it/s]
+ 38%|███████████████████████████████████████████████████▎                                                                                  | 374/977 [00:01<00:02, 206.54it/s]
+<class 'numpy.ndarray'>
+[0.02333696]
+<class 'numpy.ndarray'>
+[0.2505435]
+<class 'numpy.ndarray'>
+[0.19693144]
+<class 'numpy.ndarray'>
+[0.80142665]
+<class 'numpy.ndarray'>
+[0.04923635]
+<class 'numpy.ndarray'>
+[0.00197841]
+<class 'numpy.ndarray'>
+[3.974897e-05]
+<class 'numpy.ndarray'>
+[0.21794212]
+<class 'numpy.ndarray'>
+[0.28036243]
+<class 'numpy.ndarray'>
+[0.08646696]
+<class 'numpy.ndarray'>
+[0.17581818]
+<class 'numpy.ndarray'>
+[7.9308035e-07]
+<class 'numpy.ndarray'>
+[0.15370156]
+<class 'numpy.ndarray'>
+[0.50995326]
+<class 'numpy.ndarray'>
+[0.00917621]
+<class 'numpy.ndarray'>
+[0.14128427]
+<class 'numpy.ndarray'>
+[0.07564995]
+<class 'numpy.ndarray'>
+[0.13669826]
+<class 'numpy.ndarray'>
+[0.32408154]
+<class 'numpy.ndarray'>
+[0.01763157]
+<class 'numpy.ndarray'>
+[0.45737484]
+<class 'numpy.ndarray'>
+[0.00092679]
+<class 'numpy.ndarray'>
+[0.8132277]
+<class 'numpy.ndarray'>
+[0.00276802]
+<class 'numpy.ndarray'>
+[0.09306215]
+<class 'numpy.ndarray'>
+[0.43031362]
+<class 'numpy.ndarray'>
+[0.578235]
+<class 'numpy.ndarray'>
+[0.5927356]
+<class 'numpy.ndarray'>
+[0.34553236]
+<class 'numpy.ndarray'>
+[0.3727101]
+<class 'numpy.ndarray'>
+[5.79995e-06]
+<class 'numpy.ndarray'>
+[0.17201595]
+<class 'numpy.ndarray'>
+[0.2876902]
+<class 'numpy.ndarray'>
+[0.08003584]
+<class 'numpy.ndarray'>
+[0.2898375]
+<class 'numpy.ndarray'>
+[0.4415965]
+<class 'numpy.ndarray'>
+[0.049151]
+<class 'numpy.ndarray'>
+[0.09872382]
+<class 'numpy.ndarray'>
+[0.00349968]
+<class 'numpy.ndarray'>
+[0.13666657]
+<class 'numpy.ndarray'>
+[0.00629483]
+<class 'numpy.ndarray'>
+[0.00353525]
+<class 'numpy.ndarray'>
+[0.45627433]
+<class 'numpy.ndarray'>
+[6.2990155e-05]
+<class 'numpy.ndarray'>
+[0.43148646]
+<class 'numpy.ndarray'>
+[0.731681]
+<class 'numpy.ndarray'>
+[0.10341995]
+<class 'numpy.ndarray'>
+[0.02478026]
+<class 'numpy.ndarray'>
+[0.18879178]
+<class 'numpy.ndarray'>
+[0.39483437]
+<class 'numpy.ndarray'>
+[0.55452037]
+<class 'numpy.ndarray'>
+[0.7113891]
+<class 'numpy.ndarray'>
+[0.09666912]
+<class 'numpy.ndarray'>
+[0.00811082]
+<class 'numpy.ndarray'>
+[0.22383693]
+<class 'numpy.ndarray'>
+[0.04882306]
+<class 'numpy.ndarray'>
+[0.24558638]
+<class 'numpy.ndarray'>
+[0.6071696]
+<class 'numpy.ndarray'>
+[0.19190753]
+<class 'numpy.ndarray'>
+[0.12165674]
+<class 'numpy.ndarray'>
+[0.10115622]
+<class 'numpy.ndarray'>
+[0.7847755]
+<class 'numpy.ndarray'>
+[0.21003133]
+<class 'numpy.ndarray'>
+[0.37067753]
+<class 'numpy.ndarray'>
+[0.32336774]
+<class 'numpy.ndarray'>
+[0.008392]
+<class 'numpy.ndarray'>
+[0.26108244]
+<class 'numpy.ndarray'>
+[0.00025965]
+<class 'numpy.ndarray'>
+[0.01631816]
+<class 'numpy.ndarray'>
+[0.30215248]
+<class 'numpy.ndarray'>
+[0.04090408]
+<class 'numpy.ndarray'>
+[0.30917284]
+<class 'numpy.ndarray'>
+[0.659756]
+<class 'numpy.ndarray'>
+[0.00556237]
+<class 'numpy.ndarray'>
+[0.03068347]
+<class 'numpy.ndarray'>
+[0.73055017]
+<class 'numpy.ndarray'>
+[2.381362e-10]
+<class 'numpy.ndarray'>
+[0.33384216]
+<class 'numpy.ndarray'>
+[0.09732329]
+<class 'numpy.ndarray'>
+[0.31917265]
+<class 'numpy.ndarray'>
+[0.00114839]
+<class 'numpy.ndarray'>
+[0.27071035]
+<class 'numpy.ndarray'>
+[0.0195689]
+<class 'numpy.ndarray'>
+[0.03993483]
+<class 'numpy.ndarray'>
+[0.02811525]
+<class 'numpy.ndarray'>
+[0.16698399]
+<class 'numpy.ndarray'>
+[0.17299163]
+<class 'numpy.ndarray'>
+[0.00507786]
+<class 'numpy.ndarray'>
+[0.01092311]
+<class 'numpy.ndarray'>
+[0.23475763]
+<class 'numpy.ndarray'>
+[0.2646074]
+<class 'numpy.ndarray'>
+[0.14457774]
+<class 'numpy.ndarray'>
+[0.01338119]
+<class 'numpy.ndarray'>
+[4.93974e-07]
+<class 'numpy.ndarray'>
+[0.32705557]
+<class 'numpy.ndarray'>
+[1.4106411e-05]
+<class 'numpy.ndarray'>
+[0.54554844]
+<class 'numpy.ndarray'>
+[3.0894395e-07]
+<class 'numpy.ndarray'>
+[0.01025965]
+<class 'numpy.ndarray'>
+[0.07038839]
+<class 'numpy.ndarray'>
+[0.16268975]
+<class 'numpy.ndarray'>
+[0.01740452]
+<class 'numpy.ndarray'>
+[0.0596474]
+<class 'numpy.ndarray'>
+[0.08079721]
+<class 'numpy.ndarray'>
+[0.6683538]
+<class 'numpy.ndarray'>
+[0.18853803]
+<class 'numpy.ndarray'>
+[0.00818844]
+<class 'numpy.ndarray'>
+[0.18256555]
+<class 'numpy.ndarray'>
+[0.17310531]
+<class 'numpy.ndarray'>
+[0.088743]
+<class 'numpy.ndarray'>
+[0.01382372]
+<class 'numpy.ndarray'>
+[0.02221756]
+<class 'numpy.ndarray'>
+[0.03346434]
+<class 'numpy.ndarray'>
+[0.00386935]
+<class 'numpy.ndarray'>
+[0.01017829]
+<class 'numpy.ndarray'>
+[9.638434e-05]
+<class 'numpy.ndarray'>
+[0.20273133]
+<class 'numpy.ndarray'>
+[0.43529877]
+<class 'numpy.ndarray'>
+[0.02255897]
+<class 'numpy.ndarray'>
+[0.7358221]
+<class 'numpy.ndarray'>
+[0.19783354]
+<class 'numpy.ndarray'>
+[0.06680132]
+<class 'numpy.ndarray'>
+[0.10544103]
+<class 'numpy.ndarray'>
+[0.00112794]
+<class 'numpy.ndarray'>
+[0.00079383]
+<class 'numpy.ndarray'>
+[0.00540381]
+<class 'numpy.ndarray'>
+[0.7205487]
+<class 'numpy.ndarray'>
+[0.00993057]
+<class 'numpy.ndarray'>
+[0.05355704]
+<class 'numpy.ndarray'>
+[0.0807358]
+<class 'numpy.ndarray'>
+[1.5875006e-05]
+<class 'numpy.ndarray'>
+[0.00211685]
+<class 'numpy.ndarray'>
+[0.01661344]
+<class 'numpy.ndarray'>
+[1.1229881e-05]
+<class 'numpy.ndarray'>
+[0.1048626]
+<class 'numpy.ndarray'>
+[2.4648473e-08]
+<class 'numpy.ndarray'>
+[0.1292564]
+<class 'numpy.ndarray'>
+[0.23676415]
+<class 'numpy.ndarray'>
+[4.787081e-05]
+<class 'numpy.ndarray'>
+[0.0061761]
+<class 'numpy.ndarray'>
+[0.00109294]
+<class 'numpy.ndarray'>
+[0.18836658]
+<class 'numpy.ndarray'>
+[0.16387194]
+<class 'numpy.ndarray'>
+[0.09680017]
+<class 'numpy.ndarray'>
+[0.05283793]
+<class 'numpy.ndarray'>
+[5.111046e-09]
+<class 'numpy.ndarray'>
+[0.12556665]
+<class 'numpy.ndarray'>
+[0.0065381]
+<class 'numpy.ndarray'>
+[0.28574854]
+<class 'numpy.ndarray'>
+[0.1715627]
+<class 'numpy.ndarray'>
+[0.04415985]
+<class 'numpy.ndarray'>
+[0.44165412]
+<class 'numpy.ndarray'>
+[0.1633409]
+<class 'numpy.ndarray'>
+[0.65440995]
+<class 'numpy.ndarray'>
+[5.55156e-05]
+<class 'numpy.ndarray'>
+[0.00068781]
+<class 'numpy.ndarray'>
+[5.018993e-06]
+<class 'numpy.ndarray'>
+[0.29952756]
+<class 'numpy.ndarray'>
+[0.00075893]
+<class 'numpy.ndarray'>
+[6.4139767e-06]
+<class 'numpy.ndarray'>
+[0.15716013]
+<class 'numpy.ndarray'>
+[0.00010115]
+<class 'numpy.ndarray'>
+[0.0056154]
+<class 'numpy.ndarray'>
+[0.00839211]
+<class 'numpy.ndarray'>
+[0.10802227]
+<class 'numpy.ndarray'>
+[0.18692186]
+<class 'numpy.ndarray'>
+[0.10307564]
+<class 'numpy.ndarray'>
+[0.22641063]
+<class 'numpy.ndarray'>
+[0.6185349]
+<class 'numpy.ndarray'>
+[0.00028088]
+<class 'numpy.ndarray'>
+[0.2445828]
+<class 'numpy.ndarray'>
+[0.8013425]
+<class 'numpy.ndarray'>
+[0.14635132]
+<class 'numpy.ndarray'>
+[0.0822732]
+<class 'numpy.ndarray'>
+[5.0089195e-05]
+<class 'numpy.ndarray'>
+[0.000104]
+<class 'numpy.ndarray'>
+[0.10805468]
+<class 'numpy.ndarray'>
+[7.292676e-05]
+<class 'numpy.ndarray'>
+[0.16496415]
+<class 'numpy.ndarray'>
+[0.47419629]
+<class 'numpy.ndarray'>
+[0.43493268]
+<class 'numpy.ndarray'>
+[0.6655617]
+<class 'numpy.ndarray'>
+[0.32915124]
+<class 'numpy.ndarray'>
+[0.00020457]
+<class 'numpy.ndarray'>
+[0.3443338]
+<class 'numpy.ndarray'>
+[0.0066796]
+<class 'numpy.ndarray'>
+[0.61021924]
+<class 'numpy.ndarray'>
+[0.5652767]
+<class 'numpy.ndarray'>
+[0.3502173]
+<class 'numpy.ndarray'>
+[0.47914106]
+<class 'numpy.ndarray'>
+[0.21118039]
+<class 'numpy.ndarray'>
+[0.6781929]
+<class 'numpy.ndarray'>
+[0.00159638]
+<class 'numpy.ndarray'>
+[0.00061586]
+<class 'numpy.ndarray'>
+[0.28238288]
+<class 'numpy.ndarray'>
+[0.01254259]
+<class 'numpy.ndarray'>
+[3.0355372e-06]
+<class 'numpy.ndarray'>
+[0.1717721]
+<class 'numpy.ndarray'>
+[0.32938507]
+<class 'numpy.ndarray'>
+[0.3194144]
+<class 'numpy.ndarray'>
+[0.20768012]
+<class 'numpy.ndarray'>
+[0.00915794]
+<class 'numpy.ndarray'>
+[4.2365273e-06]
+<class 'numpy.ndarray'>
+[0.03076376]
+<class 'numpy.ndarray'>
+[0.05792519]
+<class 'numpy.ndarray'>
+[0.33448178]
+<class 'numpy.ndarray'>
+[0.06526035]
+<class 'numpy.ndarray'>
+[1.0234943e-05]
+<class 'numpy.ndarray'>
+[0.01914366]
+<class 'numpy.ndarray'>
+[0.0133007]
+<class 'numpy.ndarray'>
+[0.2742122]
+<class 'numpy.ndarray'>
+[0.09883373]
+<class 'numpy.ndarray'>
+[0.61778694]
+<class 'numpy.ndarray'>
+[0.09528195]
+<class 'numpy.ndarray'>
+[0.14781682]
+<class 'numpy.ndarray'>
+[0.11000501]
+<class 'numpy.ndarray'>
+[0.00012373]
+<class 'numpy.ndarray'>
+[3.568108e-05]
+<class 'numpy.ndarray'>
+[0.04993754]
+<class 'numpy.ndarray'>
+[0.1420159]
+<class 'numpy.ndarray'>
+[0.35975757]
+<class 'numpy.ndarray'>
+[0.00063975]
+<class 'numpy.ndarray'>
+[5.5233444e-09]
+<class 'numpy.ndarray'>
+[0.10085562]
+<class 'numpy.ndarray'>
+[0.02548039]
+<class 'numpy.ndarray'>
+[0.05698482]
+<class 'numpy.ndarray'>
+[2.5020385e-05]
+<class 'numpy.ndarray'>
+[0.0989062]
+<class 'numpy.ndarray'>
+[0.00565038]
+<class 'numpy.ndarray'>
+[0.01496886]
+<class 'numpy.ndarray'>
+[0.00011999]
+<class 'numpy.ndarray'>
+[0.74411714]
+<class 'numpy.ndarray'>
+[0.09705596]
+<class 'numpy.ndarray'>
+[0.14175835]
+<class 'numpy.ndarray'>
+[0.16880439]
+<class 'numpy.ndarray'>
+[0.1552621]
+<class 'numpy.ndarray'>
+[0.31065232]
+<class 'numpy.ndarray'>
+[0.64917153]
+<class 'numpy.ndarray'>
+[0.00014438]
+<class 'numpy.ndarray'>
+[0.20432097]
+<class 'numpy.ndarray'>
+[0.00079412]
+<class 'numpy.ndarray'>
+[0.19014274]
+<class 'numpy.ndarray'>
+[0.15698434]
+<class 'numpy.ndarray'>
+[0.43151748]
+<class 'numpy.ndarray'>
+[0.04526631]
+<class 'numpy.ndarray'>
+[0.20158689]
+<class 'numpy.ndarray'>
+[0.0878194]
+<class 'numpy.ndarray'>
+[0.06737007]
+<class 'numpy.ndarray'>
+[0.00625317]
+<class 'numpy.ndarray'>
+[0.3459092]
+<class 'numpy.ndarray'>
+[0.00511984]
+<class 'numpy.ndarray'>
+[0.00068987]
+<class 'numpy.ndarray'>
+[0.49511045]
+<class 'numpy.ndarray'>
+[0.5516194]
+<class 'numpy.ndarray'>
+[0.033796]
+<class 'numpy.ndarray'>
+[0.04599375]
+<class 'numpy.ndarray'>
+[0.23712195]
+<class 'numpy.ndarray'>
+[0.08102746]
+<class 'numpy.ndarray'>
+[0.10323174]
+<class 'numpy.ndarray'>
+[0.51065975]
+<class 'numpy.ndarray'>
+[0.08379424]
+<class 'numpy.ndarray'>
+[0.48860762]
+<class 'numpy.ndarray'>
+[0.0065544]
+<class 'numpy.ndarray'>
+[0.24911836]
+<class 'numpy.ndarray'>
+[1.8538374e-08]
+<class 'numpy.ndarray'>
+[0.24886963]
+<class 'numpy.ndarray'>
+[7.4812806e-07]
+<class 'numpy.ndarray'>
+[0.00553537]
+<class 'numpy.ndarray'>
+[0.12592159]
+<class 'numpy.ndarray'>
+[0.00591599]
+<class 'numpy.ndarray'>
+[0.00292407]
+<class 'numpy.ndarray'>
+[1.3391515e-07]
+<class 'numpy.ndarray'>
+[0.00195392]
+<class 'numpy.ndarray'>
+[0.25456217]
+<class 'numpy.ndarray'>
+[0.6143648]
+<class 'numpy.ndarray'>
+[0.6375196]
+<class 'numpy.ndarray'>
+[0.75191355]
+<class 'numpy.ndarray'>
+[0.31705832]
+<class 'numpy.ndarray'>
+[0.24575928]
+<class 'numpy.ndarray'>
+[0.13906857]
+<class 'numpy.ndarray'>
+[0.11653784]
+<class 'numpy.ndarray'>
+[0.47949484]
+<class 'numpy.ndarray'>
+[0.4415473]
+<class 'numpy.ndarray'>
+[0.1104954]
+<class 'numpy.ndarray'>
+[0.10424743]
+<class 'numpy.ndarray'>
+[2.761379e-05]
+<class 'numpy.ndarray'>
+[0.57880205]
+<class 'numpy.ndarray'>
+[0.10974924]
+<class 'numpy.ndarray'>
+[0.01803673]
+<class 'numpy.ndarray'>
+[7.411786e-05]
+<class 'numpy.ndarray'>
+[0.01520773]
+<class 'numpy.ndarray'>
+[0.3678162]
+<class 'numpy.ndarray'>
+[0.03407915]
+<class 'numpy.ndarray'>
+[0.2962952]
+<class 'numpy.ndarray'>
+[0.03439925]
+<class 'numpy.ndarray'>
+[0.00078973]
+<class 'numpy.ndarray'>
+[0.16710256]
+<class 'numpy.ndarray'>
+[0.00063343]
+<class 'numpy.ndarray'>
+[0.01198507]
+<class 'numpy.ndarray'>
+[0.17461824]
+<class 'numpy.ndarray'>
+[0.05325073]
+<class 'numpy.ndarray'>
+[0.16029836]
+<class 'numpy.ndarray'>
+[0.00250996]
+<class 'numpy.ndarray'>
+[0.01512702]
+<class 'numpy.ndarray'>
+[0.5117196]
+<class 'numpy.ndarray'>
+[0.20585552]
+<class 'numpy.ndarray'>
+[0.41298944]
+<class 'numpy.ndarray'>
+[0.5307435]
+<class 'numpy.ndarray'>
+[0.589762]
+<class 'numpy.ndarray'>
+[0.36100617]
+<class 'numpy.ndarray'>
+[4.7010274e-11]
+<class 'numpy.ndarray'>
+[0.00176943]
+<class 'numpy.ndarray'>
+[0.05603964]
+<class 'numpy.ndarray'>
+[0.15863879]
+<class 'numpy.ndarray'>
+[0.00063224]
+<class 'numpy.ndarray'>
+[0.25296324]
+<class 'numpy.ndarray'>
+[0.20783794]
+<class 'numpy.ndarray'>
+[0.66313267]
+<class 'numpy.ndarray'>
+[3.4528523e-05]
+<class 'numpy.ndarray'>
+[1.1059305e-11]
+<class 'numpy.ndarray'>
+[0.02912366]
+<class 'numpy.ndarray'>
+[0.14113356]
+<class 'numpy.ndarray'>
+[0.5114495]
+<class 'numpy.ndarray'>
+[0.6841299]
+<class 'numpy.ndarray'>
+[0.5168472]
+<class 'numpy.ndarray'>
+[0.37417522]
+<class 'numpy.ndarray'>
+[0.0486206]
+<class 'numpy.ndarray'>
+[0.01559399]
+<class 'numpy.ndarray'>
+[0.23252225]
+<class 'numpy.ndarray'>
+[3.2017175e-05]
+<class 'numpy.ndarray'>
+[0.35851187]
+<class 'numpy.ndarray'>
+[0.17064905]
+<class 'numpy.ndarray'>
+[1.3811213e-10]
+<class 'numpy.ndarray'>
+[0.21027607]
+<class 'numpy.ndarray'>
+[0.00028114]
+<class 'numpy.ndarray'>
+[0.1912311]
+<class 'numpy.ndarray'>
+[0.72824454]
+<class 'numpy.ndarray'>
+[0.3118761]
+<class 'numpy.ndarray'>
+[0.07363922]
+<class 'numpy.ndarray'>
+[0.45628315]
+<class 'numpy.ndarray'>
+[0.06820393]
+<class 'numpy.ndarray'>
+[0.02672987]
+<class 'numpy.ndarray'>
+[0.302678]
+<class 'numpy.ndarray'>
+[0.25766656]
+<class 'numpy.ndarray'>
+[0.06280405]
+<class 'numpy.ndarray'>
+[0.0007186]
+<class 'numpy.ndarray'>
+[0.00046896]
+<class 'numpy.ndarray'>
+[0.03295869]
+<class 'numpy.ndarray'>
+[0.05733989]
+<class 'numpy.ndarray'>
+[2.826301e-08]
+<class 'numpy.ndarray'>
+[0.6824655]
+<class 'numpy.ndarray'>
+[0.769225]
+<class 'numpy.ndarray'>
+[0.3715957]
+<class 'numpy.ndarray'>
+[0.11063942]
+<class 'numpy.ndarray'>
+[0.00238816]
+<class 'numpy.ndarray'>
+[0.3662338]
+<class 'numpy.ndarray'>
+[0.178953]
+<class 'numpy.ndarray'>
+[0.33722553]
+<class 'numpy.ndarray'>
+[0.6273007]
+<class 'numpy.ndarray'>
+[0.23571889]
+<class 'numpy.ndarray'>
+[2.8257646e-05]
+<class 'numpy.ndarray'>
+[0.00018321]
+<class 'numpy.ndarray'>
+[0.17693412]
+<class 'numpy.ndarray'>
+[5.934491e-06]
+<class 'numpy.ndarray'>
+[0.38579485]
+<class 'numpy.ndarray'>
+[0.18936443]
+<class 'numpy.ndarray'>
+[0.06519903]
+<class 'numpy.ndarray'>
+[5.2220543e-08]
+<class 'numpy.ndarray'>
+[0.7579632]
+<class 'numpy.ndarray'>
+[0.22493105]
+<class 'numpy.ndarray'>
+[0.5442657]
+<class 'numpy.ndarray'>
+[0.45416698]
+<class 'numpy.ndarray'>
+[0.07031459]
+<class 'numpy.ndarray'>
+[0.45164105]
+<class 'numpy.ndarray'>
+[0.04114766]
+<class 'numpy.ndarray'>
+[0.3927369]
+<class 'numpy.ndarray'>
+[1.15070125e-05]
+<class 'numpy.ndarray'>
+[0.55394316]
+<class 'numpy.ndarray'>
+[0.07150273]
+<class 'numpy.ndarray'>
+[0.07023709]
+<class 'numpy.ndarray'>
+[0.03838555]
+<class 'numpy.ndarray'>
+[0.21528682]
+<class 'numpy.ndarray'>
+[0.01633805]
+<class 'numpy.ndarray'>
+[0.6931546]
+<class 'numpy.ndarray'>
+[0.13008997]
+<class 'numpy.ndarray'>
+[0.20883614]
+<class 'numpy.ndarray'>
+[0.00406974]
+<class 'numpy.ndarray'>
+[0.48313665]
+<class 'numpy.ndarray'>
+[0.01310545]
+<class 'numpy.ndarray'>
+[0.18123518]
+<class 'numpy.ndarray'>
+[0.3683776]
+<class 'numpy.ndarray'>
+[0.00898506]
+<class 'numpy.ndarray'>
+[3.3400232e-05]
+<class 'numpy.ndarray'>
+[0.32257286]
+<class 'numpy.ndarray'>
+[0.13036102]
+<class 'numpy.ndarray'>
+[0.20729005]
+<class 'numpy.ndarray'>
+[7.949636e-07]
+<class 'numpy.ndarray'>
+[0.59236497]
+<class 'numpy.ndarray'>
+[0.01033191]
+<class 'numpy.ndarray'>
+[0.49778718]
+<class 'numpy.ndarray'>
+[0.00014418]
+<class 'numpy.ndarray'>
+[0.11920328]
+<class 'numpy.ndarray'>
+[0.00095928]
+<class 'numpy.ndarray'>
+[0.00010347]
+<class 'numpy.ndarray'>
+[3.598569e-05]
+<class 'numpy.ndarray'>
+[0.3593587]
+<class 'numpy.ndarray'>
+[0.00059234]
+<class 'numpy.ndarray'>
+[0.01390327]
+<class 'numpy.ndarray'>
+[0.40444064]
+<class 'numpy.ndarray'>
+[5.8520625e-05]
+<class 'numpy.ndarray'>
+[0.424538]
+<class 'numpy.ndarray'>
+[0.01584237]
+<class 'numpy.ndarray'>
+[0.01572687]
+<class 'numpy.ndarray'>
+[0.05546036]
+<class 'numpy.ndarray'>
+[0.03037161]
+<class 'numpy.ndarray'>
+[0.40449592]
+<class 'numpy.ndarray'>
+[0.1536033]
+<class 'numpy.ndarray'>
+[0.00049046]
+<class 'numpy.ndarray'>
+[0.38125595]
+<class 'numpy.ndarray'>
+[0.02381999]
+<class 'numpy.ndarray'>
+[0.02560823]
+<class 'numpy.ndarray'>
+[0.00268976]
+<class 'numpy.ndarray'>
+[0.00865492]
+<class 'numpy.ndarray'>
+[0.73394537]
+<class 'numpy.ndarray'>
+[0.06112056]
+<class 'numpy.ndarray'>
+[0.69725883]
+<class 'numpy.ndarray'>
+[0.46941236]
+<class 'numpy.ndarray'>
+[2.4372326e-05]
+<class 'numpy.ndarray'>
+[0.27500007]
+<class 'numpy.ndarray'>
+[0.04109944]
+<class 'numpy.ndarray'>
+
+ 81%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████                         | 795/977 [00:03<00:00, 204.20it/s]
+<class 'numpy.ndarray'>
+[0.78683454]
+<class 'numpy.ndarray'>
+[0.13346057]
+<class 'numpy.ndarray'>
+[0.77295756]
+<class 'numpy.ndarray'>
+[0.60674816]
+<class 'numpy.ndarray'>
+[0.40125564]
+<class 'numpy.ndarray'>
+[0.71142536]
+<class 'numpy.ndarray'>
+[0.11077707]
+<class 'numpy.ndarray'>
+[0.31473216]
+<class 'numpy.ndarray'>
+[0.59234124]
+<class 'numpy.ndarray'>
+[0.00092247]
+<class 'numpy.ndarray'>
+[0.21774222]
+<class 'numpy.ndarray'>
+[0.64483625]
+<class 'numpy.ndarray'>
+[0.22251919]
+<class 'numpy.ndarray'>
+[0.00270279]
+<class 'numpy.ndarray'>
+[0.29658774]
+<class 'numpy.ndarray'>
+[0.6699982]
+<class 'numpy.ndarray'>
+[0.13645902]
+<class 'numpy.ndarray'>
+[0.5970459]
+<class 'numpy.ndarray'>
+[0.44909108]
+<class 'numpy.ndarray'>
+[0.19100305]
+<class 'numpy.ndarray'>
+[0.38564736]
+<class 'numpy.ndarray'>
+[0.06770585]
+<class 'numpy.ndarray'>
+[0.50959826]
+<class 'numpy.ndarray'>
+[0.04940081]
+<class 'numpy.ndarray'>
+[0.6147312]
+<class 'numpy.ndarray'>
+[0.20204473]
+<class 'numpy.ndarray'>
+[0.37118137]
+<class 'numpy.ndarray'>
+[0.02217339]
+<class 'numpy.ndarray'>
+[0.473785]
+<class 'numpy.ndarray'>
+[0.54805636]
+<class 'numpy.ndarray'>
+[0.00495913]
+<class 'numpy.ndarray'>
+[0.38202715]
+<class 'numpy.ndarray'>
+[0.00021645]
+<class 'numpy.ndarray'>
+[0.09388965]
+<class 'numpy.ndarray'>
+[0.08876266]
+<class 'numpy.ndarray'>
+[0.2948349]
+<class 'numpy.ndarray'>
+[0.17379485]
+<class 'numpy.ndarray'>
+[0.10632978]
+<class 'numpy.ndarray'>
+[0.00069173]
+<class 'numpy.ndarray'>
+[0.00081877]
+<class 'numpy.ndarray'>
+[5.6425057e-07]
+<class 'numpy.ndarray'>
+[0.6307442]
+<class 'numpy.ndarray'>
+[0.0004722]
+<class 'numpy.ndarray'>
+[0.2494351]
+<class 'numpy.ndarray'>
+[0.00030159]
+<class 'numpy.ndarray'>
+[0.12715328]
+<class 'numpy.ndarray'>
+[0.3319086]
+<class 'numpy.ndarray'>
+[0.19384874]
+<class 'numpy.ndarray'>
+[0.22427633]
+<class 'numpy.ndarray'>
+[0.19360596]
+<class 'numpy.ndarray'>
+[0.01119781]
+<class 'numpy.ndarray'>
+[0.19599612]
+<class 'numpy.ndarray'>
+[0.08668479]
+<class 'numpy.ndarray'>
+[0.00156188]
+<class 'numpy.ndarray'>
+[0.00038436]
+<class 'numpy.ndarray'>
+[0.00048786]
+<class 'numpy.ndarray'>
+[0.7655234]
+<class 'numpy.ndarray'>
+[0.00817109]
+<class 'numpy.ndarray'>
+[0.14185815]
+<class 'numpy.ndarray'>
+[0.25155374]
+<class 'numpy.ndarray'>
+[0.21084064]
+<class 'numpy.ndarray'>
+[0.00710031]
+<class 'numpy.ndarray'>
+[0.00580751]
+<class 'numpy.ndarray'>
+[0.408444]
+<class 'numpy.ndarray'>
+[0.05438371]
+<class 'numpy.ndarray'>
+[0.3484188]
+<class 'numpy.ndarray'>
+[0.43191656]
+<class 'numpy.ndarray'>
+[0.5185261]
+<class 'numpy.ndarray'>
+[0.38987055]
+<class 'numpy.ndarray'>
+[0.08377133]
+<class 'numpy.ndarray'>
+[5.6702e-07]
+<class 'numpy.ndarray'>
+[0.5063303]
+<class 'numpy.ndarray'>
+[0.40964752]
+<class 'numpy.ndarray'>
+[0.0045958]
+<class 'numpy.ndarray'>
+[0.00108187]
+<class 'numpy.ndarray'>
+[0.3091008]
+<class 'numpy.ndarray'>
+[0.492745]
+<class 'numpy.ndarray'>
+[0.1331138]
+<class 'numpy.ndarray'>
+[0.00682925]
+<class 'numpy.ndarray'>
+[0.12610254]
+<class 'numpy.ndarray'>
+[0.02084926]
+<class 'numpy.ndarray'>
+[0.03347608]
+<class 'numpy.ndarray'>
+[0.02386656]
+<class 'numpy.ndarray'>
+[0.31426704]
+<class 'numpy.ndarray'>
+[0.1425407]
+<class 'numpy.ndarray'>
+[0.0543612]
+<class 'numpy.ndarray'>
+[0.26527247]
+<class 'numpy.ndarray'>
+[0.24741182]
+<class 'numpy.ndarray'>
+[0.04985811]
+<class 'numpy.ndarray'>
+[5.5990597e-05]
+<class 'numpy.ndarray'>
+[0.29239616]
+<class 'numpy.ndarray'>
+[8.888419e-08]
+<class 'numpy.ndarray'>
+[0.40952548]
+<class 'numpy.ndarray'>
+[2.8195009e-06]
+<class 'numpy.ndarray'>
+[0.18560708]
+<class 'numpy.ndarray'>
+[0.14908649]
+<class 'numpy.ndarray'>
+[0.20870037]
+<class 'numpy.ndarray'>
+[0.08936706]
+<class 'numpy.ndarray'>
+[0.32484043]
+<class 'numpy.ndarray'>
+[0.00039605]
+<class 'numpy.ndarray'>
+[0.41084862]
+<class 'numpy.ndarray'>
+[0.09230833]
+<class 'numpy.ndarray'>
+[0.05296244]
+<class 'numpy.ndarray'>
+[0.18829603]
+<class 'numpy.ndarray'>
+[0.00041312]
+<class 'numpy.ndarray'>
+[0.5088294]
+<class 'numpy.ndarray'>
+[0.00018597]
+<class 'numpy.ndarray'>
+[0.00017392]
+<class 'numpy.ndarray'>
+[0.5853145]
+<class 'numpy.ndarray'>
+[0.06243126]
+<class 'numpy.ndarray'>
+[0.62408674]
+<class 'numpy.ndarray'>
+[0.0117466]
+<class 'numpy.ndarray'>
+[0.32465836]
+<class 'numpy.ndarray'>
+[0.0015996]
+<class 'numpy.ndarray'>
+[0.28385586]
+<class 'numpy.ndarray'>
+[0.6387974]
+<class 'numpy.ndarray'>
+[0.00130283]
+<class 'numpy.ndarray'>
+[2.1021817e-06]
+<class 'numpy.ndarray'>
+[0.00902317]
+<class 'numpy.ndarray'>
+[0.00034728]
+<class 'numpy.ndarray'>
+[0.00036689]
+<class 'numpy.ndarray'>
+[0.58515275]
+<class 'numpy.ndarray'>
+[0.04601251]
+<class 'numpy.ndarray'>
+[0.01230799]
+<class 'numpy.ndarray'>
+[4.2484307e-06]
+<class 'numpy.ndarray'>
+[0.6995416]
+<class 'numpy.ndarray'>
+[0.01104399]
+<class 'numpy.ndarray'>
+[0.36236075]
+<class 'numpy.ndarray'>
+[0.6308872]
+<class 'numpy.ndarray'>
+[0.382618]
+<class 'numpy.ndarray'>
+[0.28574082]
+<class 'numpy.ndarray'>
+[0.01249677]
+<class 'numpy.ndarray'>
+[0.17748876]
+<class 'numpy.ndarray'>
+[0.0153569]
+<class 'numpy.ndarray'>
+[0.7159422]
+<class 'numpy.ndarray'>
+[0.20091799]
+<class 'numpy.ndarray'>
+[0.01073563]
+<class 'numpy.ndarray'>
+[0.82485867]
+<class 'numpy.ndarray'>
+[0.17556982]
+<class 'numpy.ndarray'>
+[0.4885724]
+<class 'numpy.ndarray'>
+[0.07141778]
+<class 'numpy.ndarray'>
+[0.09195566]
+<class 'numpy.ndarray'>
+[0.50168914]
+<class 'numpy.ndarray'>
+[0.5406836]
+<class 'numpy.ndarray'>
+[0.17701639]
+<class 'numpy.ndarray'>
+[0.71104515]
+<class 'numpy.ndarray'>
+[0.20735414]
+<class 'numpy.ndarray'>
+[0.45926365]
+<class 'numpy.ndarray'>
+[0.00015649]
+<class 'numpy.ndarray'>
+[0.34984738]
+<class 'numpy.ndarray'>
+[0.5928731]
+<class 'numpy.ndarray'>
+[0.03290195]
+<class 'numpy.ndarray'>
+[0.5696336]
+<class 'numpy.ndarray'>
+[0.22630784]
+<class 'numpy.ndarray'>
+[2.5702726e-05]
+<class 'numpy.ndarray'>
+[0.45218846]
+<class 'numpy.ndarray'>
+[5.203804e-10]
+<class 'numpy.ndarray'>
+[0.21948692]
+<class 'numpy.ndarray'>
+[0.6526767]
+<class 'numpy.ndarray'>
+[0.13076796]
+<class 'numpy.ndarray'>
+[0.69285786]
+<class 'numpy.ndarray'>
+[0.4546856]
+<class 'numpy.ndarray'>
+[0.05148284]
+<class 'numpy.ndarray'>
+[0.30282435]
+<class 'numpy.ndarray'>
+[0.32347685]
+<class 'numpy.ndarray'>
+[0.0006334]
+<class 'numpy.ndarray'>
+[0.6500796]
+<class 'numpy.ndarray'>
+[0.80409163]
+<class 'numpy.ndarray'>
+[1.3849847e-05]
+<class 'numpy.ndarray'>
+[0.1785892]
+<class 'numpy.ndarray'>
+[0.20839304]
+<class 'numpy.ndarray'>
+[0.43912107]
+<class 'numpy.ndarray'>
+[0.00869484]
+<class 'numpy.ndarray'>
+[0.00111341]
+<class 'numpy.ndarray'>
+[0.45171118]
+<class 'numpy.ndarray'>
+[0.16065899]
+<class 'numpy.ndarray'>
+[0.33307165]
+<class 'numpy.ndarray'>
+[0.45202923]
+<class 'numpy.ndarray'>
+[0.00013044]
+<class 'numpy.ndarray'>
+[0.12082743]
+<class 'numpy.ndarray'>
+[0.08867905]
+<class 'numpy.ndarray'>
+[0.11656775]
+<class 'numpy.ndarray'>
+[0.400902]
+<class 'numpy.ndarray'>
+[3.273131e-07]
+<class 'numpy.ndarray'>
+[0.48296118]
+<class 'numpy.ndarray'>
+[0.06842148]
+<class 'numpy.ndarray'>
+[0.06818163]
+<class 'numpy.ndarray'>
+[1.2828476e-05]
+<class 'numpy.ndarray'>
+[0.33277968]
+<class 'numpy.ndarray'>
+[0.28800377]
+<class 'numpy.ndarray'>
+[0.03520923]
+<class 'numpy.ndarray'>
+[0.4194994]
+<class 'numpy.ndarray'>
+[0.00020131]
+<class 'numpy.ndarray'>
+[0.04044386]
+<class 'numpy.ndarray'>
+[0.39595804]
+<class 'numpy.ndarray'>
+[0.00508463]
+<class 'numpy.ndarray'>
+[0.46396935]
+<class 'numpy.ndarray'>
+[0.532715]
+<class 'numpy.ndarray'>
+[0.00911614]
+<class 'numpy.ndarray'>
+[2.4039026e-09]
+<class 'numpy.ndarray'>
+[0.06334142]
+<class 'numpy.ndarray'>
+[6.58105e-06]
+<class 'numpy.ndarray'>
+[0.0001035]
+<class 'numpy.ndarray'>
+[0.10457281]
+<class 'numpy.ndarray'>
+[0.03728967]
+<class 'numpy.ndarray'>
+[0.00016297]
+<class 'numpy.ndarray'>
+[0.00016063]
+<class 'numpy.ndarray'>
+[0.11806287]
+<class 'numpy.ndarray'>
+[0.00132603]
+<class 'numpy.ndarray'>
+[0.03486938]
+<class 'numpy.ndarray'>
+[0.15314442]
+<class 'numpy.ndarray'>
+[0.11797848]
+<class 'numpy.ndarray'>
+[0.19434233]
+<class 'numpy.ndarray'>
+[0.525679]
+<class 'numpy.ndarray'>
+[0.07577515]
+<class 'numpy.ndarray'>
+[0.33434916]
+<class 'numpy.ndarray'>
+[0.03953372]
+<class 'numpy.ndarray'>
+[4.7319085e-05]
+<class 'numpy.ndarray'>
+[0.04197654]
+<class 'numpy.ndarray'>
+[0.4430177]
+<class 'numpy.ndarray'>
+[2.650318e-08]
+<class 'numpy.ndarray'>
+[0.3787694]
+<class 'numpy.ndarray'>
+[0.38640958]
+<class 'numpy.ndarray'>
+[0.5309811]
+<class 'numpy.ndarray'>
+[0.04129782]
+<class 'numpy.ndarray'>
+[0.0230863]
+<class 'numpy.ndarray'>
+[0.13432343]
+<class 'numpy.ndarray'>
+[0.0445911]
+<class 'numpy.ndarray'>
+[0.1287278]
+<class 'numpy.ndarray'>
+[0.19485499]
+<class 'numpy.ndarray'>
+[0.7972697]
+<class 'numpy.ndarray'>
+[0.55607086]
+<class 'numpy.ndarray'>
+[0.1467555]
+<class 'numpy.ndarray'>
+[0.38723963]
+<class 'numpy.ndarray'>
+[0.04216366]
+<class 'numpy.ndarray'>
+[0.4316828]
+<class 'numpy.ndarray'>
+[0.62893635]
+<class 'numpy.ndarray'>
+[0.71338207]
+<class 'numpy.ndarray'>
+[0.02135526]
+<class 'numpy.ndarray'>
+[0.05862726]
+<class 'numpy.ndarray'>
+[0.414959]
+<class 'numpy.ndarray'>
+[0.6787735]
+<class 'numpy.ndarray'>
+[0.380319]
+<class 'numpy.ndarray'>
+[0.21925819]
+<class 'numpy.ndarray'>
+[0.66475725]
+<class 'numpy.ndarray'>
+[0.16182706]
+<class 'numpy.ndarray'>
+[0.23275304]
+<class 'numpy.ndarray'>
+[0.44947374]
+<class 'numpy.ndarray'>
+[0.08546554]
+<class 'numpy.ndarray'>
+[0.57521874]
+<class 'numpy.ndarray'>
+[0.6894509]
+<class 'numpy.ndarray'>
+[0.64400834]
+<class 'numpy.ndarray'>
+[0.04444481]
+<class 'numpy.ndarray'>
+[0.40317583]
+<class 'numpy.ndarray'>
+[0.4178653]
+<class 'numpy.ndarray'>
+[0.03934953]
+<class 'numpy.ndarray'>
+[0.23362087]
+<class 'numpy.ndarray'>
+[0.6142707]
+<class 'numpy.ndarray'>
+[0.2205312]
+<class 'numpy.ndarray'>
+[0.78500885]
+<class 'numpy.ndarray'>
+[0.31351334]
+<class 'numpy.ndarray'>
+[0.3233743]
+<class 'numpy.ndarray'>
+[0.41647536]
+<class 'numpy.ndarray'>
+[0.6763537]
+<class 'numpy.ndarray'>
+[0.241344]
+<class 'numpy.ndarray'>
+[0.4883232]
+<class 'numpy.ndarray'>
+[0.0084631]
+<class 'numpy.ndarray'>
+[0.3667709]
+<class 'numpy.ndarray'>
+[0.4978513]
+<class 'numpy.ndarray'>
+[0.48393166]
+<class 'numpy.ndarray'>
+[0.13397945]
+<class 'numpy.ndarray'>
+[0.27926335]
+<class 'numpy.ndarray'>
+[0.02103736]
+<class 'numpy.ndarray'>
+[0.538828]
+<class 'numpy.ndarray'>
+[0.70472515]
+<class 'numpy.ndarray'>
+[0.45327613]
+<class 'numpy.ndarray'>
+[0.6451176]
+<class 'numpy.ndarray'>
+[0.45647958]
+<class 'numpy.ndarray'>
+[0.11697228]
+<class 'numpy.ndarray'>
+[0.44078293]
+<class 'numpy.ndarray'>
+[0.15556215]
+<class 'numpy.ndarray'>
+[0.40263999]
+<class 'numpy.ndarray'>
+[0.6861247]
+<class 'numpy.ndarray'>
+[0.2135203]
+<class 'numpy.ndarray'>
+[0.5643325]
+<class 'numpy.ndarray'>
+[0.57433397]
+<class 'numpy.ndarray'>
+[0.7599971]
+<class 'numpy.ndarray'>
+[0.84501266]
+<class 'numpy.ndarray'>
+[0.61675924]
+<class 'numpy.ndarray'>
+[0.31058946]
+<class 'numpy.ndarray'>
+[0.5049337]
+<class 'numpy.ndarray'>
+[0.61167794]
+<class 'numpy.ndarray'>
+[0.6221111]
+<class 'numpy.ndarray'>
+[0.5170136]
+<class 'numpy.ndarray'>
+[0.43272454]
+<class 'numpy.ndarray'>
+[0.81713945]
+<class 'numpy.ndarray'>
+[0.29753584]
+<class 'numpy.ndarray'>
+[0.8231269]
+<class 'numpy.ndarray'>
+[0.38791066]
+<class 'numpy.ndarray'>
+[0.9128078]
+<class 'numpy.ndarray'>
+[0.03098589]
+<class 'numpy.ndarray'>
+[0.7216687]
+<class 'numpy.ndarray'>
+[0.1240716]
+<class 'numpy.ndarray'>
+[0.5314177]
+<class 'numpy.ndarray'>
+[0.1486602]
+<class 'numpy.ndarray'>
+[0.5722285]
+<class 'numpy.ndarray'>
+[0.15690798]
+<class 'numpy.ndarray'>
+[0.7264175]
+<class 'numpy.ndarray'>
+[0.65780485]
+<class 'numpy.ndarray'>
+[0.7633892]
+<class 'numpy.ndarray'>
+[0.90250295]
+<class 'numpy.ndarray'>
+[0.284586]
+<class 'numpy.ndarray'>
+[0.34364966]
+<class 'numpy.ndarray'>
+[0.74258125]
+<class 'numpy.ndarray'>
+[0.72835755]
+<class 'numpy.ndarray'>
+[0.81958544]
+<class 'numpy.ndarray'>
+[0.72585917]
+<class 'numpy.ndarray'>
+[0.6091844]
+<class 'numpy.ndarray'>
+[0.7034572]
+<class 'numpy.ndarray'>
+[0.49598235]
+<class 'numpy.ndarray'>
+[0.25296095]
+<class 'numpy.ndarray'>
+[0.29387283]
+<class 'numpy.ndarray'>
+[0.7841188]
+<class 'numpy.ndarray'>
+[0.6889432]
+<class 'numpy.ndarray'>
+[0.0301631]
+<class 'numpy.ndarray'>
+[0.6546347]
+<class 'numpy.ndarray'>
+[0.5045634]
+<class 'numpy.ndarray'>
+[0.73179305]
+<class 'numpy.ndarray'>
+[0.31527713]
+<class 'numpy.ndarray'>
+[0.4955087]
+<class 'numpy.ndarray'>
+[0.53943783]
+<class 'numpy.ndarray'>
+[0.5500426]
+<class 'numpy.ndarray'>
+[0.7717362]
+<class 'numpy.ndarray'>
+[0.2834717]
+<class 'numpy.ndarray'>
+[0.72462887]
+<class 'numpy.ndarray'>
+[0.5550469]
+<class 'numpy.ndarray'>
+[0.50767696]
+<class 'numpy.ndarray'>
+[0.19523942]
+<class 'numpy.ndarray'>
+[0.62515485]
+<class 'numpy.ndarray'>
+[0.2927159]
+<class 'numpy.ndarray'>
+[0.59731793]
+<class 'numpy.ndarray'>
+[0.44542173]
+<class 'numpy.ndarray'>
+[0.3597608]
+<class 'numpy.ndarray'>
+[0.23471244]
+<class 'numpy.ndarray'>
+[0.15300204]
+<class 'numpy.ndarray'>
+[0.0526565]
+<class 'numpy.ndarray'>
+[0.10066267]
+<class 'numpy.ndarray'>
+[0.60385746]
+<class 'numpy.ndarray'>
+[0.05249853]
+<class 'numpy.ndarray'>
+[0.19613095]
+<class 'numpy.ndarray'>
+[0.49840623]
+<class 'numpy.ndarray'>
+[0.511879]
+<class 'numpy.ndarray'>
+[0.651412]
+<class 'numpy.ndarray'>
+[0.79794234]
+<class 'numpy.ndarray'>
+[0.3701477]
+<class 'numpy.ndarray'>
+[0.5485989]
+<class 'numpy.ndarray'>
+[0.4131587]
+<class 'numpy.ndarray'>
+[0.6673139]
+<class 'numpy.ndarray'>
+[0.32294878]
+<class 'numpy.ndarray'>
+[0.16610456]
+<class 'numpy.ndarray'>
+[0.75898725]
+<class 'numpy.ndarray'>
+[0.40507224]
+<class 'numpy.ndarray'>
+[0.31514168]
+<class 'numpy.ndarray'>
+[0.63627124]
+<class 'numpy.ndarray'>
+[0.19979812]
+<class 'numpy.ndarray'>
+[0.66148084]
+<class 'numpy.ndarray'>
+[0.88498294]
+<class 'numpy.ndarray'>
+[0.73216844]
+<class 'numpy.ndarray'>
+[0.65137976]
+<class 'numpy.ndarray'>
+[0.5849994]
+<class 'numpy.ndarray'>
+[0.1569581]
+<class 'numpy.ndarray'>
+[0.38408628]
+<class 'numpy.ndarray'>
+[0.8707855]
+<class 'numpy.ndarray'>
+[0.5661998]
+<class 'numpy.ndarray'>
+[0.46504286]
+<class 'numpy.ndarray'>
+[0.3725843]
+<class 'numpy.ndarray'>
+[0.7970737]
+<class 'numpy.ndarray'>
+[0.43019533]
+<class 'numpy.ndarray'>
+[0.5606496]
+<class 'numpy.ndarray'>
+[0.23620613]
+<class 'numpy.ndarray'>
+[0.7792034]
+<class 'numpy.ndarray'>
+[0.36201158]
+<class 'numpy.ndarray'>
+[0.772119]
+<class 'numpy.ndarray'>
+[0.76637006]
+<class 'numpy.ndarray'>
+[0.50574106]
+<class 'numpy.ndarray'>
+[0.43709823]
+<class 'numpy.ndarray'>
+[0.63330686]
+<class 'numpy.ndarray'>
+[0.7524527]
+<class 'numpy.ndarray'>
+[0.50767195]
+<class 'numpy.ndarray'>
+[0.5960166]
+<class 'numpy.ndarray'>
+[0.33477497]
+<class 'numpy.ndarray'>
+[0.6777222]
+<class 'numpy.ndarray'>
+[0.7714973]
+<class 'numpy.ndarray'>
+[0.23952565]
+<class 'numpy.ndarray'>
+[0.60758597]
+<class 'numpy.ndarray'>
+[0.17146432]
+<class 'numpy.ndarray'>
+[0.42994484]
+<class 'numpy.ndarray'>
+[0.12685373]
+<class 'numpy.ndarray'>
+[0.0272494]
+<class 'numpy.ndarray'>
+[0.7552893]
+<class 'numpy.ndarray'>
+[0.26398206]
+<class 'numpy.ndarray'>
+[0.5708167]
+<class 'numpy.ndarray'>
+[0.63615423]
+<class 'numpy.ndarray'>
+[0.8185712]
+<class 'numpy.ndarray'>
+[0.47999343]
+<class 'numpy.ndarray'>
+[0.7038874]
+<class 'numpy.ndarray'>
+[0.38561803]
+<class 'numpy.ndarray'>
+[0.6632312]
+<class 'numpy.ndarray'>
+[0.39593285]
+<class 'numpy.ndarray'>
+[0.7880907]
+<class 'numpy.ndarray'>
+[0.59600675]
+<class 'numpy.ndarray'>
+[0.06874326]
+<class 'numpy.ndarray'>
+[0.42175013]
+<class 'numpy.ndarray'>
+[0.5300186]
+<class 'numpy.ndarray'>
+[0.54848516]
+<class 'numpy.ndarray'>
+[0.72288275]
+<class 'numpy.ndarray'>
+[0.46095827]
+<class 'numpy.ndarray'>
+[0.32288027]
+<class 'numpy.ndarray'>
+[0.7428995]
+<class 'numpy.ndarray'>
+[0.82636726]
+<class 'numpy.ndarray'>
+[0.9044758]
+<class 'numpy.ndarray'>
+[0.3886449]
+<class 'numpy.ndarray'>
+[0.22377974]
+<class 'numpy.ndarray'>
+[0.81395024]
+<class 'numpy.ndarray'>
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 977/977 [00:04<00:00, 203.74it/s]
+  6%|████████                                                                                                                                  | 4/68 [00:00<00:14,  4.53it/s]
+<class 'numpy.ndarray'>
+[0.9057399]
+<class 'numpy.ndarray'>
+[0.5795847]
+<class 'numpy.ndarray'>
+[0.6459566]
+<class 'numpy.ndarray'>
+[0.37001532]
+<class 'numpy.ndarray'>
+[0.3042579]
+<class 'numpy.ndarray'>
+[0.90290123]
+<class 'numpy.ndarray'>
+[0.07154858]
+<class 'numpy.ndarray'>
+[0.33791253]
+<class 'numpy.ndarray'>
+[0.30271125]
+<class 'numpy.ndarray'>
+[0.35310286]
+<class 'numpy.ndarray'>
+[0.4738045]
+<class 'numpy.ndarray'>
+[0.7329329]
+<class 'numpy.ndarray'>
+[0.4812332]
+<class 'numpy.ndarray'>
+[0.3908112]
+<class 'numpy.ndarray'>
+[0.7450182]
+<class 'numpy.ndarray'>
+[0.604509]
+<class 'numpy.ndarray'>
+[0.60431224]
+<class 'numpy.ndarray'>
+[0.2634913]
+<class 'numpy.ndarray'>
+[0.58480126]
+<class 'numpy.ndarray'>
+[0.4696678]
+<class 'numpy.ndarray'>
+[0.53018695]
+<class 'numpy.ndarray'>
+[0.4496334]
+<class 'numpy.ndarray'>
+[0.5251229]
+<class 'numpy.ndarray'>
+[0.5023754]
+<class 'numpy.ndarray'>
+[0.51548785]
+<class 'numpy.ndarray'>
+[0.57870346]
+<class 'numpy.ndarray'>
+[0.7497716]
+<class 'numpy.ndarray'>
+[0.8396686]
+<class 'numpy.ndarray'>
+[0.73779243]
+<class 'numpy.ndarray'>
+[0.21339221]
+<class 'numpy.ndarray'>
+[0.17225562]
+<class 'numpy.ndarray'>
+[0.66939396]
+<class 'numpy.ndarray'>
+[0.15816191]
+<class 'numpy.ndarray'>
+[0.90983987]
+<class 'numpy.ndarray'>
+[0.652105]
+<class 'numpy.ndarray'>
+[0.20546634]
+<class 'numpy.ndarray'>
+[0.7568409]
+<class 'numpy.ndarray'>
+[0.4367565]
+<class 'numpy.ndarray'>
+[0.61279947]
+<class 'numpy.ndarray'>
+[0.3837829]
+<class 'numpy.ndarray'>
+[0.4215881]
+<class 'numpy.ndarray'>
+[0.7284008]
+<class 'numpy.ndarray'>
+[0.21772163]
+<class 'numpy.ndarray'>
+[0.66044676]
+<class 'numpy.ndarray'>
+[0.60603166]
+<class 'numpy.ndarray'>
+[0.65857965]
+<class 'numpy.ndarray'>
+[0.50398016]
+<class 'numpy.ndarray'>
+[0.5066936]
+<class 'numpy.ndarray'>
+[0.27855846]
+<class 'numpy.ndarray'>
+[0.58703196]
+<class 'numpy.ndarray'>
+[0.1981411]
+<class 'numpy.ndarray'>
+[0.3081179]
+<class 'numpy.ndarray'>
+[0.24816397]
+<class 'numpy.ndarray'>
+[0.7565062]
+<class 'numpy.ndarray'>
+[0.32759783]
+<class 'numpy.ndarray'>
+[0.43177956]
+<class 'numpy.ndarray'>
+[0.8381297]
+<class 'numpy.ndarray'>
+[0.03708659]
+<class 'numpy.ndarray'>
+[0.13642596]
+<class 'numpy.ndarray'>
+[0.49736938]
+<class 'numpy.ndarray'>
+[0.52467656]
+<class 'numpy.ndarray'>
+[0.44523203]
+<class 'numpy.ndarray'>
+[0.24541229]
+<class 'numpy.ndarray'>
+[0.5534797]
+<class 'numpy.ndarray'>
+[0.5976847]
+Accuracy:  0.7277379733879222
+Precision:  0.7098214285714286
+Recall:  0.44166666666666665
+F1:  0.5445205479452054
+AUC:  0.8142265442103367
+loss:  tensor(0.3903, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.7469, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5550, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3939, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3924, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3227, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 21%|████████████████████████████▏                                                                                                            | 14/68 [00:03<00:11,  4.52it/s]
+loss:  tensor(0.4161, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5577, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3672, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3842, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5238, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4899, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4022, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5657, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 34%|██████████████████████████████████████████████▎                                                                                          | 23/68 [00:05<00:09,  4.54it/s]
+loss:  tensor(0.4060, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3823, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4953, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3988, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4511, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4900, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4465, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3642, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 46%|██████████████████████████████████████████████████████████████▍                                                                          | 31/68 [00:07<00:08,  4.38it/s]
+loss:  tensor(0.3220, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4209, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4365, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3966, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4551, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3373, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4764, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5766, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 59%|████████████████████████████████████████████████████████████████████████████████▌                                                        | 40/68 [00:09<00:06,  4.41it/s]
+loss:  tensor(0.4337, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3204, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2746, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3593, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3324, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3781, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2747, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4237, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 72%|██████████████████████████████████████████████████████████████████████████████████████████████████▋                                      | 49/68 [00:11<00:04,  4.60it/s]
+loss:  tensor(0.3698, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4363, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4492, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2287, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2761, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5337, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3280, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5250, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 85%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                    | 58/68 [00:12<00:02,  4.57it/s]
+loss:  tensor(0.5061, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2358, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2963, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5634, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3524, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4837, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3938, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6250, device='cuda:0', grad_fn=<NllLossBackward0>)
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 68/68 [00:15<00:00,  4.48it/s]
+  0%|                                                                                                                                                 | 0/977 [00:00<?, ?it/s]
+loss:  tensor(0.5871, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4968, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5538, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3990, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3692, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4122, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5532, device='cuda:0', grad_fn=<NllLossBackward0>)
+Training loss: 0.013668806744718003, accuracy: 0.7852873563218391
+<class 'numpy.ndarray'>
+[0.00664106]
+<class 'numpy.ndarray'>
+[0.09519624]
+<class 'numpy.ndarray'>
+[7.1644547e-07]
+<class 'numpy.ndarray'>
+[0.0004749]
+<class 'numpy.ndarray'>
+[0.02412858]
+<class 'numpy.ndarray'>
+[0.11245462]
+<class 'numpy.ndarray'>
+[4.1096596e-10]
+<class 'numpy.ndarray'>
+[0.00510787]
+<class 'numpy.ndarray'>
+[0.01775807]
+<class 'numpy.ndarray'>
+[0.00490988]
+<class 'numpy.ndarray'>
+[0.04103352]
+<class 'numpy.ndarray'>
+[0.01579118]
+<class 'numpy.ndarray'>
+[6.4028687e-16]
+<class 'numpy.ndarray'>
+[0.04795678]
+<class 'numpy.ndarray'>
+[0.09819526]
+<class 'numpy.ndarray'>
+[0.00131617]
+<class 'numpy.ndarray'>
+[0.01302757]
+<class 'numpy.ndarray'>
+[0.00014786]
+<class 'numpy.ndarray'>
+[1.434457e-15]
+<class 'numpy.ndarray'>
+[0.00023073]
+<class 'numpy.ndarray'>
+[1.4997261e-05]
+<class 'numpy.ndarray'>
+[1.1868996e-08]
+<class 'numpy.ndarray'>
+[1.10409694e-07]
+<class 'numpy.ndarray'>
+[1.2064203e-09]
+<class 'numpy.ndarray'>
+[1.2078835e-22]
+<class 'numpy.ndarray'>
+[0.04096409]
+<class 'numpy.ndarray'>
+[0.00024031]
+<class 'numpy.ndarray'>
+[0.01716352]
+<class 'numpy.ndarray'>
+[0.11192004]
+<class 'numpy.ndarray'>
+[0.00075027]
+<class 'numpy.ndarray'>
+[0.00212082]
+<class 'numpy.ndarray'>
+[0.01075707]
+<class 'numpy.ndarray'>
+[1.1065197e-14]
+<class 'numpy.ndarray'>
+[7.39308e-05]
+<class 'numpy.ndarray'>
+[2.07634e-10]
+<class 'numpy.ndarray'>
+[0.02293089]
+<class 'numpy.ndarray'>
+[0.03074696]
+<class 'numpy.ndarray'>
+[0.07578262]
+<class 'numpy.ndarray'>
+[0.02951282]
+<class 'numpy.ndarray'>
+[1.612006e-05]
+<class 'numpy.ndarray'>
+[0.00090879]
+<class 'numpy.ndarray'>
+[1.9065812e-18]
+<class 'numpy.ndarray'>
+[0.00588327]
+<class 'numpy.ndarray'>
+[8.739098e-18]
+<class 'numpy.ndarray'>
+[0.14776161]
+<class 'numpy.ndarray'>
+[0.00148398]
+<class 'numpy.ndarray'>
+[8.715707e-05]
+<class 'numpy.ndarray'>
+[0.0005869]
+<class 'numpy.ndarray'>
+[0.03081174]
+<class 'numpy.ndarray'>
+[0.2081832]
+<class 'numpy.ndarray'>
+[0.02256405]
+<class 'numpy.ndarray'>
+[0.01766259]
+<class 'numpy.ndarray'>
+[0.03517836]
+<class 'numpy.ndarray'>
+[0.21001686]
+<class 'numpy.ndarray'>
+[1.2859974e-07]
+<class 'numpy.ndarray'>
+[0.00042506]
+<class 'numpy.ndarray'>
+[2.6526604e-07]
+<class 'numpy.ndarray'>
+[0.05038644]
+<class 'numpy.ndarray'>
+[0.00242847]
+<class 'numpy.ndarray'>
+[0.75337774]
+<class 'numpy.ndarray'>
+[3.6814354e-06]
+<class 'numpy.ndarray'>
+[1.828276e-06]
+<class 'numpy.ndarray'>
+[5.65472e-11]
+<class 'numpy.ndarray'>
+[0.000168]
+<class 'numpy.ndarray'>
+[0.14250755]
+<class 'numpy.ndarray'>
+[0.03395335]
+<class 'numpy.ndarray'>
+[0.06660554]
+<class 'numpy.ndarray'>
+[1.5790367e-20]
+<class 'numpy.ndarray'>
+[0.00031816]
+<class 'numpy.ndarray'>
+[0.01311641]
+<class 'numpy.ndarray'>
+[1.6494262e-07]
+<class 'numpy.ndarray'>
+[0.03293972]
+<class 'numpy.ndarray'>
+[0.00731823]
+<class 'numpy.ndarray'>
+[7.509931e-05]
+<class 'numpy.ndarray'>
+[0.01104018]
+<class 'numpy.ndarray'>
+[0.00386035]
+<class 'numpy.ndarray'>
+[0.00018634]
+<class 'numpy.ndarray'>
+[1.420701e-15]
+<class 'numpy.ndarray'>
+[0.04402478]
+<class 'numpy.ndarray'>
+[2.050234e-09]
+<class 'numpy.ndarray'>
+[0.02523746]
+<class 'numpy.ndarray'>
+[0.01156797]
+<class 'numpy.ndarray'>
+[0.0288741]
+<class 'numpy.ndarray'>
+[0.055952]
+<class 'numpy.ndarray'>
+[0.03128231]
+<class 'numpy.ndarray'>
+[0.07202719]
+<class 'numpy.ndarray'>
+[4.942677e-39]
+<class 'numpy.ndarray'>
+[0.05942923]
+<class 'numpy.ndarray'>
+[0.12924775]
+<class 'numpy.ndarray'>
+[0.07627352]
+<class 'numpy.ndarray'>
+[0.01683606]
+<class 'numpy.ndarray'>
+[0.12938327]
+<class 'numpy.ndarray'>
+[0.00097694]
+<class 'numpy.ndarray'>
+[3.5694004e-08]
+<class 'numpy.ndarray'>
+[4.326979e-09]
+<class 'numpy.ndarray'>
+[1.5070462e-06]
+<class 'numpy.ndarray'>
+[0.01144548]
+<class 'numpy.ndarray'>
+[1.3474425e-11]
+<class 'numpy.ndarray'>
+[0.00985575]
+<class 'numpy.ndarray'>
+[5.781595e-17]
+<class 'numpy.ndarray'>
+[0.00734036]
+<class 'numpy.ndarray'>
+[0.14514661]
+<class 'numpy.ndarray'>
+[0.0123137]
+<class 'numpy.ndarray'>
+[0.00060853]
+<class 'numpy.ndarray'>
+[0.00835991]
+<class 'numpy.ndarray'>
+[0.19851218]
+<class 'numpy.ndarray'>
+[0.00195973]
+<class 'numpy.ndarray'>
+
+ 41%|██████████████████████████████████████████████████████▍                                                                               | 397/977 [00:01<00:02, 201.84it/s]
+<class 'numpy.ndarray'>
+[1.0097815e-06]
+<class 'numpy.ndarray'>
+[8.799301e-09]
+<class 'numpy.ndarray'>
+[0.04933779]
+<class 'numpy.ndarray'>
+[9.02481e-08]
+<class 'numpy.ndarray'>
+[0.11132769]
+<class 'numpy.ndarray'>
+[0.00930316]
+<class 'numpy.ndarray'>
+[6.662224e-05]
+<class 'numpy.ndarray'>
+[0.16153134]
+<class 'numpy.ndarray'>
+[0.00321362]
+<class 'numpy.ndarray'>
+[0.03061501]
+<class 'numpy.ndarray'>
+[4.997234e-07]
+<class 'numpy.ndarray'>
+[0.03484222]
+<class 'numpy.ndarray'>
+[0.01598741]
+<class 'numpy.ndarray'>
+[3.8209406e-14]
+<class 'numpy.ndarray'>
+[0.00764685]
+<class 'numpy.ndarray'>
+[4.5258493e-12]
+<class 'numpy.ndarray'>
+[0.00027293]
+<class 'numpy.ndarray'>
+[0.00576649]
+<class 'numpy.ndarray'>
+[6.9091146e-09]
+<class 'numpy.ndarray'>
+[0.00111443]
+<class 'numpy.ndarray'>
+[0.21374096]
+<class 'numpy.ndarray'>
+[4.7311965e-19]
+<class 'numpy.ndarray'>
+[0.00037318]
+<class 'numpy.ndarray'>
+[0.02178199]
+<class 'numpy.ndarray'>
+[1.2119242e-26]
+<class 'numpy.ndarray'>
+[0.03015039]
+<class 'numpy.ndarray'>
+[0.00014041]
+<class 'numpy.ndarray'>
+[0.01699951]
+<class 'numpy.ndarray'>
+[1.71307e-17]
+<class 'numpy.ndarray'>
+[0.02698814]
+<class 'numpy.ndarray'>
+[0.00130518]
+<class 'numpy.ndarray'>
+[0.0007658]
+<class 'numpy.ndarray'>
+[1.0124197e-06]
+<class 'numpy.ndarray'>
+[2.529256e-07]
+<class 'numpy.ndarray'>
+[0.02390417]
+<class 'numpy.ndarray'>
+[0.00014953]
+<class 'numpy.ndarray'>
+[0.00622569]
+<class 'numpy.ndarray'>
+[0.0065597]
+<class 'numpy.ndarray'>
+[0.08404283]
+<class 'numpy.ndarray'>
+[0.01573091]
+<class 'numpy.ndarray'>
+[4.410081e-10]
+<class 'numpy.ndarray'>
+[3.5093646e-07]
+<class 'numpy.ndarray'>
+[0.04868697]
+<class 'numpy.ndarray'>
+[3.4669045e-17]
+<class 'numpy.ndarray'>
+[0.04912397]
+<class 'numpy.ndarray'>
+[9.254782e-36]
+<class 'numpy.ndarray'>
+[0.0122296]
+<class 'numpy.ndarray'>
+[0.00268758]
+<class 'numpy.ndarray'>
+[6.740722e-11]
+<class 'numpy.ndarray'>
+[0.00012501]
+<class 'numpy.ndarray'>
+[0.00964919]
+<class 'numpy.ndarray'>
+[0.3498532]
+<class 'numpy.ndarray'>
+[0.18500894]
+<class 'numpy.ndarray'>
+[0.02040549]
+<class 'numpy.ndarray'>
+[0.00796711]
+<class 'numpy.ndarray'>
+[0.26597914]
+<class 'numpy.ndarray'>
+[0.09229027]
+<class 'numpy.ndarray'>
+[0.00219562]
+<class 'numpy.ndarray'>
+[3.5484334e-15]
+<class 'numpy.ndarray'>
+[4.8977473e-08]
+<class 'numpy.ndarray'>
+[5.4677897e-05]
+<class 'numpy.ndarray'>
+[0.00041349]
+<class 'numpy.ndarray'>
+[1.2280462e-09]
+<class 'numpy.ndarray'>
+[1.9433461e-08]
+<class 'numpy.ndarray'>
+[0.0322555]
+<class 'numpy.ndarray'>
+[0.40157905]
+<class 'numpy.ndarray'>
+[0.00050934]
+<class 'numpy.ndarray'>
+[0.05781602]
+<class 'numpy.ndarray'>
+[0.46915147]
+<class 'numpy.ndarray'>
+[1.6717184e-05]
+<class 'numpy.ndarray'>
+[0.0139733]
+<class 'numpy.ndarray'>
+[1.9536041e-11]
+<class 'numpy.ndarray'>
+[1.8980527e-20]
+<class 'numpy.ndarray'>
+[0.00115084]
+<class 'numpy.ndarray'>
+[0.00650485]
+<class 'numpy.ndarray'>
+[0.02657996]
+<class 'numpy.ndarray'>
+[0.01684199]
+<class 'numpy.ndarray'>
+[0.02038432]
+<class 'numpy.ndarray'>
+[2.0861776e-13]
+<class 'numpy.ndarray'>
+[2.8453439e-13]
+<class 'numpy.ndarray'>
+[2.3748794e-06]
+<class 'numpy.ndarray'>
+[1.2472703e-10]
+<class 'numpy.ndarray'>
+[0.00917624]
+<class 'numpy.ndarray'>
+[3.0255232e-19]
+<class 'numpy.ndarray'>
+[6.0084267e-07]
+<class 'numpy.ndarray'>
+[0.20774]
+<class 'numpy.ndarray'>
+[5.6453527e-12]
+<class 'numpy.ndarray'>
+[1.3766337e-11]
+<class 'numpy.ndarray'>
+[1.1680466e-11]
+<class 'numpy.ndarray'>
+[0.37025085]
+<class 'numpy.ndarray'>
+[0.00239986]
+<class 'numpy.ndarray'>
+[0.10352351]
+<class 'numpy.ndarray'>
+[1.0885375e-05]
+<class 'numpy.ndarray'>
+[1.4301312e-28]
+<class 'numpy.ndarray'>
+[9.1187576e-05]
+<class 'numpy.ndarray'>
+[1.2346236e-05]
+<class 'numpy.ndarray'>
+[0.00152696]
+<class 'numpy.ndarray'>
+[0.00217663]
+<class 'numpy.ndarray'>
+[0.00230354]
+<class 'numpy.ndarray'>
+[1.4557413e-06]
+<class 'numpy.ndarray'>
+[7.822783e-09]
+<class 'numpy.ndarray'>
+[0.12057052]
+<class 'numpy.ndarray'>
+[2.8230573e-12]
+<class 'numpy.ndarray'>
+[6.1515014e-15]
+<class 'numpy.ndarray'>
+[3.7163427e-38]
+<class 'numpy.ndarray'>
+[0.00681222]
+<class 'numpy.ndarray'>
+[3.2919127e-12]
+<class 'numpy.ndarray'>
+[1.4035036e-12]
+<class 'numpy.ndarray'>
+[0.00217782]
+<class 'numpy.ndarray'>
+[2.3286193e-12]
+<class 'numpy.ndarray'>
+[9.20934e-08]
+<class 'numpy.ndarray'>
+[1.4658456e-06]
+<class 'numpy.ndarray'>
+[0.00914592]
+<class 'numpy.ndarray'>
+[0.0868332]
+<class 'numpy.ndarray'>
+[0.03940672]
+<class 'numpy.ndarray'>
+[0.00082928]
+<class 'numpy.ndarray'>
+[0.76342195]
+<class 'numpy.ndarray'>
+[5.343712e-26]
+<class 'numpy.ndarray'>
+[0.04996844]
+<class 'numpy.ndarray'>
+[3.3177414e-05]
+<class 'numpy.ndarray'>
+[0.05087589]
+<class 'numpy.ndarray'>
+[0.01278943]
+<class 'numpy.ndarray'>
+[9.456801e-12]
+<class 'numpy.ndarray'>
+[1.0628821e-06]
+<class 'numpy.ndarray'>
+[0.01524546]
+<class 'numpy.ndarray'>
+[5.6311975e-13]
+<class 'numpy.ndarray'>
+[0.01372306]
+<class 'numpy.ndarray'>
+[0.02595797]
+<class 'numpy.ndarray'>
+[0.02917947]
+<class 'numpy.ndarray'>
+[0.00171204]
+<class 'numpy.ndarray'>
+[0.10896527]
+<class 'numpy.ndarray'>
+[3.5947947e-09]
+<class 'numpy.ndarray'>
+[0.253521]
+<class 'numpy.ndarray'>
+[1.1464768e-12]
+<class 'numpy.ndarray'>
+[0.02353106]
+<class 'numpy.ndarray'>
+[0.11679573]
+<class 'numpy.ndarray'>
+[0.31820342]
+<class 'numpy.ndarray'>
+[0.05083453]
+<class 'numpy.ndarray'>
+[4.1124338e-05]
+<class 'numpy.ndarray'>
+[7.985103e-11]
+<class 'numpy.ndarray'>
+[3.150217e-07]
+<class 'numpy.ndarray'>
+[1.2775845e-05]
+<class 'numpy.ndarray'>
+[2.0634222e-06]
+<class 'numpy.ndarray'>
+[0.00026238]
+<class 'numpy.ndarray'>
+[1.3164136e-13]
+<class 'numpy.ndarray'>
+[0.03867956]
+<class 'numpy.ndarray'>
+[1.1277959e-09]
+<class 'numpy.ndarray'>
+[0.0234758]
+<class 'numpy.ndarray'>
+[0.09061813]
+<class 'numpy.ndarray'>
+[0.00020429]
+<class 'numpy.ndarray'>
+[7.9594765e-16]
+<class 'numpy.ndarray'>
+[4.1722476e-05]
+<class 'numpy.ndarray'>
+[6.1312516e-10]
+<class 'numpy.ndarray'>
+[0.07264708]
+<class 'numpy.ndarray'>
+[0.0010521]
+<class 'numpy.ndarray'>
+[4.1988327e-23]
+<class 'numpy.ndarray'>
+[0.01377043]
+<class 'numpy.ndarray'>
+[0.01954937]
+<class 'numpy.ndarray'>
+[0.0124143]
+<class 'numpy.ndarray'>
+[0.012527]
+<class 'numpy.ndarray'>
+[0.5814713]
+<class 'numpy.ndarray'>
+[0.08069605]
+<class 'numpy.ndarray'>
+[0.0001448]
+<class 'numpy.ndarray'>
+[0.0553037]
+<class 'numpy.ndarray'>
+[2.2993983e-11]
+<class 'numpy.ndarray'>
+[1.4147043e-29]
+<class 'numpy.ndarray'>
+[0.03833449]
+<class 'numpy.ndarray'>
+[1.7844563e-06]
+<class 'numpy.ndarray'>
+[0.10888234]
+<class 'numpy.ndarray'>
+[1.6153564e-14]
+<class 'numpy.ndarray'>
+[1.857341e-27]
+<class 'numpy.ndarray'>
+[0.00922105]
+<class 'numpy.ndarray'>
+[8.581825e-06]
+<class 'numpy.ndarray'>
+[0.00621264]
+<class 'numpy.ndarray'>
+[1.16808096e-07]
+<class 'numpy.ndarray'>
+[0.00129653]
+<class 'numpy.ndarray'>
+[0.01100968]
+<class 'numpy.ndarray'>
+[0.00077524]
+<class 'numpy.ndarray'>
+[1.688421e-12]
+<class 'numpy.ndarray'>
+[0.04526432]
+<class 'numpy.ndarray'>
+[0.02962203]
+<class 'numpy.ndarray'>
+[0.01085495]
+<class 'numpy.ndarray'>
+[0.00151241]
+<class 'numpy.ndarray'>
+[0.00094357]
+<class 'numpy.ndarray'>
+[0.02966693]
+<class 'numpy.ndarray'>
+[0.12874377]
+<class 'numpy.ndarray'>
+[4.0509932e-11]
+<class 'numpy.ndarray'>
+[0.02474585]
+<class 'numpy.ndarray'>
+[2.3288804e-09]
+<class 'numpy.ndarray'>
+[0.02892712]
+<class 'numpy.ndarray'>
+[0.019924]
+<class 'numpy.ndarray'>
+[0.1205504]
+<class 'numpy.ndarray'>
+[0.00288352]
+<class 'numpy.ndarray'>
+[0.04153728]
+<class 'numpy.ndarray'>
+[6.236791e-14]
+<class 'numpy.ndarray'>
+[0.0612817]
+<class 'numpy.ndarray'>
+[0.00928237]
+<class 'numpy.ndarray'>
+[0.10041282]
+<class 'numpy.ndarray'>
+[1.3621126e-10]
+<class 'numpy.ndarray'>
+[1.2767394e-13]
+<class 'numpy.ndarray'>
+[0.0205437]
+<class 'numpy.ndarray'>
+[0.14717317]
+<class 'numpy.ndarray'>
+[0.0020482]
+<class 'numpy.ndarray'>
+[0.13831691]
+<class 'numpy.ndarray'>
+[0.00964918]
+<class 'numpy.ndarray'>
+[0.00962188]
+<class 'numpy.ndarray'>
+[0.009508]
+<class 'numpy.ndarray'>
+[0.00150497]
+<class 'numpy.ndarray'>
+[0.00905593]
+<class 'numpy.ndarray'>
+[0.0084269]
+<class 'numpy.ndarray'>
+[0.00439446]
+<class 'numpy.ndarray'>
+[0.02224238]
+<class 'numpy.ndarray'>
+[4.6740457e-18]
+<class 'numpy.ndarray'>
+[0.10911238]
+<class 'numpy.ndarray'>
+[5.013508e-17]
+<class 'numpy.ndarray'>
+[1.953002e-17]
+<class 'numpy.ndarray'>
+[0.00212922]
+<class 'numpy.ndarray'>
+[0.05306076]
+<class 'numpy.ndarray'>
+[6.330538e-10]
+<class 'numpy.ndarray'>
+[8.9157864e-24]
+<class 'numpy.ndarray'>
+[1.7919926e-07]
+<class 'numpy.ndarray'>
+[0.2844969]
+<class 'numpy.ndarray'>
+[0.4080733]
+<class 'numpy.ndarray'>
+[0.00220008]
+<class 'numpy.ndarray'>
+[0.00013852]
+<class 'numpy.ndarray'>
+[0.02851249]
+<class 'numpy.ndarray'>
+[0.05576724]
+<class 'numpy.ndarray'>
+[0.11870534]
+<class 'numpy.ndarray'>
+[0.00166548]
+<class 'numpy.ndarray'>
+[0.02762388]
+<class 'numpy.ndarray'>
+[0.02815015]
+<class 'numpy.ndarray'>
+[0.03105523]
+<class 'numpy.ndarray'>
+[0.00223693]
+<class 'numpy.ndarray'>
+[7.857522e-20]
+<class 'numpy.ndarray'>
+[0.00148707]
+<class 'numpy.ndarray'>
+[0.00201347]
+<class 'numpy.ndarray'>
+[0.01294618]
+<class 'numpy.ndarray'>
+[1.9249485e-12]
+<class 'numpy.ndarray'>
+[7.137596e-11]
+<class 'numpy.ndarray'>
+[0.18565843]
+<class 'numpy.ndarray'>
+[0.03975214]
+<class 'numpy.ndarray'>
+[0.00193475]
+<class 'numpy.ndarray'>
+[0.00010141]
+<class 'numpy.ndarray'>
+[1.3495722e-11]
+<class 'numpy.ndarray'>
+[0.00306002]
+<class 'numpy.ndarray'>
+[0.00120733]
+<class 'numpy.ndarray'>
+[3.9780101e-10]
+<class 'numpy.ndarray'>
+[0.01237659]
+<class 'numpy.ndarray'>
+[0.01711785]
+<class 'numpy.ndarray'>
+[1.131565e-08]
+<class 'numpy.ndarray'>
+[9.363146e-09]
+<class 'numpy.ndarray'>
+[2.6762336e-05]
+<class 'numpy.ndarray'>
+[0.18741703]
+<class 'numpy.ndarray'>
+[0.05019624]
+<class 'numpy.ndarray'>
+[0.00095561]
+<class 'numpy.ndarray'>
+[0.11665404]
+<class 'numpy.ndarray'>
+[0.0962115]
+<class 'numpy.ndarray'>
+[0.02105187]
+<class 'numpy.ndarray'>
+[1.8045401e-29]
+<class 'numpy.ndarray'>
+[1.5449404e-09]
+<class 'numpy.ndarray'>
+[0.00047367]
+<class 'numpy.ndarray'>
+[0.03377891]
+<class 'numpy.ndarray'>
+[3.6841825e-11]
+<class 'numpy.ndarray'>
+[0.01650095]
+<class 'numpy.ndarray'>
+[0.00626858]
+<class 'numpy.ndarray'>
+[0.00556519]
+<class 'numpy.ndarray'>
+[0.00176257]
+<class 'numpy.ndarray'>
+[1.2596869e-27]
+<class 'numpy.ndarray'>
+[7.1302985e-08]
+<class 'numpy.ndarray'>
+[0.01667213]
+<class 'numpy.ndarray'>
+[0.645013]
+<class 'numpy.ndarray'>
+[8.6285e-07]
+<class 'numpy.ndarray'>
+[0.05118359]
+<class 'numpy.ndarray'>
+[1.1640153e-05]
+<class 'numpy.ndarray'>
+[1.9787977e-07]
+<class 'numpy.ndarray'>
+[1.3621734e-06]
+<class 'numpy.ndarray'>
+[0.07484487]
+<class 'numpy.ndarray'>
+[4.85346e-17]
+<class 'numpy.ndarray'>
+[0.01518175]
+<class 'numpy.ndarray'>
+[0.08098738]
+<class 'numpy.ndarray'>
+[1.4309592e-15]
+<class 'numpy.ndarray'>
+[0.14487955]
+<class 'numpy.ndarray'>
+[8.579414e-09]
+<class 'numpy.ndarray'>
+[0.02834826]
+<class 'numpy.ndarray'>
+[0.35748795]
+<class 'numpy.ndarray'>
+[0.17190763]
+<class 'numpy.ndarray'>
+[7.221777e-10]
+<class 'numpy.ndarray'>
+[0.11147133]
+<class 'numpy.ndarray'>
+[1.7838763e-06]
+<class 'numpy.ndarray'>
+[1.3022581e-05]
+<class 'numpy.ndarray'>
+[0.0296949]
+<class 'numpy.ndarray'>
+[0.0121002]
+<class 'numpy.ndarray'>
+[0.03911183]
+<class 'numpy.ndarray'>
+[9.283609e-19]
+<class 'numpy.ndarray'>
+[1.677603e-12]
+<class 'numpy.ndarray'>
+[0.24146095]
+<class 'numpy.ndarray'>
+[7.6855475e-05]
+<class 'numpy.ndarray'>
+[8.586033e-34]
+<class 'numpy.ndarray'>
+[0.0468824]
+<class 'numpy.ndarray'>
+[0.23423728]
+<class 'numpy.ndarray'>
+[0.19926845]
+<class 'numpy.ndarray'>
+[0.02732355]
+<class 'numpy.ndarray'>
+[1.7891866e-10]
+<class 'numpy.ndarray'>
+[0.00846241]
+<class 'numpy.ndarray'>
+[0.02672418]
+<class 'numpy.ndarray'>
+[0.05468053]
+<class 'numpy.ndarray'>
+[2.2689463e-10]
+<class 'numpy.ndarray'>
+[0.00041885]
+<class 'numpy.ndarray'>
+[1.576182e-23]
+<class 'numpy.ndarray'>
+[7.541199e-05]
+<class 'numpy.ndarray'>
+[0.04692802]
+<class 'numpy.ndarray'>
+[2.447493e-17]
+<class 'numpy.ndarray'>
+[4.2469663e-05]
+<class 'numpy.ndarray'>
+[6.1765218e-06]
+<class 'numpy.ndarray'>
+[3.878186e-07]
+<class 'numpy.ndarray'>
+[2.4636522e-24]
+<class 'numpy.ndarray'>
+[0.10969657]
+<class 'numpy.ndarray'>
+[0.01106693]
+<class 'numpy.ndarray'>
+[0.06061823]
+<class 'numpy.ndarray'>
+[0.06521241]
+<class 'numpy.ndarray'>
+[9.374526e-06]
+<class 'numpy.ndarray'>
+[0.04505774]
+<class 'numpy.ndarray'>
+[0.0060138]
+<class 'numpy.ndarray'>
+[0.02488286]
+<class 'numpy.ndarray'>
+[1.9279705e-14]
+<class 'numpy.ndarray'>
+[0.08248939]
+<class 'numpy.ndarray'>
+[0.01110825]
+<class 'numpy.ndarray'>
+[0.00490027]
+<class 'numpy.ndarray'>
+[1.4019117e-05]
+<class 'numpy.ndarray'>
+[9.272427e-05]
+<class 'numpy.ndarray'>
+[2.8281343e-05]
+<class 'numpy.ndarray'>
+[0.17000745]
+<class 'numpy.ndarray'>
+[0.01618841]
+<class 'numpy.ndarray'>
+[0.00136867]
+<class 'numpy.ndarray'>
+[2.0013971e-08]
+<class 'numpy.ndarray'>
+[9.379668e-05]
+<class 'numpy.ndarray'>
+[0.01761488]
+<class 'numpy.ndarray'>
+[0.0140743]
+<class 'numpy.ndarray'>
+[0.02555773]
+<class 'numpy.ndarray'>
+[0.00067385]
+<class 'numpy.ndarray'>
+[3.75146e-12]
+<class 'numpy.ndarray'>
+[0.01906557]
+<class 'numpy.ndarray'>
+[0.03145763]
+<class 'numpy.ndarray'>
+[0.00059156]
+<class 'numpy.ndarray'>
+[1.4539768e-14]
+<class 'numpy.ndarray'>
+[0.01709028]
+<class 'numpy.ndarray'>
+[0.02640611]
+<class 'numpy.ndarray'>
+[0.00596794]
+<class 'numpy.ndarray'>
+[3.157279e-17]
+<class 'numpy.ndarray'>
+[0.02930271]
+<class 'numpy.ndarray'>
+[8.298414e-05]
+<class 'numpy.ndarray'>
+[4.7756857e-15]
+<class 'numpy.ndarray'>
+[2.4711886e-07]
+<class 'numpy.ndarray'>
+[0.10345856]
+<class 'numpy.ndarray'>
+[4.3117582e-11]
+<class 'numpy.ndarray'>
+[0.00223687]
+<class 'numpy.ndarray'>
+[0.02043382]
+<class 'numpy.ndarray'>
+[1.2726584e-15]
+<class 'numpy.ndarray'>
+[0.00067009]
+<class 'numpy.ndarray'>
+[4.4004623e-06]
+<class 'numpy.ndarray'>
+[0.04584699]
+<class 'numpy.ndarray'>
+[0.00200904]
+<class 'numpy.ndarray'>
+[0.04518021]
+<class 'numpy.ndarray'>
+[0.0089805]
+<class 'numpy.ndarray'>
+[0.01810568]
+<class 'numpy.ndarray'>
+[0.00037928]
+<class 'numpy.ndarray'>
+[0.00356738]
+<class 'numpy.ndarray'>
+[0.00131589]
+<class 'numpy.ndarray'>
+[3.9181734e-05]
+<class 'numpy.ndarray'>
+[1.6078786e-09]
+<class 'numpy.ndarray'>
+[4.2815493e-08]
+<class 'numpy.ndarray'>
+[0.01738646]
+<class 'numpy.ndarray'>
+[8.5531035e-05]
+<class 'numpy.ndarray'>
+[0.00045284]
+<class 'numpy.ndarray'>
+[0.09042828]
+<class 'numpy.ndarray'>
+[1.6034471e-07]
+<class 'numpy.ndarray'>
+[1.5529993e-10]
+<class 'numpy.ndarray'>
+[0.02996021]
+<class 'numpy.ndarray'>
+[0.31330943]
+<class 'numpy.ndarray'>
+[0.02348648]
+<class 'numpy.ndarray'>
+[0.10236254]
+<class 'numpy.ndarray'>
+[0.04379766]
+<class 'numpy.ndarray'>
+[0.01808717]
+<class 'numpy.ndarray'>
+[0.04811547]
+<class 'numpy.ndarray'>
+[0.14866349]
+<class 'numpy.ndarray'>
+[0.01855734]
+<class 'numpy.ndarray'>
+[0.04953987]
+<class 'numpy.ndarray'>
+[0.24607092]
+<class 'numpy.ndarray'>
+[8.0803924e-13]
+<class 'numpy.ndarray'>
+[0.01808567]
+<class 'numpy.ndarray'>
+[0.14563222]
+<class 'numpy.ndarray'>
+[0.08251038]
+<class 'numpy.ndarray'>
+[6.150569e-13]
+<class 'numpy.ndarray'>
+[0.00142394]
+<class 'numpy.ndarray'>
+[0.00689954]
+<class 'numpy.ndarray'>
+[1.5391226e-06]
+<class 'numpy.ndarray'>
+[0.02175428]
+<class 'numpy.ndarray'>
+[0.00742804]
+<class 'numpy.ndarray'>
+[0.03428749]
+<class 'numpy.ndarray'>
+[0.5594415]
+<class 'numpy.ndarray'>
+[0.00036203]
+<class 'numpy.ndarray'>
+[0.40708485]
+<class 'numpy.ndarray'>
+[0.02801427]
+<class 'numpy.ndarray'>
+[0.5123622]
+<class 'numpy.ndarray'>
+[0.05389218]
+<class 'numpy.ndarray'>
+[0.09677945]
+<class 'numpy.ndarray'>
+[0.09283461]
+<class 'numpy.ndarray'>
+[0.03705612]
+<class 'numpy.ndarray'>
+[0.016746]
+<class 'numpy.ndarray'>
+[0.00169155]
+<class 'numpy.ndarray'>
+[0.01988111]
+<class 'numpy.ndarray'>
+[0.00011965]
+<class 'numpy.ndarray'>
+[0.04249379]
+<class 'numpy.ndarray'>
+[0.00347317]
+<class 'numpy.ndarray'>
+[0.20110235]
+<class 'numpy.ndarray'>
+[0.00962966]
+<class 'numpy.ndarray'>
+[0.00030858]
+<class 'numpy.ndarray'>
+[2.199183e-15]
+<class 'numpy.ndarray'>
+[1.3701505e-07]
+<class 'numpy.ndarray'>
+[6.492586e-26]
+<class 'numpy.ndarray'>
+[0.25625676]
+
+ 84%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                     | 822/977 [00:04<00:00, 203.27it/s]
+[6.663228e-07]
+<class 'numpy.ndarray'>
+[0.03460592]
+<class 'numpy.ndarray'>
+[0.00012654]
+<class 'numpy.ndarray'>
+[0.02590978]
+<class 'numpy.ndarray'>
+[0.00382071]
+<class 'numpy.ndarray'>
+[0.03081561]
+<class 'numpy.ndarray'>
+[0.02437309]
+<class 'numpy.ndarray'>
+[3.5724013e-05]
+<class 'numpy.ndarray'>
+[0.00791611]
+<class 'numpy.ndarray'>
+[2.3123859e-11]
+<class 'numpy.ndarray'>
+[0.000295]
+<class 'numpy.ndarray'>
+[3.5800724e-15]
+<class 'numpy.ndarray'>
+[7.831184e-10]
+<class 'numpy.ndarray'>
+[1.679155e-09]
+<class 'numpy.ndarray'>
+[0.00018194]
+<class 'numpy.ndarray'>
+[0.01170456]
+<class 'numpy.ndarray'>
+[0.0220819]
+<class 'numpy.ndarray'>
+[0.08322211]
+<class 'numpy.ndarray'>
+[0.00051884]
+<class 'numpy.ndarray'>
+[1.0189267e-05]
+<class 'numpy.ndarray'>
+[1.2161356e-06]
+<class 'numpy.ndarray'>
+[0.02406085]
+<class 'numpy.ndarray'>
+[0.06179093]
+<class 'numpy.ndarray'>
+[0.02439887]
+<class 'numpy.ndarray'>
+[0.00783028]
+<class 'numpy.ndarray'>
+[0.18082617]
+<class 'numpy.ndarray'>
+[0.19617668]
+<class 'numpy.ndarray'>
+[0.07983741]
+<class 'numpy.ndarray'>
+[4.3567632e-11]
+<class 'numpy.ndarray'>
+[0.07762986]
+<class 'numpy.ndarray'>
+[0.01226308]
+<class 'numpy.ndarray'>
+[1.9642464e-06]
+<class 'numpy.ndarray'>
+[3.1148937e-07]
+<class 'numpy.ndarray'>
+[0.13735226]
+<class 'numpy.ndarray'>
+[0.29125383]
+<class 'numpy.ndarray'>
+[0.00011031]
+<class 'numpy.ndarray'>
+[0.00355703]
+<class 'numpy.ndarray'>
+[0.01977298]
+<class 'numpy.ndarray'>
+[1.7845263e-06]
+<class 'numpy.ndarray'>
+[0.02354717]
+<class 'numpy.ndarray'>
+[3.56059e-11]
+<class 'numpy.ndarray'>
+[0.22252408]
+<class 'numpy.ndarray'>
+[0.0054388]
+<class 'numpy.ndarray'>
+[1.7648009e-06]
+<class 'numpy.ndarray'>
+[0.02981446]
+<class 'numpy.ndarray'>
+[0.00753399]
+<class 'numpy.ndarray'>
+[0.00118849]
+<class 'numpy.ndarray'>
+[6.62897e-14]
+<class 'numpy.ndarray'>
+[0.02860367]
+<class 'numpy.ndarray'>
+[6.9123885e-15]
+<class 'numpy.ndarray'>
+[0.01997487]
+<class 'numpy.ndarray'>
+[5.9092563e-37]
+<class 'numpy.ndarray'>
+[0.06909026]
+<class 'numpy.ndarray'>
+[0.06922612]
+<class 'numpy.ndarray'>
+[0.00605993]
+<class 'numpy.ndarray'>
+[0.24821518]
+<class 'numpy.ndarray'>
+[0.00046916]
+<class 'numpy.ndarray'>
+[1.7333178e-15]
+<class 'numpy.ndarray'>
+[0.00125169]
+<class 'numpy.ndarray'>
+[0.08321705]
+<class 'numpy.ndarray'>
+[0.10350458]
+<class 'numpy.ndarray'>
+[0.1026899]
+<class 'numpy.ndarray'>
+[3.3321458e-16]
+<class 'numpy.ndarray'>
+[0.18664694]
+<class 'numpy.ndarray'>
+[7.847951e-07]
+<class 'numpy.ndarray'>
+[1.6633294e-05]
+<class 'numpy.ndarray'>
+[0.00789178]
+<class 'numpy.ndarray'>
+[0.02325995]
+<class 'numpy.ndarray'>
+[0.00993173]
+<class 'numpy.ndarray'>
+[3.5142575e-15]
+<class 'numpy.ndarray'>
+[1.8574672e-06]
+<class 'numpy.ndarray'>
+[0.00813323]
+<class 'numpy.ndarray'>
+[0.14111556]
+<class 'numpy.ndarray'>
+[0.45425177]
+<class 'numpy.ndarray'>
+[2.1111463e-14]
+<class 'numpy.ndarray'>
+[1.60368e-16]
+<class 'numpy.ndarray'>
+[9.202973e-07]
+<class 'numpy.ndarray'>
+[1.5781047e-11]
+<class 'numpy.ndarray'>
+[3.1926465e-08]
+<class 'numpy.ndarray'>
+[0.06364267]
+<class 'numpy.ndarray'>
+[0.00286501]
+<class 'numpy.ndarray'>
+[0.00047284]
+<class 'numpy.ndarray'>
+[8.719917e-18]
+<class 'numpy.ndarray'>
+[0.31719914]
+<class 'numpy.ndarray'>
+[1.1506242e-15]
+<class 'numpy.ndarray'>
+[0.00687392]
+<class 'numpy.ndarray'>
+[0.75583625]
+<class 'numpy.ndarray'>
+[0.02776652]
+<class 'numpy.ndarray'>
+[0.25217742]
+<class 'numpy.ndarray'>
+[1.860896e-10]
+<class 'numpy.ndarray'>
+[0.02435502]
+<class 'numpy.ndarray'>
+[0.00284201]
+<class 'numpy.ndarray'>
+[0.04594842]
+<class 'numpy.ndarray'>
+[0.00296933]
+<class 'numpy.ndarray'>
+[5.9261134e-09]
+<class 'numpy.ndarray'>
+[0.7667725]
+<class 'numpy.ndarray'>
+[0.04065387]
+<class 'numpy.ndarray'>
+[0.06598808]
+<class 'numpy.ndarray'>
+[0.04041743]
+<class 'numpy.ndarray'>
+[2.543707e-07]
+<class 'numpy.ndarray'>
+[0.00023293]
+<class 'numpy.ndarray'>
+[0.03932989]
+<class 'numpy.ndarray'>
+[0.00066062]
+<class 'numpy.ndarray'>
+[0.38215783]
+<class 'numpy.ndarray'>
+[0.00400429]
+<class 'numpy.ndarray'>
+[0.10490561]
+<class 'numpy.ndarray'>
+[1.4345943e-06]
+<class 'numpy.ndarray'>
+[0.12412855]
+<class 'numpy.ndarray'>
+[0.1862762]
+<class 'numpy.ndarray'>
+[0.00293241]
+<class 'numpy.ndarray'>
+[0.09155237]
+<class 'numpy.ndarray'>
+[0.02515155]
+<class 'numpy.ndarray'>
+[6.291865e-20]
+<class 'numpy.ndarray'>
+[0.01944954]
+<class 'numpy.ndarray'>
+[3.5253697e-18]
+<class 'numpy.ndarray'>
+[0.0413145]
+<class 'numpy.ndarray'>
+[0.41857883]
+<class 'numpy.ndarray'>
+[0.07857248]
+<class 'numpy.ndarray'>
+[2.1172675e-06]
+<class 'numpy.ndarray'>
+[0.35173857]
+<class 'numpy.ndarray'>
+[0.00850764]
+<class 'numpy.ndarray'>
+[0.0910318]
+<class 'numpy.ndarray'>
+[0.00012089]
+<class 'numpy.ndarray'>
+[1.2543069e-12]
+<class 'numpy.ndarray'>
+[0.19014506]
+<class 'numpy.ndarray'>
+[0.27216548]
+<class 'numpy.ndarray'>
+[5.23213e-17]
+<class 'numpy.ndarray'>
+[0.1138518]
+<class 'numpy.ndarray'>
+[0.03628809]
+<class 'numpy.ndarray'>
+[0.00010762]
+<class 'numpy.ndarray'>
+[2.5803809e-06]
+<class 'numpy.ndarray'>
+[2.609503e-05]
+<class 'numpy.ndarray'>
+[0.02646586]
+<class 'numpy.ndarray'>
+[0.10634959]
+<class 'numpy.ndarray'>
+[0.15642251]
+<class 'numpy.ndarray'>
+[0.07782989]
+<class 'numpy.ndarray'>
+[9.722079e-10]
+<class 'numpy.ndarray'>
+[0.04625707]
+<class 'numpy.ndarray'>
+[0.00416535]
+<class 'numpy.ndarray'>
+[0.05416036]
+<class 'numpy.ndarray'>
+[0.05433803]
+<class 'numpy.ndarray'>
+[3.2799624e-11]
+<class 'numpy.ndarray'>
+[0.00848068]
+<class 'numpy.ndarray'>
+[0.13263866]
+<class 'numpy.ndarray'>
+[0.02969758]
+<class 'numpy.ndarray'>
+[6.977797e-16]
+<class 'numpy.ndarray'>
+[8.9527246e-05]
+<class 'numpy.ndarray'>
+[9.387105e-06]
+<class 'numpy.ndarray'>
+[0.043346]
+<class 'numpy.ndarray'>
+[0.4311721]
+<class 'numpy.ndarray'>
+[1.2490336e-15]
+<class 'numpy.ndarray'>
+[3.432863e-07]
+<class 'numpy.ndarray'>
+[0.00315652]
+<class 'numpy.ndarray'>
+[2.1429021e-05]
+<class 'numpy.ndarray'>
+[0.00038331]
+<class 'numpy.ndarray'>
+[0.19967587]
+<class 'numpy.ndarray'>
+[1.6845683e-11]
+<class 'numpy.ndarray'>
+[4.7331727e-23]
+<class 'numpy.ndarray'>
+[6.20415e-05]
+<class 'numpy.ndarray'>
+[1.9333307e-38]
+<class 'numpy.ndarray'>
+[4.8996647e-11]
+<class 'numpy.ndarray'>
+[0.01393787]
+<class 'numpy.ndarray'>
+[5.941839e-05]
+<class 'numpy.ndarray'>
+[6.601257e-08]
+<class 'numpy.ndarray'>
+[2.426171e-05]
+<class 'numpy.ndarray'>
+[0.00345031]
+<class 'numpy.ndarray'>
+[6.022436e-12]
+<class 'numpy.ndarray'>
+[0.00636191]
+<class 'numpy.ndarray'>
+[0.069713]
+<class 'numpy.ndarray'>
+[0.00833646]
+<class 'numpy.ndarray'>
+[0.00041421]
+<class 'numpy.ndarray'>
+[0.1800654]
+<class 'numpy.ndarray'>
+[0.00646798]
+<class 'numpy.ndarray'>
+[0.0479219]
+<class 'numpy.ndarray'>
+[0.13158894]
+<class 'numpy.ndarray'>
+[1.8093234e-22]
+<class 'numpy.ndarray'>
+[0.04001822]
+<class 'numpy.ndarray'>
+[0.00372268]
+<class 'numpy.ndarray'>
+[1.9526957e-18]
+<class 'numpy.ndarray'>
+[0.01519881]
+<class 'numpy.ndarray'>
+[0.15975447]
+<class 'numpy.ndarray'>
+[0.02749462]
+<class 'numpy.ndarray'>
+[0.00020054]
+<class 'numpy.ndarray'>
+[0.00385107]
+<class 'numpy.ndarray'>
+[0.01411635]
+<class 'numpy.ndarray'>
+[0.01235357]
+<class 'numpy.ndarray'>
+[0.03677028]
+<class 'numpy.ndarray'>
+[0.00015893]
+<class 'numpy.ndarray'>
+[0.5940278]
+<class 'numpy.ndarray'>
+[0.24420585]
+<class 'numpy.ndarray'>
+[2.658404e-07]
+<class 'numpy.ndarray'>
+[0.17608817]
+<class 'numpy.ndarray'>
+[1.46517295e-05]
+<class 'numpy.ndarray'>
+[0.14012337]
+<class 'numpy.ndarray'>
+[0.49624684]
+<class 'numpy.ndarray'>
+[0.38889804]
+<class 'numpy.ndarray'>
+[0.00033527]
+<class 'numpy.ndarray'>
+[2.3014101e-05]
+<class 'numpy.ndarray'>
+[0.08470108]
+<class 'numpy.ndarray'>
+[0.1713671]
+<class 'numpy.ndarray'>
+[0.3787371]
+<class 'numpy.ndarray'>
+[0.20735216]
+<class 'numpy.ndarray'>
+[0.28590247]
+<class 'numpy.ndarray'>
+[7.940771e-06]
+<class 'numpy.ndarray'>
+[0.17790265]
+<class 'numpy.ndarray'>
+[0.22753568]
+<class 'numpy.ndarray'>
+[0.04130885]
+<class 'numpy.ndarray'>
+[0.30399203]
+<class 'numpy.ndarray'>
+[0.24777615]
+<class 'numpy.ndarray'>
+[0.18721087]
+<class 'numpy.ndarray'>
+[0.20353705]
+<class 'numpy.ndarray'>
+[0.00061289]
+<class 'numpy.ndarray'>
+[0.00049808]
+<class 'numpy.ndarray'>
+[0.02829896]
+<class 'numpy.ndarray'>
+[0.08994296]
+<class 'numpy.ndarray'>
+[0.18267979]
+<class 'numpy.ndarray'>
+[0.00083822]
+<class 'numpy.ndarray'>
+[0.16075453]
+<class 'numpy.ndarray'>
+[0.03270657]
+<class 'numpy.ndarray'>
+[0.19620304]
+<class 'numpy.ndarray'>
+[0.06228387]
+<class 'numpy.ndarray'>
+[0.2506795]
+<class 'numpy.ndarray'>
+[0.00359247]
+<class 'numpy.ndarray'>
+[0.0855436]
+<class 'numpy.ndarray'>
+[0.00091261]
+<class 'numpy.ndarray'>
+[0.18422543]
+<class 'numpy.ndarray'>
+[0.04878597]
+<class 'numpy.ndarray'>
+[0.19036849]
+<class 'numpy.ndarray'>
+[0.05421137]
+<class 'numpy.ndarray'>
+[0.01234096]
+<class 'numpy.ndarray'>
+[0.00109073]
+<class 'numpy.ndarray'>
+[0.10160268]
+<class 'numpy.ndarray'>
+[0.28676707]
+<class 'numpy.ndarray'>
+[0.30389264]
+<class 'numpy.ndarray'>
+[0.11239891]
+<class 'numpy.ndarray'>
+[0.00792216]
+<class 'numpy.ndarray'>
+[0.17383333]
+<class 'numpy.ndarray'>
+[0.04521504]
+<class 'numpy.ndarray'>
+[0.10039004]
+<class 'numpy.ndarray'>
+[0.17653947]
+<class 'numpy.ndarray'>
+[0.11269204]
+<class 'numpy.ndarray'>
+[0.13556875]
+<class 'numpy.ndarray'>
+[0.5487959]
+<class 'numpy.ndarray'>
+[0.02821427]
+<class 'numpy.ndarray'>
+[0.50112814]
+<class 'numpy.ndarray'>
+[0.06617448]
+<class 'numpy.ndarray'>
+[0.40703863]
+<class 'numpy.ndarray'>
+[0.00584005]
+<class 'numpy.ndarray'>
+[0.04364542]
+<class 'numpy.ndarray'>
+[0.20575097]
+<class 'numpy.ndarray'>
+[0.23205444]
+<class 'numpy.ndarray'>
+[0.01265208]
+<class 'numpy.ndarray'>
+[0.03642842]
+<class 'numpy.ndarray'>
+[0.6582101]
+<class 'numpy.ndarray'>
+[0.10125124]
+<class 'numpy.ndarray'>
+[0.19221295]
+<class 'numpy.ndarray'>
+[0.10289662]
+<class 'numpy.ndarray'>
+[0.62825954]
+<class 'numpy.ndarray'>
+[0.05538397]
+<class 'numpy.ndarray'>
+[0.18414506]
+<class 'numpy.ndarray'>
+[0.02451252]
+<class 'numpy.ndarray'>
+[0.3807946]
+<class 'numpy.ndarray'>
+[0.08493091]
+<class 'numpy.ndarray'>
+[0.00842682]
+<class 'numpy.ndarray'>
+[0.04980594]
+<class 'numpy.ndarray'>
+[0.25321993]
+<class 'numpy.ndarray'>
+[0.46510306]
+<class 'numpy.ndarray'>
+[0.13094899]
+<class 'numpy.ndarray'>
+[0.3167247]
+<class 'numpy.ndarray'>
+[0.47735608]
+<class 'numpy.ndarray'>
+[0.01010727]
+<class 'numpy.ndarray'>
+[0.4820182]
+<class 'numpy.ndarray'>
+[0.34827998]
+<class 'numpy.ndarray'>
+[0.6309033]
+<class 'numpy.ndarray'>
+[0.02409568]
+<class 'numpy.ndarray'>
+[0.00476552]
+<class 'numpy.ndarray'>
+[0.27637058]
+<class 'numpy.ndarray'>
+[0.09263636]
+<class 'numpy.ndarray'>
+[0.01259805]
+<class 'numpy.ndarray'>
+[0.01351324]
+<class 'numpy.ndarray'>
+[0.4604349]
+<class 'numpy.ndarray'>
+[0.27632612]
+<class 'numpy.ndarray'>
+[5.0180366e-05]
+<class 'numpy.ndarray'>
+[0.34485537]
+<class 'numpy.ndarray'>
+[0.06130394]
+<class 'numpy.ndarray'>
+[0.15194826]
+<class 'numpy.ndarray'>
+[0.20051575]
+<class 'numpy.ndarray'>
+[0.05536684]
+<class 'numpy.ndarray'>
+[0.05433719]
+<class 'numpy.ndarray'>
+[0.03230706]
+<class 'numpy.ndarray'>
+[0.6216835]
+<class 'numpy.ndarray'>
+[0.3676014]
+<class 'numpy.ndarray'>
+[2.6272426e-06]
+<class 'numpy.ndarray'>
+[0.14473589]
+<class 'numpy.ndarray'>
+[0.2829102]
+<class 'numpy.ndarray'>
+[0.31662732]
+<class 'numpy.ndarray'>
+[0.00105011]
+<class 'numpy.ndarray'>
+[0.10318089]
+<class 'numpy.ndarray'>
+[0.02842368]
+<class 'numpy.ndarray'>
+[0.1806714]
+<class 'numpy.ndarray'>
+[0.2136571]
+<class 'numpy.ndarray'>
+[0.00293648]
+<class 'numpy.ndarray'>
+[0.06510566]
+<class 'numpy.ndarray'>
+[0.00407639]
+<class 'numpy.ndarray'>
+[1.3853762e-07]
+<class 'numpy.ndarray'>
+[0.15682338]
+<class 'numpy.ndarray'>
+[0.01155648]
+<class 'numpy.ndarray'>
+[0.0916989]
+<class 'numpy.ndarray'>
+[0.05665826]
+<class 'numpy.ndarray'>
+[0.1776453]
+<class 'numpy.ndarray'>
+[0.49661013]
+<class 'numpy.ndarray'>
+[0.43283397]
+<class 'numpy.ndarray'>
+[0.07383734]
+<class 'numpy.ndarray'>
+[0.11725283]
+<class 'numpy.ndarray'>
+[0.71424216]
+<class 'numpy.ndarray'>
+[0.05165343]
+<class 'numpy.ndarray'>
+[0.00954529]
+<class 'numpy.ndarray'>
+[0.00263423]
+<class 'numpy.ndarray'>
+[0.05508865]
+<class 'numpy.ndarray'>
+[0.01673482]
+<class 'numpy.ndarray'>
+[0.06526639]
+<class 'numpy.ndarray'>
+[0.06036514]
+<class 'numpy.ndarray'>
+[0.06404015]
+<class 'numpy.ndarray'>
+[0.35656372]
+<class 'numpy.ndarray'>
+[0.47798523]
+<class 'numpy.ndarray'>
+[0.33508253]
+<class 'numpy.ndarray'>
+[0.03136497]
+<class 'numpy.ndarray'>
+[0.18545663]
+<class 'numpy.ndarray'>
+[0.00026664]
+<class 'numpy.ndarray'>
+[0.42666924]
+<class 'numpy.ndarray'>
+[0.26314637]
+<class 'numpy.ndarray'>
+[0.1902518]
+<class 'numpy.ndarray'>
+[0.34623247]
+<class 'numpy.ndarray'>
+[0.00671306]
+<class 'numpy.ndarray'>
+[0.6524593]
+<class 'numpy.ndarray'>
+[0.20268522]
+<class 'numpy.ndarray'>
+[2.1320619e-05]
+<class 'numpy.ndarray'>
+[0.07132938]
+<class 'numpy.ndarray'>
+[0.0354366]
+<class 'numpy.ndarray'>
+[0.00331859]
+<class 'numpy.ndarray'>
+[0.15327281]
+<class 'numpy.ndarray'>
+[0.3974972]
+<class 'numpy.ndarray'>
+[0.06693458]
+<class 'numpy.ndarray'>
+[0.4399624]
+<class 'numpy.ndarray'>
+[0.6931547]
+<class 'numpy.ndarray'>
+[0.60814303]
+<class 'numpy.ndarray'>
+[0.4637417]
+<class 'numpy.ndarray'>
+[0.37180117]
+<class 'numpy.ndarray'>
+[0.08025697]
+<class 'numpy.ndarray'>
+[0.6984987]
+<class 'numpy.ndarray'>
+[0.62398523]
+<class 'numpy.ndarray'>
+[0.23540874]
+<class 'numpy.ndarray'>
+[0.10684653]
+<class 'numpy.ndarray'>
+[0.00925822]
+<class 'numpy.ndarray'>
+[0.00780437]
+<class 'numpy.ndarray'>
+[0.04717369]
+<class 'numpy.ndarray'>
+[0.02352968]
+<class 'numpy.ndarray'>
+[0.59767914]
+<class 'numpy.ndarray'>
+[0.2761899]
+<class 'numpy.ndarray'>
+[0.06881206]
+<class 'numpy.ndarray'>
+[0.4504906]
+<class 'numpy.ndarray'>
+[0.34780118]
+<class 'numpy.ndarray'>
+[0.0349147]
+<class 'numpy.ndarray'>
+[0.47218716]
+<class 'numpy.ndarray'>
+[0.12288194]
+<class 'numpy.ndarray'>
+[0.03474446]
+<class 'numpy.ndarray'>
+[0.1922975]
+<class 'numpy.ndarray'>
+[0.23587628]
+<class 'numpy.ndarray'>
+[0.16626121]
+<class 'numpy.ndarray'>
+[0.00370913]
+<class 'numpy.ndarray'>
+[0.16499083]
+<class 'numpy.ndarray'>
+[0.01072017]
+<class 'numpy.ndarray'>
+[0.02979109]
+<class 'numpy.ndarray'>
+[0.25401592]
+<class 'numpy.ndarray'>
+[0.11303584]
+<class 'numpy.ndarray'>
+[0.0005862]
+<class 'numpy.ndarray'>
+[0.22244439]
+<class 'numpy.ndarray'>
+[0.28480873]
+<class 'numpy.ndarray'>
+[0.42236355]
+<class 'numpy.ndarray'>
+[0.25633228]
+<class 'numpy.ndarray'>
+[0.01534033]
+<class 'numpy.ndarray'>
+[0.28790292]
+<class 'numpy.ndarray'>
+[0.7246596]
+<class 'numpy.ndarray'>
+[0.6348967]
+<class 'numpy.ndarray'>
+[0.02350778]
+<class 'numpy.ndarray'>
+[0.08446153]
+<class 'numpy.ndarray'>
+[0.00082079]
+<class 'numpy.ndarray'>
+[0.04008565]
+<class 'numpy.ndarray'>
+[0.64417356]
+<class 'numpy.ndarray'>
+[0.19359756]
+<class 'numpy.ndarray'>
+[0.17611645]
+<class 'numpy.ndarray'>
+[0.17382014]
+<class 'numpy.ndarray'>
+[0.22735749]
+<class 'numpy.ndarray'>
+[0.18354362]
+<class 'numpy.ndarray'>
+[0.26442525]
+<class 'numpy.ndarray'>
+[0.10985863]
+<class 'numpy.ndarray'>
+[0.37599725]
+<class 'numpy.ndarray'>
+[0.41857713]
+<class 'numpy.ndarray'>
+[0.47062686]
+<class 'numpy.ndarray'>
+[0.1387033]
+<class 'numpy.ndarray'>
+[0.1040132]
+<class 'numpy.ndarray'>
+[0.29221833]
+<class 'numpy.ndarray'>
+[0.10420834]
+<class 'numpy.ndarray'>
+[0.00934032]
+<class 'numpy.ndarray'>
+[0.09373226]
+<class 'numpy.ndarray'>
+[0.03593767]
+<class 'numpy.ndarray'>
+[0.39073294]
+<class 'numpy.ndarray'>
+[0.0007613]
+<class 'numpy.ndarray'>
+[0.02973972]
+<class 'numpy.ndarray'>
+[0.6501298]
+<class 'numpy.ndarray'>
+[0.75143087]
+<class 'numpy.ndarray'>
+[5.4406896e-06]
+<class 'numpy.ndarray'>
+[0.3021453]
+<class 'numpy.ndarray'>
+[0.00033128]
+<class 'numpy.ndarray'>
+[0.25126725]
+<class 'numpy.ndarray'>
+[4.2701715e-05]
+<class 'numpy.ndarray'>
+[0.59269625]
+<class 'numpy.ndarray'>
+[0.3237142]
+<class 'numpy.ndarray'>
+[0.00314355]
+<class 'numpy.ndarray'>
+[0.02163445]
+<class 'numpy.ndarray'>
+[0.05479026]
+<class 'numpy.ndarray'>
+[0.00086524]
+<class 'numpy.ndarray'>
+[0.01884151]
+<class 'numpy.ndarray'>
+[0.12895384]
+<class 'numpy.ndarray'>
+[0.35910603]
+<class 'numpy.ndarray'>
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 977/977 [00:04<00:00, 205.70it/s]
+  9%|████████████▏                                                                                                                             | 6/68 [00:01<00:13,  4.72it/s]
+<class 'numpy.ndarray'>
+[0.28074208]
+<class 'numpy.ndarray'>
+[0.21048598]
+<class 'numpy.ndarray'>
+[0.22949539]
+<class 'numpy.ndarray'>
+[0.6430497]
+<class 'numpy.ndarray'>
+[0.11262335]
+<class 'numpy.ndarray'>
+[0.01089242]
+<class 'numpy.ndarray'>
+[0.09002519]
+<class 'numpy.ndarray'>
+[0.09803437]
+<class 'numpy.ndarray'>
+[0.08632001]
+<class 'numpy.ndarray'>
+[0.25126952]
+<class 'numpy.ndarray'>
+[0.12411116]
+<class 'numpy.ndarray'>
+[0.06203564]
+<class 'numpy.ndarray'>
+[0.50838983]
+<class 'numpy.ndarray'>
+[0.3319049]
+<class 'numpy.ndarray'>
+[1.0006208e-05]
+<class 'numpy.ndarray'>
+[0.01987954]
+<class 'numpy.ndarray'>
+[0.01947748]
+<class 'numpy.ndarray'>
+[0.06810524]
+<class 'numpy.ndarray'>
+[0.01758118]
+<class 'numpy.ndarray'>
+[0.00019248]
+<class 'numpy.ndarray'>
+[0.34416917]
+<class 'numpy.ndarray'>
+[0.00202313]
+Accuracy:  0.6519959058341863
+Precision:  0.8333333333333334
+Recall:  0.06944444444444445
+F1:  0.12820512820512822
+AUC:  0.8028227984873042
+loss:  tensor(0.4423, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5867, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3280, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3438, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4161, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3532, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4055, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 21%|████████████████████████████▏                                                                                                            | 14/68 [00:03<00:12,  4.38it/s]
+loss:  tensor(0.3600, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3206, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2732, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3432, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.7073, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3656, device='cuda:0', grad_fn=<NllLossBackward0>)
+ 22%|██████████████████████████████▏                                                                                                          | 15/68 [00:03<00:12,  4.22it/s]
+Traceback (most recent call last):
+  File "train_MHIST.py", line 214, in <module>
+    train(train_data, test_data, model_backbone, max_epoch)
+  File "train_MHIST.py", line 137, in train
+    for images, labels, index in tqdm(DataLoader(train_data, batch_size=batch_size, shuffle=True)):
+  File "/home/zhli/.local/lib/python3.8/site-packages/tqdm/std.py", line 1195, in __iter__
+    for obj in iterable:
+  File "/opt/anaconda/envs/dassl/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 681, in __next__
+    data = self._next_data()
+  File "/opt/anaconda/envs/dassl/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 721, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/opt/anaconda/envs/dassl/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+    return self.collate_fn(data)
+  File "/opt/anaconda/envs/dassl/lib/python3.8/site-packages/torch/utils/data/_utils/collate.py", line 175, in default_collate
+    return [default_collate(samples) for samples in transposed]  # Backwards compatibility.
+  File "/opt/anaconda/envs/dassl/lib/python3.8/site-packages/torch/utils/data/_utils/collate.py", line 175, in <listcomp>
+    return [default_collate(samples) for samples in transposed]  # Backwards compatibility.
+  File "/opt/anaconda/envs/dassl/lib/python3.8/site-packages/torch/utils/data/_utils/collate.py", line 141, in default_collate
+    return torch.stack(batch, 0, out=out)
+KeyboardInterrupt

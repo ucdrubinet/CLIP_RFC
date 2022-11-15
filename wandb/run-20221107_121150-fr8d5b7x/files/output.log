@@ -1,0 +1,86 @@
+
+  7%|██████████▏                                                                                                                               | 5/68 [00:01<00:15,  4.03it/s]
+loss:  tensor(0.7590, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5970, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.7841, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(1.3052, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.8654, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(1.7442, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 21%|████████████████████████████▏                                                                                                            | 14/68 [00:03<00:11,  4.52it/s]
+loss:  tensor(0.8757, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3447, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(1.3535, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(1.0610, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6805, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6221, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6158, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4738, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 34%|██████████████████████████████████████████████▎                                                                                          | 23/68 [00:05<00:10,  4.12it/s]
+loss:  tensor(0.5908, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5398, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5957, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6054, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5941, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5207, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5274, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5249, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 47%|████████████████████████████████████████████████████████████████▍                                                                        | 32/68 [00:07<00:08,  4.17it/s]
+loss:  tensor(0.4896, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5326, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5204, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5345, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5848, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4771, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4977, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 60%|██████████████████████████████████████████████████████████████████████████████████▌                                                      | 41/68 [00:09<00:05,  4.54it/s]
+loss:  tensor(0.5557, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4055, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5955, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3671, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4246, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.8004, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3909, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4787, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6481, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 74%|████████████████████████████████████████████████████████████████████████████████████████████████████▋                                    | 50/68 [00:11<00:03,  4.66it/s]
+loss:  tensor(0.3584, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5246, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5282, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4866, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4779, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5020, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4992, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4564, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 87%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                  | 59/68 [00:13<00:01,  4.61it/s]
+loss:  tensor(0.4385, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4987, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4054, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5621, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3412, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4087, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5471, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6088, device='cuda:0', grad_fn=<NllLossBackward0>)
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 68/68 [00:15<00:00,  4.41it/s]
+  0%|▎                                                                                                                                        | 2/977 [00:00<00:17, 55.33it/s]
+Traceback (most recent call last):
+  File "train_MHIST.py", line 209, in <module>
+    train(train_data, test_data, model_backbone, max_epoch)
+  File "train_MHIST.py", line 179, in train
+    preds.extend(index_.cpu().numpy())
+RuntimeError: CUDA error: device-side assert triggered
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+loss:  tensor(0.3818, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.7328, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5667, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4504, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3127, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3788, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3229, device='cuda:0', grad_fn=<NllLossBackward0>)
+Training loss: 0.01829358960020131, accuracy: 0.7222988505747127

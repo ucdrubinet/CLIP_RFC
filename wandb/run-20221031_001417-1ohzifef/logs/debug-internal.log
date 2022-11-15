@@ -1,0 +1,161 @@
+2022-10-31 00:14:17,707 INFO    StreamThr :2862215 [internal.py:wandb_internal():90] W&B internal server running at pid: 2862215, started at: 2022-10-31 00:14:17.706068
+2022-10-31 00:14:17,710 DEBUG   HandlerThread:2862215 [handler.py:handle_request():141] handle_request: status
+2022-10-31 00:14:17,713 DEBUG   SenderThread:2862215 [sender.py:send_request():316] send_request: status
+2022-10-31 00:14:17,716 DEBUG   SenderThread:2862215 [sender.py:send():302] send: header
+2022-10-31 00:14:17,716 INFO    WriterThread:2862215 [datastore.py:open_for_write():75] open: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221031_001417-1ohzifef/run-1ohzifef.wandb
+2022-10-31 00:14:17,724 DEBUG   SenderThread:2862215 [sender.py:send():302] send: run
+2022-10-31 00:14:18,015 DEBUG   HandlerThread:2862215 [handler.py:handle_request():141] handle_request: check_version
+2022-10-31 00:14:18,021 INFO    SenderThread:2862215 [dir_watcher.py:__init__():216] watching files in: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221031_001417-1ohzifef/files
+2022-10-31 00:14:18,021 INFO    SenderThread:2862215 [sender.py:_start_run_threads():913] run started: 1ohzifef with start time 1667200457.698293
+2022-10-31 00:14:18,021 DEBUG   SenderThread:2862215 [sender.py:send():302] send: summary
+2022-10-31 00:14:18,022 INFO    SenderThread:2862215 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-10-31 00:14:18,022 DEBUG   SenderThread:2862215 [sender.py:send_request():316] send_request: check_version
+2022-10-31 00:14:18,115 DEBUG   HandlerThread:2862215 [handler.py:handle_request():141] handle_request: run_start
+2022-10-31 00:14:18,122 DEBUG   HandlerThread:2862215 [meta.py:__init__():35] meta init
+2022-10-31 00:14:18,123 DEBUG   HandlerThread:2862215 [meta.py:__init__():50] meta init done
+2022-10-31 00:14:18,123 DEBUG   HandlerThread:2862215 [meta.py:probe():216] probe
+2022-10-31 00:14:18,130 DEBUG   HandlerThread:2862215 [meta.py:_setup_git():206] setup git
+2022-10-31 00:14:18,154 DEBUG   HandlerThread:2862215 [meta.py:_setup_git():213] setup git done
+2022-10-31 00:14:18,154 DEBUG   HandlerThread:2862215 [meta.py:_save_pip():54] save pip
+2022-10-31 00:14:18,155 DEBUG   HandlerThread:2862215 [meta.py:_save_pip():68] save pip done
+2022-10-31 00:14:18,155 DEBUG   HandlerThread:2862215 [meta.py:_save_conda():75] save conda
+2022-10-31 00:14:19,025 INFO    Thread-12 :2862215 [dir_watcher.py:_on_file_created():275] file/dir created: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221031_001417-1ohzifef/files/requirements.txt
+2022-10-31 00:14:19,026 INFO    Thread-12 :2862215 [dir_watcher.py:_on_file_created():275] file/dir created: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221031_001417-1ohzifef/files/conda-environment.yaml
+2022-10-31 00:14:19,026 INFO    Thread-12 :2862215 [dir_watcher.py:_on_file_created():275] file/dir created: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221031_001417-1ohzifef/files/wandb-summary.json
+2022-10-31 00:14:19,763 DEBUG   HandlerThread:2862215 [meta.py:_save_conda():85] save conda done
+2022-10-31 00:14:19,763 DEBUG   HandlerThread:2862215 [meta.py:probe():254] probe done
+2022-10-31 00:14:19,787 DEBUG   SenderThread:2862215 [sender.py:send():302] send: files
+2022-10-31 00:14:19,788 INFO    SenderThread:2862215 [sender.py:_save_file():1156] saving file wandb-metadata.json with policy now
+2022-10-31 00:14:19,797 DEBUG   HandlerThread:2862215 [handler.py:handle_request():141] handle_request: stop_status
+2022-10-31 00:14:19,799 DEBUG   SenderThread:2862215 [sender.py:send_request():316] send_request: stop_status
+2022-10-31 00:14:19,806 DEBUG   HandlerThread:2862215 [handler.py:handle_request():141] handle_request: poll_exit
+2022-10-31 00:14:19,892 DEBUG   SenderThread:2862215 [sender.py:send():302] send: telemetry
+2022-10-31 00:14:19,892 DEBUG   SenderThread:2862215 [sender.py:send():302] send: config
+2022-10-31 00:14:19,895 DEBUG   SenderThread:2862215 [sender.py:send():302] send: exit
+2022-10-31 00:14:19,895 INFO    SenderThread:2862215 [sender.py:send_exit():438] handling exit code: 1
+2022-10-31 00:14:19,896 INFO    SenderThread:2862215 [sender.py:send_exit():440] handling runtime: 1
+2022-10-31 00:14:19,896 INFO    SenderThread:2862215 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-10-31 00:14:19,896 INFO    SenderThread:2862215 [sender.py:send_exit():446] send defer
+2022-10-31 00:14:19,896 DEBUG   SenderThread:2862215 [sender.py:send_request():316] send_request: poll_exit
+2022-10-31 00:14:19,897 DEBUG   HandlerThread:2862215 [handler.py:handle_request():141] handle_request: defer
+2022-10-31 00:14:19,897 INFO    HandlerThread:2862215 [handler.py:handle_request_defer():164] handle defer: 0
+2022-10-31 00:14:19,898 DEBUG   SenderThread:2862215 [sender.py:send_request():316] send_request: defer
+2022-10-31 00:14:19,898 INFO    SenderThread:2862215 [sender.py:send_request_defer():455] handle sender defer: 0
+2022-10-31 00:14:19,898 INFO    SenderThread:2862215 [sender.py:transition_state():459] send defer: 1
+2022-10-31 00:14:19,899 DEBUG   HandlerThread:2862215 [handler.py:handle_request():141] handle_request: defer
+2022-10-31 00:14:19,899 INFO    HandlerThread:2862215 [handler.py:handle_request_defer():164] handle defer: 1
+2022-10-31 00:14:19,954 DEBUG   SenderThread:2862215 [sender.py:send_request():316] send_request: defer
+2022-10-31 00:14:19,954 INFO    SenderThread:2862215 [sender.py:send_request_defer():455] handle sender defer: 1
+2022-10-31 00:14:19,954 INFO    SenderThread:2862215 [sender.py:transition_state():459] send defer: 2
+2022-10-31 00:14:19,955 DEBUG   SenderThread:2862215 [sender.py:send():302] send: stats
+2022-10-31 00:14:19,956 DEBUG   HandlerThread:2862215 [handler.py:handle_request():141] handle_request: defer
+2022-10-31 00:14:19,956 INFO    HandlerThread:2862215 [handler.py:handle_request_defer():164] handle defer: 2
+2022-10-31 00:14:19,956 DEBUG   SenderThread:2862215 [sender.py:send_request():316] send_request: defer
+2022-10-31 00:14:19,956 INFO    SenderThread:2862215 [sender.py:send_request_defer():455] handle sender defer: 2
+2022-10-31 00:14:19,957 INFO    SenderThread:2862215 [sender.py:transition_state():459] send defer: 3
+2022-10-31 00:14:19,957 DEBUG   HandlerThread:2862215 [handler.py:handle_request():141] handle_request: defer
+2022-10-31 00:14:19,957 INFO    HandlerThread:2862215 [handler.py:handle_request_defer():164] handle defer: 3
+2022-10-31 00:14:19,957 DEBUG   SenderThread:2862215 [sender.py:send_request():316] send_request: defer
+2022-10-31 00:14:19,957 INFO    SenderThread:2862215 [sender.py:send_request_defer():455] handle sender defer: 3
+2022-10-31 00:14:19,957 INFO    SenderThread:2862215 [sender.py:transition_state():459] send defer: 4
+2022-10-31 00:14:19,958 DEBUG   HandlerThread:2862215 [handler.py:handle_request():141] handle_request: defer
+2022-10-31 00:14:19,958 INFO    HandlerThread:2862215 [handler.py:handle_request_defer():164] handle defer: 4
+2022-10-31 00:14:19,958 DEBUG   SenderThread:2862215 [sender.py:send():302] send: summary
+2022-10-31 00:14:19,958 INFO    SenderThread:2862215 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-10-31 00:14:19,959 DEBUG   SenderThread:2862215 [sender.py:send_request():316] send_request: defer
+2022-10-31 00:14:19,959 INFO    SenderThread:2862215 [sender.py:send_request_defer():455] handle sender defer: 4
+2022-10-31 00:14:19,959 INFO    SenderThread:2862215 [sender.py:transition_state():459] send defer: 5
+2022-10-31 00:14:19,959 DEBUG   HandlerThread:2862215 [handler.py:handle_request():141] handle_request: defer
+2022-10-31 00:14:19,959 INFO    HandlerThread:2862215 [handler.py:handle_request_defer():164] handle defer: 5
+2022-10-31 00:14:19,960 DEBUG   SenderThread:2862215 [sender.py:send_request():316] send_request: defer
+2022-10-31 00:14:19,960 INFO    SenderThread:2862215 [sender.py:send_request_defer():455] handle sender defer: 5
+2022-10-31 00:14:19,999 DEBUG   HandlerThread:2862215 [handler.py:handle_request():141] handle_request: poll_exit
+2022-10-31 00:14:20,022 INFO    Thread-12 :2862215 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221031_001417-1ohzifef/files/conda-environment.yaml
+2022-10-31 00:14:20,023 INFO    Thread-12 :2862215 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221031_001417-1ohzifef/files/wandb-summary.json
+2022-10-31 00:14:20,023 INFO    Thread-12 :2862215 [dir_watcher.py:_on_file_created():275] file/dir created: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221031_001417-1ohzifef/files/wandb-metadata.json
+2022-10-31 00:14:20,023 INFO    Thread-12 :2862215 [dir_watcher.py:_on_file_created():275] file/dir created: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221031_001417-1ohzifef/files/output.log
+2022-10-31 00:14:20,091 INFO    SenderThread:2862215 [sender.py:transition_state():459] send defer: 6
+2022-10-31 00:14:20,092 DEBUG   SenderThread:2862215 [sender.py:send_request():316] send_request: poll_exit
+2022-10-31 00:14:20,093 DEBUG   HandlerThread:2862215 [handler.py:handle_request():141] handle_request: defer
+2022-10-31 00:14:20,093 INFO    HandlerThread:2862215 [handler.py:handle_request_defer():164] handle defer: 6
+2022-10-31 00:14:20,094 DEBUG   SenderThread:2862215 [sender.py:send_request():316] send_request: defer
+2022-10-31 00:14:20,094 INFO    SenderThread:2862215 [sender.py:send_request_defer():455] handle sender defer: 6
+2022-10-31 00:14:20,195 DEBUG   HandlerThread:2862215 [handler.py:handle_request():141] handle_request: poll_exit
+2022-10-31 00:14:20,232 INFO    Thread-16 :2862215 [upload_job.py:push():138] Uploaded file /tmp/tmp1wgjye1uwandb/2nagol2o-wandb-metadata.json
+2022-10-31 00:14:21,023 INFO    Thread-12 :2862215 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221031_001417-1ohzifef/files/config.yaml
+2022-10-31 00:14:21,899 INFO    SenderThread:2862215 [sender.py:transition_state():459] send defer: 7
+2022-10-31 00:14:21,899 DEBUG   SenderThread:2862215 [sender.py:send_request():316] send_request: poll_exit
+2022-10-31 00:14:21,900 DEBUG   HandlerThread:2862215 [handler.py:handle_request():141] handle_request: defer
+2022-10-31 00:14:21,900 INFO    HandlerThread:2862215 [handler.py:handle_request_defer():164] handle defer: 7
+2022-10-31 00:14:21,901 DEBUG   SenderThread:2862215 [sender.py:send_request():316] send_request: defer
+2022-10-31 00:14:21,901 INFO    SenderThread:2862215 [sender.py:send_request_defer():455] handle sender defer: 7
+2022-10-31 00:14:21,901 INFO    SenderThread:2862215 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-10-31 00:14:22,002 DEBUG   HandlerThread:2862215 [handler.py:handle_request():141] handle_request: poll_exit
+2022-10-31 00:14:22,024 INFO    Thread-12 :2862215 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221031_001417-1ohzifef/files/output.log
+2022-10-31 00:14:22,024 INFO    SenderThread:2862215 [dir_watcher.py:finish():392] scan: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221031_001417-1ohzifef/files
+2022-10-31 00:14:22,025 INFO    SenderThread:2862215 [dir_watcher.py:finish():406] scan save: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221031_001417-1ohzifef/files/output.log output.log
+2022-10-31 00:14:22,025 INFO    SenderThread:2862215 [dir_watcher.py:finish():406] scan save: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221031_001417-1ohzifef/files/config.yaml config.yaml
+2022-10-31 00:14:22,031 INFO    SenderThread:2862215 [dir_watcher.py:finish():406] scan save: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221031_001417-1ohzifef/files/requirements.txt requirements.txt
+2022-10-31 00:14:22,036 INFO    SenderThread:2862215 [dir_watcher.py:finish():406] scan save: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221031_001417-1ohzifef/files/wandb-summary.json wandb-summary.json
+2022-10-31 00:14:22,037 INFO    SenderThread:2862215 [dir_watcher.py:finish():406] scan save: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221031_001417-1ohzifef/files/wandb-metadata.json wandb-metadata.json
+2022-10-31 00:14:22,037 INFO    SenderThread:2862215 [dir_watcher.py:finish():406] scan save: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221031_001417-1ohzifef/files/conda-environment.yaml conda-environment.yaml
+2022-10-31 00:14:22,050 INFO    SenderThread:2862215 [sender.py:transition_state():459] send defer: 8
+2022-10-31 00:14:22,050 DEBUG   SenderThread:2862215 [sender.py:send_request():316] send_request: poll_exit
+2022-10-31 00:14:22,057 DEBUG   HandlerThread:2862215 [handler.py:handle_request():141] handle_request: defer
+2022-10-31 00:14:22,058 INFO    HandlerThread:2862215 [handler.py:handle_request_defer():164] handle defer: 8
+2022-10-31 00:14:22,059 DEBUG   SenderThread:2862215 [sender.py:send_request():316] send_request: defer
+2022-10-31 00:14:22,059 INFO    SenderThread:2862215 [sender.py:send_request_defer():455] handle sender defer: 8
+2022-10-31 00:14:22,059 INFO    SenderThread:2862215 [file_pusher.py:finish():171] shutting down file pusher
+2022-10-31 00:14:22,178 DEBUG   HandlerThread:2862215 [handler.py:handle_request():141] handle_request: poll_exit
+2022-10-31 00:14:22,182 DEBUG   SenderThread:2862215 [sender.py:send_request():316] send_request: poll_exit
+2022-10-31 00:14:22,286 DEBUG   HandlerThread:2862215 [handler.py:handle_request():141] handle_request: poll_exit
+2022-10-31 00:14:22,287 DEBUG   SenderThread:2862215 [sender.py:send_request():316] send_request: poll_exit
+2022-10-31 00:14:22,389 DEBUG   HandlerThread:2862215 [handler.py:handle_request():141] handle_request: poll_exit
+2022-10-31 00:14:22,389 DEBUG   SenderThread:2862215 [sender.py:send_request():316] send_request: poll_exit
+2022-10-31 00:14:22,482 INFO    Thread-19 :2862215 [upload_job.py:push():138] Uploaded file /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221031_001417-1ohzifef/files/requirements.txt
+2022-10-31 00:14:22,491 DEBUG   HandlerThread:2862215 [handler.py:handle_request():141] handle_request: poll_exit
+2022-10-31 00:14:22,491 DEBUG   SenderThread:2862215 [sender.py:send_request():316] send_request: poll_exit
+2022-10-31 00:14:22,495 INFO    Thread-20 :2862215 [upload_job.py:push():138] Uploaded file /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221031_001417-1ohzifef/files/wandb-summary.json
+2022-10-31 00:14:22,498 INFO    Thread-17 :2862215 [upload_job.py:push():138] Uploaded file /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221031_001417-1ohzifef/files/output.log
+2022-10-31 00:14:22,530 INFO    Thread-18 :2862215 [upload_job.py:push():138] Uploaded file /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221031_001417-1ohzifef/files/config.yaml
+2022-10-31 00:14:22,600 DEBUG   HandlerThread:2862215 [handler.py:handle_request():141] handle_request: poll_exit
+2022-10-31 00:14:22,600 DEBUG   SenderThread:2862215 [sender.py:send_request():316] send_request: poll_exit
+2022-10-31 00:14:22,676 INFO    Thread-21 :2862215 [upload_job.py:push():138] Uploaded file /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221031_001417-1ohzifef/files/conda-environment.yaml
+2022-10-31 00:14:22,702 DEBUG   HandlerThread:2862215 [handler.py:handle_request():141] handle_request: poll_exit
+2022-10-31 00:14:22,702 DEBUG   SenderThread:2862215 [sender.py:send_request():316] send_request: poll_exit
+2022-10-31 00:14:22,804 DEBUG   HandlerThread:2862215 [handler.py:handle_request():141] handle_request: poll_exit
+2022-10-31 00:14:22,805 DEBUG   SenderThread:2862215 [sender.py:send_request():316] send_request: poll_exit
+2022-10-31 00:14:22,877 INFO    Thread-11 :2862215 [sender.py:transition_state():459] send defer: 9
+2022-10-31 00:14:22,878 DEBUG   HandlerThread:2862215 [handler.py:handle_request():141] handle_request: defer
+2022-10-31 00:14:22,878 INFO    HandlerThread:2862215 [handler.py:handle_request_defer():164] handle defer: 9
+2022-10-31 00:14:22,878 DEBUG   SenderThread:2862215 [sender.py:send_request():316] send_request: defer
+2022-10-31 00:14:22,879 INFO    SenderThread:2862215 [sender.py:send_request_defer():455] handle sender defer: 9
+2022-10-31 00:14:22,906 DEBUG   HandlerThread:2862215 [handler.py:handle_request():141] handle_request: poll_exit
+2022-10-31 00:14:22,957 INFO    SenderThread:2862215 [sender.py:transition_state():459] send defer: 10
+2022-10-31 00:14:22,958 DEBUG   SenderThread:2862215 [sender.py:send_request():316] send_request: poll_exit
+2022-10-31 00:14:22,959 DEBUG   HandlerThread:2862215 [handler.py:handle_request():141] handle_request: defer
+2022-10-31 00:14:22,959 INFO    HandlerThread:2862215 [handler.py:handle_request_defer():164] handle defer: 10
+2022-10-31 00:14:22,960 DEBUG   SenderThread:2862215 [sender.py:send_request():316] send_request: defer
+2022-10-31 00:14:22,960 INFO    SenderThread:2862215 [sender.py:send_request_defer():455] handle sender defer: 10
+2022-10-31 00:14:22,960 INFO    SenderThread:2862215 [sender.py:transition_state():459] send defer: 11
+2022-10-31 00:14:22,961 DEBUG   SenderThread:2862215 [sender.py:send():302] send: final
+2022-10-31 00:14:22,962 DEBUG   HandlerThread:2862215 [handler.py:handle_request():141] handle_request: defer
+2022-10-31 00:14:22,962 DEBUG   SenderThread:2862215 [sender.py:send():302] send: footer
+2022-10-31 00:14:22,962 INFO    HandlerThread:2862215 [handler.py:handle_request_defer():164] handle defer: 11
+2022-10-31 00:14:22,962 DEBUG   SenderThread:2862215 [sender.py:send_request():316] send_request: defer
+2022-10-31 00:14:22,962 INFO    SenderThread:2862215 [sender.py:send_request_defer():455] handle sender defer: 11
+2022-10-31 00:14:23,061 DEBUG   HandlerThread:2862215 [handler.py:handle_request():141] handle_request: poll_exit
+2022-10-31 00:14:23,061 DEBUG   SenderThread:2862215 [sender.py:send_request():316] send_request: poll_exit
+2022-10-31 00:14:23,061 INFO    SenderThread:2862215 [file_pusher.py:join():176] waiting for file pusher
+2022-10-31 00:14:23,343 DEBUG   HandlerThread:2862215 [handler.py:handle_request():141] handle_request: sampled_history
+2022-10-31 00:14:23,344 DEBUG   HandlerThread:2862215 [handler.py:handle_request():141] handle_request: get_summary
+2022-10-31 00:14:23,345 INFO    MainThread:2862215 [wandb_run.py:_footer_history_summary_info():3305] rendering history
+2022-10-31 00:14:23,345 INFO    MainThread:2862215 [wandb_run.py:_footer_history_summary_info():3337] rendering summary
+2022-10-31 00:14:23,345 INFO    MainThread:2862215 [wandb_run.py:_footer_sync_info():3261] logging synced files
+2022-10-31 00:14:23,346 DEBUG   HandlerThread:2862215 [handler.py:handle_request():141] handle_request: shutdown
+2022-10-31 00:14:23,346 INFO    HandlerThread:2862215 [handler.py:finish():810] shutting down handler
+2022-10-31 00:14:23,962 INFO    WriterThread:2862215 [datastore.py:close():279] close: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221031_001417-1ohzifef/run-1ohzifef.wandb
+2022-10-31 00:14:24,241 INFO    SenderThread:2862215 [sender.py:finish():1312] shutting down sender
+2022-10-31 00:14:24,241 INFO    SenderThread:2862215 [file_pusher.py:finish():171] shutting down file pusher
+2022-10-31 00:14:24,241 INFO    SenderThread:2862215 [file_pusher.py:join():176] waiting for file pusher
+2022-10-31 00:14:24,350 INFO    MainThread:2862215 [internal.py:handle_exit():80] Internal process exited

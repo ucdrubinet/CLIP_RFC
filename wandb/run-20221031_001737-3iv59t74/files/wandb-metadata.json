@@ -1,0 +1,24 @@
+{
+    "os": "Linux-5.8.0-36-generic-x86_64-with-glibc2.17",
+    "python": "3.8.13",
+    "heartbeatAt": "2022-10-31T07:17:37.932009",
+    "startedAt": "2022-10-31T07:17:37.549824",
+    "docker": null,
+    "gpu": "GeForce RTX 2080 Ti",
+    "gpu_count": 2,
+    "cpu_count": 28,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "train_rn18_base.py",
+    "codePath": "train_rn18_base.py",
+    "git": {
+        "remote": "https://github.com/Andy-LZH/Pcam_Experiment.git",
+        "commit": "3bcdcb3560bb3c8f39e966c9cf33ffe552a0acb9"
+    },
+    "email": "cynayd@gmail.com",
+    "root": "/home/zhli/Current-Work/Pcam_Experiment",
+    "host": "hades",
+    "username": "zhli",
+    "executable": "/opt/anaconda/envs/dassl/bin/python"
+}

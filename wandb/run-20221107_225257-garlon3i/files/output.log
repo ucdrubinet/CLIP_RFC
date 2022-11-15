@@ -1,0 +1,85 @@
+
+  7%|██████████▏                                                                                                                               | 5/68 [00:01<00:15,  4.06it/s]
+loss:  tensor(0.7307, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.7259, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(1.1821, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(1.0527, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.8849, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6781, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 21%|████████████████████████████▏                                                                                                            | 14/68 [00:03<00:13,  3.94it/s]
+loss:  tensor(0.6814, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3325, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.9670, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.7874, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5382, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6803, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5415, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 32%|████████████████████████████████████████████▎                                                                                            | 22/68 [00:05<00:10,  4.19it/s]
+loss:  tensor(0.6492, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5221, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5422, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5343, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6447, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5250, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4410, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5513, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 46%|██████████████████████████████████████████████████████████████▍                                                                          | 31/68 [00:07<00:08,  4.53it/s]
+loss:  tensor(0.5945, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4472, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6920, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5897, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5458, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5178, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5723, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5016, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 59%|████████████████████████████████████████████████████████████████████████████████▌                                                        | 40/68 [00:09<00:06,  4.56it/s]
+loss:  tensor(0.5681, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4319, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4887, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4669, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4513, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.7861, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3657, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4746, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 72%|██████████████████████████████████████████████████████████████████████████████████████████████████▋                                      | 49/68 [00:11<00:04,  4.53it/s]
+loss:  tensor(0.4718, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3836, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5157, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4560, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5507, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5147, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5200, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3891, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 85%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                    | 58/68 [00:13<00:02,  4.58it/s]
+loss:  tensor(0.4804, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4449, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5516, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3584, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4459, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4801, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3168, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5407, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 99%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉  | 67/68 [00:15<00:00,  4.55it/s]
+loss:  tensor(0.4536, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4287, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6978, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5155, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3968, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4135, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3949, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3905, device='cuda:0', grad_fn=<NllLossBackward0>)
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 68/68 [00:15<00:00,  4.35it/s]
+  0%|                                                                                                                                                 | 0/977 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "train_MHIST.py", line 223, in <module>
+    train(train_data, test_data, model_backbone, max_epoch)
+  File "train_MHIST.py", line 186, in train
+    scores.extend((prob[:, label]).item())
+TypeError: 'float' object is not iterable

@@ -1,0 +1,88 @@
+
+  7%|███████████▍                                                                                                                                               | 5/68 [00:01<00:15,  4.04it/s]
+loss:  tensor(0.7095, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6307, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(1.2724, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(1.0261, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(1.2715, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.7341, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 21%|███████████████████████████████▋                                                                                                                          | 14/68 [00:03<00:12,  4.29it/s]
+loss:  tensor(0.7975, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3670, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(1.0751, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.8392, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5770, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5405, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6457, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5177, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 34%|████████████████████████████████████████████████████                                                                                                      | 23/68 [00:05<00:09,  4.51it/s]
+loss:  tensor(0.5632, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6251, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6076, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5229, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5017, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4478, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5482, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4585, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 46%|██████████████████████████████████████████████████████████████████████▏                                                                                   | 31/68 [00:07<00:08,  4.23it/s]
+loss:  tensor(0.4243, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5802, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5435, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5673, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4560, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4374, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4408, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 60%|████████████████████████████████████████████████████████████████████████████████████████████▊                                                             | 41/68 [00:09<00:05,  4.56it/s]
+loss:  tensor(0.4800, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4490, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5430, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5101, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4147, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.8257, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4155, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3742, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5031, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 72%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████▉                                           | 49/68 [00:11<00:04,  4.18it/s]
+loss:  tensor(0.3976, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5152, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5616, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6038, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4397, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5161, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5331, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 87%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                    | 59/68 [00:13<00:01,  4.60it/s]
+loss:  tensor(0.4953, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4739, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4747, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4355, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4549, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4230, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3440, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5087, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5699, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋  | 67/68 [00:15<00:00,  4.29it/s]
+loss:  tensor(0.4424, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6468, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5091, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2886, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3275, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4003, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4101, device='cuda:0', grad_fn=<NllLossBackward0>)
+Training loss: 0.017521071899896382, accuracy: 0.7245977011494252
+score:  [[0.10689481]]
+score:  [[0.01824539]]
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 68/68 [00:15<00:00,  4.36it/s]
+  0%|▎                                                                                                                                                         | 2/977 [00:00<00:11, 81.71it/s]
+Traceback (most recent call last):
+  File "train_MHIST.py", line 213, in <module>
+    train(train_data, test_data, model_backbone, max_epoch)
+  File "train_MHIST.py", line 182, in train
+    scores.extend(prob[0][label])
+IndexError: index 1 is out of bounds for axis 0 with size 1

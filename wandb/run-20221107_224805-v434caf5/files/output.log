@@ -1,0 +1,327 @@
+
+  7%|██████████▏                                                                                                                               | 5/68 [00:01<00:15,  4.01it/s]
+loss:  tensor(0.7412, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6164, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(1.5357, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.9846, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6854, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5800, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 19%|██████████████████████████▏                                                                                                              | 13/68 [00:03<00:13,  4.02it/s]
+loss:  tensor(0.4331, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6307, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(1.5658, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(1.2736, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4836, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6241, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6742, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 32%|████████████████████████████████████████████▎                                                                                            | 22/68 [00:05<00:10,  4.51it/s]
+loss:  tensor(0.6329, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6476, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6681, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5012, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6633, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5706, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5100, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5093, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 46%|██████████████████████████████████████████████████████████████▍                                                                          | 31/68 [00:07<00:08,  4.54it/s]
+loss:  tensor(0.5756, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4606, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6210, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5368, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6065, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6413, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4646, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4783, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 59%|████████████████████████████████████████████████████████████████████████████████▌                                                        | 40/68 [00:09<00:06,  4.45it/s]
+loss:  tensor(0.7575, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4737, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4551, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4233, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5009, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.7353, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3535, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4953, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 72%|██████████████████████████████████████████████████████████████████████████████████████████████████▋                                      | 49/68 [00:11<00:04,  4.62it/s]
+loss:  tensor(0.5099, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4405, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5067, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5040, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4825, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5623, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5126, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4956, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 85%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                    | 58/68 [00:13<00:02,  4.61it/s]
+loss:  tensor(0.4418, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4600, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4416, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3485, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5020, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4622, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2975, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5025, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 99%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉  | 67/68 [00:15<00:00,  4.54it/s]
+loss:  tensor(0.4590, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4086, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6123, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4249, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3791, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2885, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3757, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3765, device='cuda:0', grad_fn=<NllLossBackward0>)
+Training loss: 0.018002503507438747, accuracy: 0.7144827586206897
+tensor([[0.3621, 0.6379]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.3621028]]
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 68/68 [00:15<00:00,  4.36it/s]
+  0%|▏                                                                                                                                        | 1/977 [00:01<16:28,  1.01s/it]
+tensor([[0.1391, 0.8609]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.1391337]]
+[array([0.3621028], dtype=float32), array([0.1391337], dtype=float32)]
+tensor([[0.4308, 0.5692]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [1]
+[[0.56918275]]
+
+  0%|▍                                                                                                                                        | 3/977 [00:03<16:32,  1.02s/it]
+tensor([[0.5279, 0.4721]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.52785975]]
+[array([0.3621028], dtype=float32), array([0.1391337], dtype=float32), array([0.56918275], dtype=float32), array([0.52785975], dtype=float32)]
+tensor([[0.6500, 0.3500]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.64997226]]
+
+  1%|▋                                                                                                                                        | 5/977 [00:05<16:30,  1.02s/it]
+tensor([[0.0151, 0.9849]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.01510405]]
+[array([0.3621028], dtype=float32), array([0.1391337], dtype=float32), array([0.56918275], dtype=float32), array([0.52785975], dtype=float32), array([0.64997226], dtype=float32), array([0.01510405], dtype=float32)]
+tensor([[9.9982e-01, 1.8483e-04]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.99981517]]
+
+  1%|▉                                                                                                                                        | 7/977 [00:07<16:28,  1.02s/it]
+tensor([[0.4359, 0.5641]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.4359357]]
+[array([0.3621028], dtype=float32), array([0.1391337], dtype=float32), array([0.56918275], dtype=float32), array([0.52785975], dtype=float32), array([0.64997226], dtype=float32), array([0.01510405], dtype=float32), array([0.99981517], dtype=float32), array([0.4359357], dtype=float32)]
+tensor([[0.4306, 0.5694]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.43061674]]
+
+  1%|█▎                                                                                                                                       | 9/977 [00:09<16:27,  1.02s/it]
+tensor([[0.2137, 0.7863]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.21365005]]
+[array([0.3621028], dtype=float32), array([0.1391337], dtype=float32), array([0.56918275], dtype=float32), array([0.52785975], dtype=float32), array([0.64997226], dtype=float32), array([0.01510405], dtype=float32), array([0.99981517], dtype=float32), array([0.4359357], dtype=float32), array([0.43061674], dtype=float32), array([0.21365005], dtype=float32)]
+tensor([[0.4152, 0.5848]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.41522592]]
+
+  1%|█▌                                                                                                                                      | 11/977 [00:11<16:25,  1.02s/it]
+tensor([[0.5428, 0.4572]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.5427576]]
+[array([0.3621028], dtype=float32), array([0.1391337], dtype=float32), array([0.56918275], dtype=float32), array([0.52785975], dtype=float32), array([0.64997226], dtype=float32), array([0.01510405], dtype=float32), array([0.99981517], dtype=float32), array([0.4359357], dtype=float32), array([0.43061674], dtype=float32), array([0.21365005], dtype=float32), array([0.41522592], dtype=float32), array([0.5427576], dtype=float32)]
+tensor([[0.9805, 0.0195]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.9805134]]
+
+  1%|█▊                                                                                                                                      | 13/977 [00:13<16:23,  1.02s/it]
+tensor([[0.3716, 0.6284]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [1]
+[[0.6284482]]
+[array([0.3621028], dtype=float32), array([0.1391337], dtype=float32), array([0.56918275], dtype=float32), array([0.52785975], dtype=float32), array([0.64997226], dtype=float32), array([0.01510405], dtype=float32), array([0.99981517], dtype=float32), array([0.4359357], dtype=float32), array([0.43061674], dtype=float32), array([0.21365005], dtype=float32), array([0.41522592], dtype=float32), array([0.5427576], dtype=float32), array([0.9805134], dtype=float32), array([0.6284482], dtype=float32)]
+tensor([[0.2255, 0.7745]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.22550927]]
+
+  2%|██                                                                                                                                      | 15/977 [00:15<16:22,  1.02s/it]
+tensor([[0.9250, 0.0750]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.92500883]]
+[array([0.3621028], dtype=float32), array([0.1391337], dtype=float32), array([0.56918275], dtype=float32), array([0.52785975], dtype=float32), array([0.64997226], dtype=float32), array([0.01510405], dtype=float32), array([0.99981517], dtype=float32), array([0.4359357], dtype=float32), array([0.43061674], dtype=float32), array([0.21365005], dtype=float32), array([0.41522592], dtype=float32), array([0.5427576], dtype=float32), array([0.9805134], dtype=float32), array([0.6284482], dtype=float32), array([0.22550927], dtype=float32), array([0.92500883], dtype=float32)]
+tensor([[0.1186, 0.8814]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.11857864]]
+
+  2%|██▎                                                                                                                                     | 17/977 [00:17<16:19,  1.02s/it]
+tensor([[0.1180, 0.8820]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [1]
+[[0.8820357]]
+[array([0.3621028], dtype=float32), array([0.1391337], dtype=float32), array([0.56918275], dtype=float32), array([0.52785975], dtype=float32), array([0.64997226], dtype=float32), array([0.01510405], dtype=float32), array([0.99981517], dtype=float32), array([0.4359357], dtype=float32), array([0.43061674], dtype=float32), array([0.21365005], dtype=float32), array([0.41522592], dtype=float32), array([0.5427576], dtype=float32), array([0.9805134], dtype=float32), array([0.6284482], dtype=float32), array([0.22550927], dtype=float32), array([0.92500883], dtype=float32), array([0.11857864], dtype=float32), array([0.8820357], dtype=float32)]
+tensor([[0.9969, 0.0031]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.9968934]]
+
+  2%|██▋                                                                                                                                     | 19/977 [00:19<16:18,  1.02s/it]
+tensor([[0.0815, 0.9185]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.08154913]]
+[array([0.3621028], dtype=float32), array([0.1391337], dtype=float32), array([0.56918275], dtype=float32), array([0.52785975], dtype=float32), array([0.64997226], dtype=float32), array([0.01510405], dtype=float32), array([0.99981517], dtype=float32), array([0.4359357], dtype=float32), array([0.43061674], dtype=float32), array([0.21365005], dtype=float32), array([0.41522592], dtype=float32), array([0.5427576], dtype=float32), array([0.9805134], dtype=float32), array([0.6284482], dtype=float32), array([0.22550927], dtype=float32), array([0.92500883], dtype=float32), array([0.11857864], dtype=float32), array([0.8820357], dtype=float32), array([0.9968934], dtype=float32), array([0.08154913], dtype=float32)]
+tensor([[0.5510, 0.4490]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.55096966]]
+
+  2%|██▉                                                                                                                                     | 21/977 [00:21<16:16,  1.02s/it]
+tensor([[0.9101, 0.0899]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.91007507]]
+[array([0.3621028], dtype=float32), array([0.1391337], dtype=float32), array([0.56918275], dtype=float32), array([0.52785975], dtype=float32), array([0.64997226], dtype=float32), array([0.01510405], dtype=float32), array([0.99981517], dtype=float32), array([0.4359357], dtype=float32), array([0.43061674], dtype=float32), array([0.21365005], dtype=float32), array([0.41522592], dtype=float32), array([0.5427576], dtype=float32), array([0.9805134], dtype=float32), array([0.6284482], dtype=float32), array([0.22550927], dtype=float32), array([0.92500883], dtype=float32), array([0.11857864], dtype=float32), array([0.8820357], dtype=float32), array([0.9968934], dtype=float32), array([0.08154913], dtype=float32), array([0.55096966], dtype=float32), array([0.91007507], dtype=float32)]
+tensor([[0.3065, 0.6935]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.30649498]]
+
+  2%|███▏                                                                                                                                    | 23/977 [00:23<16:14,  1.02s/it]
+tensor([[0.9946, 0.0054]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.9946333]]
+[array([0.3621028], dtype=float32), array([0.1391337], dtype=float32), array([0.56918275], dtype=float32), array([0.52785975], dtype=float32), array([0.64997226], dtype=float32), array([0.01510405], dtype=float32), array([0.99981517], dtype=float32), array([0.4359357], dtype=float32), array([0.43061674], dtype=float32), array([0.21365005], dtype=float32), array([0.41522592], dtype=float32), array([0.5427576], dtype=float32), array([0.9805134], dtype=float32), array([0.6284482], dtype=float32), array([0.22550927], dtype=float32), array([0.92500883], dtype=float32), array([0.11857864], dtype=float32), array([0.8820357], dtype=float32), array([0.9968934], dtype=float32), array([0.08154913], dtype=float32), array([0.55096966], dtype=float32), array([0.91007507], dtype=float32), array([0.30649498], dtype=float32), array([0.9946333], dtype=float32)]
+tensor([[0.9943, 0.0057]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.99429816]]
+
+  3%|███▍                                                                                                                                    | 25/977 [00:25<16:12,  1.02s/it]
+tensor([[0.8999, 0.1001]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.8998654]]
+[array([0.3621028], dtype=float32), array([0.1391337], dtype=float32), array([0.56918275], dtype=float32), array([0.52785975], dtype=float32), array([0.64997226], dtype=float32), array([0.01510405], dtype=float32), array([0.99981517], dtype=float32), array([0.4359357], dtype=float32), array([0.43061674], dtype=float32), array([0.21365005], dtype=float32), array([0.41522592], dtype=float32), array([0.5427576], dtype=float32), array([0.9805134], dtype=float32), array([0.6284482], dtype=float32), array([0.22550927], dtype=float32), array([0.92500883], dtype=float32), array([0.11857864], dtype=float32), array([0.8820357], dtype=float32), array([0.9968934], dtype=float32), array([0.08154913], dtype=float32), array([0.55096966], dtype=float32), array([0.91007507], dtype=float32), array([0.30649498], dtype=float32), array([0.9946333], dtype=float32), array([0.99429816], dtype=float32), array([0.8998654], dtype=float32)]
+tensor([[0.8702, 0.1298]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.8701738]]
+
+  3%|███▊                                                                                                                                    | 27/977 [00:27<16:10,  1.02s/it]
+tensor([[0.0232, 0.9768]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.0232195]]
+
+  3%|████                                                                                                                                    | 29/977 [00:29<16:08,  1.02s/it]
+tensor([[0.7661, 0.2339]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.76611847]]
+[array([0.3621028], dtype=float32), array([0.1391337], dtype=float32), array([0.56918275], dtype=float32), array([0.52785975], dtype=float32), array([0.64997226], dtype=float32), array([0.01510405], dtype=float32), array([0.99981517], dtype=float32), array([0.4359357], dtype=float32), array([0.43061674], dtype=float32), array([0.21365005], dtype=float32), array([0.41522592], dtype=float32), array([0.5427576], dtype=float32), array([0.9805134], dtype=float32), array([0.6284482], dtype=float32), array([0.22550927], dtype=float32), array([0.92500883], dtype=float32), array([0.11857864], dtype=float32), array([0.8820357], dtype=float32), array([0.9968934], dtype=float32), array([0.08154913], dtype=float32), array([0.55096966], dtype=float32), array([0.91007507], dtype=float32), array([0.30649498], dtype=float32), array([0.9946333], dtype=float32), array([0.99429816], dtype=float32), array([0.8998654], dtype=float32), array([0.8701738], dtype=float32), array([0.0232195], dtype=float32), array([0.76611847], dtype=float32)]
+tensor([[0.0761, 0.9239]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.07610981]]
+
+  3%|████▎                                                                                                                                   | 31/977 [00:31<16:08,  1.02s/it]
+tensor([[0.7108, 0.2892]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.7108128]]
+[array([0.3621028], dtype=float32), array([0.1391337], dtype=float32), array([0.56918275], dtype=float32), array([0.52785975], dtype=float32), array([0.64997226], dtype=float32), array([0.01510405], dtype=float32), array([0.99981517], dtype=float32), array([0.4359357], dtype=float32), array([0.43061674], dtype=float32), array([0.21365005], dtype=float32), array([0.41522592], dtype=float32), array([0.5427576], dtype=float32), array([0.9805134], dtype=float32), array([0.6284482], dtype=float32), array([0.22550927], dtype=float32), array([0.92500883], dtype=float32), array([0.11857864], dtype=float32), array([0.8820357], dtype=float32), array([0.9968934], dtype=float32), array([0.08154913], dtype=float32), array([0.55096966], dtype=float32), array([0.91007507], dtype=float32), array([0.30649498], dtype=float32), array([0.9946333], dtype=float32), array([0.99429816], dtype=float32), array([0.8998654], dtype=float32), array([0.8701738], dtype=float32), array([0.0232195], dtype=float32), array([0.76611847], dtype=float32), array([0.07610981], dtype=float32), array([0.7108128], dtype=float32)]
+tensor([[0.4685, 0.5315]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.46845478]]
+
+  3%|████▌                                                                                                                                   | 33/977 [00:33<16:05,  1.02s/it]
+tensor([[0.9868, 0.0132]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.98678976]]
+[array([0.3621028], dtype=float32), array([0.1391337], dtype=float32), array([0.56918275], dtype=float32), array([0.52785975], dtype=float32), array([0.64997226], dtype=float32), array([0.01510405], dtype=float32), array([0.99981517], dtype=float32), array([0.4359357], dtype=float32), array([0.43061674], dtype=float32), array([0.21365005], dtype=float32), array([0.41522592], dtype=float32), array([0.5427576], dtype=float32), array([0.9805134], dtype=float32), array([0.6284482], dtype=float32), array([0.22550927], dtype=float32), array([0.92500883], dtype=float32), array([0.11857864], dtype=float32), array([0.8820357], dtype=float32), array([0.9968934], dtype=float32), array([0.08154913], dtype=float32), array([0.55096966], dtype=float32), array([0.91007507], dtype=float32), array([0.30649498], dtype=float32), array([0.9946333], dtype=float32), array([0.99429816], dtype=float32), array([0.8998654], dtype=float32), array([0.8701738], dtype=float32), array([0.0232195], dtype=float32), array([0.76611847], dtype=float32), array([0.07610981], dtype=float32), array([0.7108128], dtype=float32), array([0.46845478], dtype=float32), array([0.98678976], dtype=float32)]
+tensor([[0.9828, 0.0172]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.9828022]]
+
+  4%|████▊                                                                                                                                   | 35/977 [00:35<16:03,  1.02s/it]
+tensor([[9.9988e-01, 1.2441e-04]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.99987555]]
+[array([0.3621028], dtype=float32), array([0.1391337], dtype=float32), array([0.56918275], dtype=float32), array([0.52785975], dtype=float32), array([0.64997226], dtype=float32), array([0.01510405], dtype=float32), array([0.99981517], dtype=float32), array([0.4359357], dtype=float32), array([0.43061674], dtype=float32), array([0.21365005], dtype=float32), array([0.41522592], dtype=float32), array([0.5427576], dtype=float32), array([0.9805134], dtype=float32), array([0.6284482], dtype=float32), array([0.22550927], dtype=float32), array([0.92500883], dtype=float32), array([0.11857864], dtype=float32), array([0.8820357], dtype=float32), array([0.9968934], dtype=float32), array([0.08154913], dtype=float32), array([0.55096966], dtype=float32), array([0.91007507], dtype=float32), array([0.30649498], dtype=float32), array([0.9946333], dtype=float32), array([0.99429816], dtype=float32), array([0.8998654], dtype=float32), array([0.8701738], dtype=float32), array([0.0232195], dtype=float32), array([0.76611847], dtype=float32), array([0.07610981], dtype=float32), array([0.7108128], dtype=float32), array([0.46845478], dtype=float32), array([0.98678976], dtype=float32), array([0.9828022], dtype=float32), array([0.99987555], dtype=float32)]
+tensor([[0.5762, 0.4238]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.57622635]]
+
+  4%|█████▏                                                                                                                                  | 37/977 [00:37<16:01,  1.02s/it]
+tensor([[0.0493, 0.9507]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [1]
+[[0.9506619]]
+[array([0.3621028], dtype=float32), array([0.1391337], dtype=float32), array([0.56918275], dtype=float32), array([0.52785975], dtype=float32), array([0.64997226], dtype=float32), array([0.01510405], dtype=float32), array([0.99981517], dtype=float32), array([0.4359357], dtype=float32), array([0.43061674], dtype=float32), array([0.21365005], dtype=float32), array([0.41522592], dtype=float32), array([0.5427576], dtype=float32), array([0.9805134], dtype=float32), array([0.6284482], dtype=float32), array([0.22550927], dtype=float32), array([0.92500883], dtype=float32), array([0.11857864], dtype=float32), array([0.8820357], dtype=float32), array([0.9968934], dtype=float32), array([0.08154913], dtype=float32), array([0.55096966], dtype=float32), array([0.91007507], dtype=float32), array([0.30649498], dtype=float32), array([0.9946333], dtype=float32), array([0.99429816], dtype=float32), array([0.8998654], dtype=float32), array([0.8701738], dtype=float32), array([0.0232195], dtype=float32), array([0.76611847], dtype=float32), array([0.07610981], dtype=float32), array([0.7108128], dtype=float32), array([0.46845478], dtype=float32), array([0.98678976], dtype=float32), array([0.9828022], dtype=float32), array([0.99987555], dtype=float32), array([0.57622635], dtype=float32), array([0.9506619], dtype=float32)]
+tensor([[0.0696, 0.9304]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [1]
+[[0.9303908]]
+
+  4%|█████▍                                                                                                                                  | 39/977 [00:39<15:59,  1.02s/it]
+tensor([[0.6878, 0.3122]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.6877892]]
+[array([0.3621028], dtype=float32), array([0.1391337], dtype=float32), array([0.56918275], dtype=float32), array([0.52785975], dtype=float32), array([0.64997226], dtype=float32), array([0.01510405], dtype=float32), array([0.99981517], dtype=float32), array([0.4359357], dtype=float32), array([0.43061674], dtype=float32), array([0.21365005], dtype=float32), array([0.41522592], dtype=float32), array([0.5427576], dtype=float32), array([0.9805134], dtype=float32), array([0.6284482], dtype=float32), array([0.22550927], dtype=float32), array([0.92500883], dtype=float32), array([0.11857864], dtype=float32), array([0.8820357], dtype=float32), array([0.9968934], dtype=float32), array([0.08154913], dtype=float32), array([0.55096966], dtype=float32), array([0.91007507], dtype=float32), array([0.30649498], dtype=float32), array([0.9946333], dtype=float32), array([0.99429816], dtype=float32), array([0.8998654], dtype=float32), array([0.8701738], dtype=float32), array([0.0232195], dtype=float32), array([0.76611847], dtype=float32), array([0.07610981], dtype=float32), array([0.7108128], dtype=float32), array([0.46845478], dtype=float32), array([0.98678976], dtype=float32), array([0.9828022], dtype=float32), array([0.99987555], dtype=float32), array([0.57622635], dtype=float32), array([0.9506619], dtype=float32), array([0.9303908], dtype=float32), array([0.6877892], dtype=float32)]
+tensor([[0.9441, 0.0559]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.9441204]]
+
+  4%|█████▋                                                                                                                                  | 41/977 [00:41<15:58,  1.02s/it]
+tensor([[0.9777, 0.0223]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.9777206]]
+[array([0.3621028], dtype=float32), array([0.1391337], dtype=float32), array([0.56918275], dtype=float32), array([0.52785975], dtype=float32), array([0.64997226], dtype=float32), array([0.01510405], dtype=float32), array([0.99981517], dtype=float32), array([0.4359357], dtype=float32), array([0.43061674], dtype=float32), array([0.21365005], dtype=float32), array([0.41522592], dtype=float32), array([0.5427576], dtype=float32), array([0.9805134], dtype=float32), array([0.6284482], dtype=float32), array([0.22550927], dtype=float32), array([0.92500883], dtype=float32), array([0.11857864], dtype=float32), array([0.8820357], dtype=float32), array([0.9968934], dtype=float32), array([0.08154913], dtype=float32), array([0.55096966], dtype=float32), array([0.91007507], dtype=float32), array([0.30649498], dtype=float32), array([0.9946333], dtype=float32), array([0.99429816], dtype=float32), array([0.8998654], dtype=float32), array([0.8701738], dtype=float32), array([0.0232195], dtype=float32), array([0.76611847], dtype=float32), array([0.07610981], dtype=float32), array([0.7108128], dtype=float32), array([0.46845478], dtype=float32), array([0.98678976], dtype=float32), array([0.9828022], dtype=float32), array([0.99987555], dtype=float32), array([0.57622635], dtype=float32), array([0.9506619], dtype=float32), array([0.9303908], dtype=float32), array([0.6877892], dtype=float32), array([0.9441204], dtype=float32), array([0.9777206], dtype=float32)]
+tensor([[0.9582, 0.0418]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.95818865]]
+
+  4%|█████▉                                                                                                                                  | 43/977 [00:43<15:56,  1.02s/it]
+tensor([[0.1765, 0.8235]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.17647387]]
+[array([0.3621028], dtype=float32), array([0.1391337], dtype=float32), array([0.56918275], dtype=float32), array([0.52785975], dtype=float32), array([0.64997226], dtype=float32), array([0.01510405], dtype=float32), array([0.99981517], dtype=float32), array([0.4359357], dtype=float32), array([0.43061674], dtype=float32), array([0.21365005], dtype=float32), array([0.41522592], dtype=float32), array([0.5427576], dtype=float32), array([0.9805134], dtype=float32), array([0.6284482], dtype=float32), array([0.22550927], dtype=float32), array([0.92500883], dtype=float32), array([0.11857864], dtype=float32), array([0.8820357], dtype=float32), array([0.9968934], dtype=float32), array([0.08154913], dtype=float32), array([0.55096966], dtype=float32), array([0.91007507], dtype=float32), array([0.30649498], dtype=float32), array([0.9946333], dtype=float32), array([0.99429816], dtype=float32), array([0.8998654], dtype=float32), array([0.8701738], dtype=float32), array([0.0232195], dtype=float32), array([0.76611847], dtype=float32), array([0.07610981], dtype=float32), array([0.7108128], dtype=float32), array([0.46845478], dtype=float32), array([0.98678976], dtype=float32), array([0.9828022], dtype=float32), array([0.99987555], dtype=float32), array([0.57622635], dtype=float32), array([0.9506619], dtype=float32), array([0.9303908], dtype=float32), array([0.6877892], dtype=float32), array([0.9441204], dtype=float32), array([0.9777206], dtype=float32), array([0.95818865], dtype=float32), array([0.17647387], dtype=float32)]
+tensor([[9.9998e-01, 2.1261e-05]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.9999788]]
+
+  5%|██████▎                                                                                                                                 | 45/977 [00:45<15:54,  1.02s/it]
+tensor([[0.4949, 0.5051]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [1]
+[[0.5051345]]
+[array([0.3621028], dtype=float32), array([0.1391337], dtype=float32), array([0.56918275], dtype=float32), array([0.52785975], dtype=float32), array([0.64997226], dtype=float32), array([0.01510405], dtype=float32), array([0.99981517], dtype=float32), array([0.4359357], dtype=float32), array([0.43061674], dtype=float32), array([0.21365005], dtype=float32), array([0.41522592], dtype=float32), array([0.5427576], dtype=float32), array([0.9805134], dtype=float32), array([0.6284482], dtype=float32), array([0.22550927], dtype=float32), array([0.92500883], dtype=float32), array([0.11857864], dtype=float32), array([0.8820357], dtype=float32), array([0.9968934], dtype=float32), array([0.08154913], dtype=float32), array([0.55096966], dtype=float32), array([0.91007507], dtype=float32), array([0.30649498], dtype=float32), array([0.9946333], dtype=float32), array([0.99429816], dtype=float32), array([0.8998654], dtype=float32), array([0.8701738], dtype=float32), array([0.0232195], dtype=float32), array([0.76611847], dtype=float32), array([0.07610981], dtype=float32), array([0.7108128], dtype=float32), array([0.46845478], dtype=float32), array([0.98678976], dtype=float32), array([0.9828022], dtype=float32), array([0.99987555], dtype=float32), array([0.57622635], dtype=float32), array([0.9506619], dtype=float32), array([0.9303908], dtype=float32), array([0.6877892], dtype=float32), array([0.9441204], dtype=float32), array([0.9777206], dtype=float32), array([0.95818865], dtype=float32), array([0.17647387], dtype=float32), array([0.9999788], dtype=float32), array([0.5051345], dtype=float32)]
+tensor([[0.2644, 0.7356]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [1]
+[[0.7356466]]
+
+  5%|██████▌                                                                                                                                 | 47/977 [00:48<15:52,  1.02s/it]
+tensor([[0.1052, 0.8948]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.10515831]]
+[array([0.3621028], dtype=float32), array([0.1391337], dtype=float32), array([0.56918275], dtype=float32), array([0.52785975], dtype=float32), array([0.64997226], dtype=float32), array([0.01510405], dtype=float32), array([0.99981517], dtype=float32), array([0.4359357], dtype=float32), array([0.43061674], dtype=float32), array([0.21365005], dtype=float32), array([0.41522592], dtype=float32), array([0.5427576], dtype=float32), array([0.9805134], dtype=float32), array([0.6284482], dtype=float32), array([0.22550927], dtype=float32), array([0.92500883], dtype=float32), array([0.11857864], dtype=float32), array([0.8820357], dtype=float32), array([0.9968934], dtype=float32), array([0.08154913], dtype=float32), array([0.55096966], dtype=float32), array([0.91007507], dtype=float32), array([0.30649498], dtype=float32), array([0.9946333], dtype=float32), array([0.99429816], dtype=float32), array([0.8998654], dtype=float32), array([0.8701738], dtype=float32), array([0.0232195], dtype=float32), array([0.76611847], dtype=float32), array([0.07610981], dtype=float32), array([0.7108128], dtype=float32), array([0.46845478], dtype=float32), array([0.98678976], dtype=float32), array([0.9828022], dtype=float32), array([0.99987555], dtype=float32), array([0.57622635], dtype=float32), array([0.9506619], dtype=float32), array([0.9303908], dtype=float32), array([0.6877892], dtype=float32), array([0.9441204], dtype=float32), array([0.9777206], dtype=float32), array([0.95818865], dtype=float32), array([0.17647387], dtype=float32), array([0.9999788], dtype=float32), array([0.5051345], dtype=float32), array([0.7356466], dtype=float32), array([0.10515831], dtype=float32)]
+tensor([[0.7984, 0.2016]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.7984394]]
+
+  5%|██████▊                                                                                                                                 | 49/977 [00:50<15:50,  1.02s/it]
+tensor([[0.0683, 0.9317]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.06825449]]
+[array([0.3621028], dtype=float32), array([0.1391337], dtype=float32), array([0.56918275], dtype=float32), array([0.52785975], dtype=float32), array([0.64997226], dtype=float32), array([0.01510405], dtype=float32), array([0.99981517], dtype=float32), array([0.4359357], dtype=float32), array([0.43061674], dtype=float32), array([0.21365005], dtype=float32), array([0.41522592], dtype=float32), array([0.5427576], dtype=float32), array([0.9805134], dtype=float32), array([0.6284482], dtype=float32), array([0.22550927], dtype=float32), array([0.92500883], dtype=float32), array([0.11857864], dtype=float32), array([0.8820357], dtype=float32), array([0.9968934], dtype=float32), array([0.08154913], dtype=float32), array([0.55096966], dtype=float32), array([0.91007507], dtype=float32), array([0.30649498], dtype=float32), array([0.9946333], dtype=float32), array([0.99429816], dtype=float32), array([0.8998654], dtype=float32), array([0.8701738], dtype=float32), array([0.0232195], dtype=float32), array([0.76611847], dtype=float32), array([0.07610981], dtype=float32), array([0.7108128], dtype=float32), array([0.46845478], dtype=float32), array([0.98678976], dtype=float32), array([0.9828022], dtype=float32), array([0.99987555], dtype=float32), array([0.57622635], dtype=float32), array([0.9506619], dtype=float32), array([0.9303908], dtype=float32), array([0.6877892], dtype=float32), array([0.9441204], dtype=float32), array([0.9777206], dtype=float32), array([0.95818865], dtype=float32), array([0.17647387], dtype=float32), array([0.9999788], dtype=float32), array([0.5051345], dtype=float32), array([0.7356466], dtype=float32), array([0.10515831], dtype=float32), array([0.7984394], dtype=float32), array([0.06825449], dtype=float32)]
+tensor([[0.1227, 0.8773]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.12271303]]
+
+  5%|██████▉                                                                                                                                 | 50/977 [00:51<15:49,  1.02s/it]
+tensor([[0.2313, 0.7687]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.23126705]]
+[array([0.3621028], dtype=float32), array([0.1391337], dtype=float32), array([0.56918275], dtype=float32), array([0.52785975], dtype=float32), array([0.64997226], dtype=float32), array([0.01510405], dtype=float32), array([0.99981517], dtype=float32), array([0.4359357], dtype=float32), array([0.43061674], dtype=float32), array([0.21365005], dtype=float32), array([0.41522592], dtype=float32), array([0.5427576], dtype=float32), array([0.9805134], dtype=float32), array([0.6284482], dtype=float32), array([0.22550927], dtype=float32), array([0.92500883], dtype=float32), array([0.11857864], dtype=float32), array([0.8820357], dtype=float32), array([0.9968934], dtype=float32), array([0.08154913], dtype=float32), array([0.55096966], dtype=float32), array([0.91007507], dtype=float32), array([0.30649498], dtype=float32), array([0.9946333], dtype=float32), array([0.99429816], dtype=float32), array([0.8998654], dtype=float32), array([0.8701738], dtype=float32), array([0.0232195], dtype=float32), array([0.76611847], dtype=float32), array([0.07610981], dtype=float32), array([0.7108128], dtype=float32), array([0.46845478], dtype=float32), array([0.98678976], dtype=float32), array([0.9828022], dtype=float32), array([0.99987555], dtype=float32), array([0.57622635], dtype=float32), array([0.9506619], dtype=float32), array([0.9303908], dtype=float32), array([0.6877892], dtype=float32), array([0.9441204], dtype=float32), array([0.9777206], dtype=float32), array([0.95818865], dtype=float32), array([0.17647387], dtype=float32), array([0.9999788], dtype=float32), array([0.5051345], dtype=float32), array([0.7356466], dtype=float32), array([0.10515831], dtype=float32), array([0.7984394], dtype=float32), array([0.06825449], dtype=float32), array([0.12271303], dtype=float32), array([0.23126705], dtype=float32)]
+tensor([[0.8426, 0.1574]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.84256977]]
+
+  5%|███████▏                                                                                                                                | 52/977 [00:53<15:47,  1.02s/it]
+tensor([[0.3962, 0.6038]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.39619565]]
+[array([0.3621028], dtype=float32), array([0.1391337], dtype=float32), array([0.56918275], dtype=float32), array([0.52785975], dtype=float32), array([0.64997226], dtype=float32), array([0.01510405], dtype=float32), array([0.99981517], dtype=float32), array([0.4359357], dtype=float32), array([0.43061674], dtype=float32), array([0.21365005], dtype=float32), array([0.41522592], dtype=float32), array([0.5427576], dtype=float32), array([0.9805134], dtype=float32), array([0.6284482], dtype=float32), array([0.22550927], dtype=float32), array([0.92500883], dtype=float32), array([0.11857864], dtype=float32), array([0.8820357], dtype=float32), array([0.9968934], dtype=float32), array([0.08154913], dtype=float32), array([0.55096966], dtype=float32), array([0.91007507], dtype=float32), array([0.30649498], dtype=float32), array([0.9946333], dtype=float32), array([0.99429816], dtype=float32), array([0.8998654], dtype=float32), array([0.8701738], dtype=float32), array([0.0232195], dtype=float32), array([0.76611847], dtype=float32), array([0.07610981], dtype=float32), array([0.7108128], dtype=float32), array([0.46845478], dtype=float32), array([0.98678976], dtype=float32), array([0.9828022], dtype=float32), array([0.99987555], dtype=float32), array([0.57622635], dtype=float32), array([0.9506619], dtype=float32), array([0.9303908], dtype=float32), array([0.6877892], dtype=float32), array([0.9441204], dtype=float32), array([0.9777206], dtype=float32), array([0.95818865], dtype=float32), array([0.17647387], dtype=float32), array([0.9999788], dtype=float32), array([0.5051345], dtype=float32), array([0.7356466], dtype=float32), array([0.10515831], dtype=float32), array([0.7984394], dtype=float32), array([0.06825449], dtype=float32), array([0.12271303], dtype=float32), array([0.23126705], dtype=float32), array([0.84256977], dtype=float32), array([0.39619565], dtype=float32)]
+tensor([[0.1420, 0.8580]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [1]
+[[0.8579925]]
+  5%|███████▍                                                                                                                                | 53/977 [00:54<15:46,  1.02s/it]
+Traceback (most recent call last):
+  File "train_MHIST.py", line 223, in <module>
+    train(train_data, test_data, model_backbone, max_epoch)
+  File "train_MHIST.py", line 192, in train
+    time.sleep(1)
+KeyboardInterrupt

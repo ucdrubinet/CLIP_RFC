@@ -1,0 +1,266 @@
+
+  7%|██████████▏                                                                                                                               | 5/68 [00:01<00:15,  4.08it/s]
+loss:  tensor(0.7213, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6962, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(1.3997, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.8676, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.7341, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.9061, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 21%|████████████████████████████▏                                                                                                            | 14/68 [00:03<00:13,  3.95it/s]
+loss:  tensor(0.8882, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.8956, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(1.3113, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.8681, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6402, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(1.4360, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6143, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6578, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 34%|██████████████████████████████████████████████▎                                                                                          | 23/68 [00:05<00:09,  4.53it/s]
+loss:  tensor(0.5527, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5574, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4408, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4452, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6099, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4713, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4139, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4597, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 47%|████████████████████████████████████████████████████████████████▍                                                                        | 32/68 [00:07<00:08,  4.45it/s]
+loss:  tensor(0.5036, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5715, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4680, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4425, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.7163, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5165, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6205, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4681, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 60%|██████████████████████████████████████████████████████████████████████████████████▌                                                      | 41/68 [00:09<00:06,  4.48it/s]
+loss:  tensor(0.4437, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4774, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5520, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4446, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(1.1051, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4430, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4199, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5724, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 72%|██████████████████████████████████████████████████████████████████████████████████████████████████▋                                      | 49/68 [00:11<00:04,  3.97it/s]
+loss:  tensor(0.3381, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5850, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5169, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6043, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5619, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4768, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5182, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 84%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                      | 57/68 [00:13<00:02,  4.36it/s]
+loss:  tensor(0.4680, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5024, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4590, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4923, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4479, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4317, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3738, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4201, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+loss:  tensor(0.6320, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4285, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4828, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5551, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4872, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3610, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3512, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4180, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3396, device='cuda:0', grad_fn=<NllLossBackward0>)
+Training loss: 0.01850528801994762, accuracy: 0.7204597701149426
+tensor([[0.6745, 0.3255]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 68/68 [00:15<00:00,  4.32it/s]
+  0%|▏                                                                                                                                        | 1/977 [00:01<16:28,  1.01s/it]
+tensor([[0.3382, 0.6618]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.3382236]]
+tensor([[0.7297, 0.2703]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [1]
+
+  0%|▍                                                                                                                                        | 3/977 [00:03<16:31,  1.02s/it]
+tensor([[0.3434, 0.6566]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.34342363]]
+tensor([[0.5707, 0.4293]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+
+  1%|▋                                                                                                                                        | 5/977 [00:05<16:28,  1.02s/it]
+tensor([[0.1558, 0.8442]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.15582643]]
+tensor([[0.9571, 0.0429]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+
+  1%|▉                                                                                                                                        | 7/977 [00:07<16:27,  1.02s/it]
+tensor([[0.3599, 0.6401]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.3598946]]
+tensor([[0.3469, 0.6531]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+
+  1%|█▎                                                                                                                                       | 9/977 [00:09<16:23,  1.02s/it]
+tensor([[0.3802, 0.6198]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.3801522]]
+tensor([[0.5120, 0.4880]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+
+  1%|█▌                                                                                                                                      | 11/977 [00:11<16:22,  1.02s/it]
+tensor([[0.6652, 0.3348]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.6651618]]
+tensor([[0.9955, 0.0045]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+
+  1%|█▊                                                                                                                                      | 13/977 [00:13<16:20,  1.02s/it]
+tensor([[0.3136, 0.6864]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [1]
+[[0.6863921]]
+tensor([[0.6273, 0.3727]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+
+  2%|██                                                                                                                                      | 15/977 [00:15<16:18,  1.02s/it]
+tensor([[0.9107, 0.0893]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+
+  2%|██▎                                                                                                                                     | 17/977 [00:17<16:16,  1.02s/it]
+tensor([[0.2600, 0.7400]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.26001272]]
+tensor([[0.3848, 0.6152]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [1]
+
+  2%|██▋                                                                                                                                     | 19/977 [00:19<16:15,  1.02s/it]
+tensor([[0.9821, 0.0179]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.98211414]]
+tensor([[0.4560, 0.5440]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+
+  2%|██▉                                                                                                                                     | 21/977 [00:21<16:13,  1.02s/it]
+tensor([[0.2426, 0.7574]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.24264713]]
+tensor([[0.9985, 0.0015]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+
+  2%|███▏                                                                                                                                    | 23/977 [00:23<16:10,  1.02s/it]
+tensor([[0.9512, 0.0488]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.9512357]]
+tensor([[0.9568, 0.0432]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+
+  3%|███▍                                                                                                                                    | 25/977 [00:25<16:09,  1.02s/it]
+tensor([[0.9922, 0.0078]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.9921523]]
+tensor([[0.8440, 0.1560]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+
+  3%|███▊                                                                                                                                    | 27/977 [00:27<16:07,  1.02s/it]
+tensor([[0.9769, 0.0231]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.9769141]]
+tensor([[0.2452, 0.7548]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+
+  3%|████                                                                                                                                    | 29/977 [00:29<16:05,  1.02s/it]
+tensor([[0.5808, 0.4192]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.5807846]]
+tensor([[0.2790, 0.7210]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+
+  3%|████▎                                                                                                                                   | 31/977 [00:31<16:02,  1.02s/it]
+tensor([[0.6955, 0.3045]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.69554996]]
+tensor([[0.5596, 0.4404]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+
+  3%|████▌                                                                                                                                   | 33/977 [00:33<16:00,  1.02s/it]
+tensor([[0.9812, 0.0188]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.98119694]]
+tensor([[0.9360, 0.0640]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+
+  4%|████▊                                                                                                                                   | 35/977 [00:35<15:58,  1.02s/it]
+tensor([[0.9976, 0.0024]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.9976119]]
+tensor([[0.7353, 0.2647]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+
+  4%|█████▏                                                                                                                                  | 37/977 [00:37<15:52,  1.01s/it]
+tensor([[0.1783, 0.8217]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [1]
+[[0.8217459]]
+tensor([[0.2504, 0.7496]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [1]
+
+  4%|█████▍                                                                                                                                  | 39/977 [00:39<15:52,  1.02s/it]
+tensor([[0.7553, 0.2447]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.75527185]]
+tensor([[0.9795, 0.0205]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+
+  4%|█████▋                                                                                                                                  | 41/977 [00:41<15:51,  1.02s/it]
+tensor([[0.9030, 0.0970]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.90297353]]
+tensor([[9.9930e-01, 6.9514e-04]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+
+  4%|█████▉                                                                                                                                  | 43/977 [00:43<15:50,  1.02s/it]
+tensor([[0.3284, 0.6716]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.3284053]]
+tensor([[9.9947e-01, 5.3219e-04]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+
+  5%|██████▎                                                                                                                                 | 45/977 [00:45<15:48,  1.02s/it]
+tensor([[0.4605, 0.5395]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [1]
+[[0.5395395]]
+tensor([[0.5725, 0.4275]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [1]
+
+  5%|██████▌                                                                                                                                 | 47/977 [00:47<15:46,  1.02s/it]
+tensor([[0.5566, 0.4434]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.55664915]]
+tensor([[0.8855, 0.1145]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+
+  5%|██████▊                                                                                                                                 | 49/977 [00:49<15:44,  1.02s/it]
+tensor([[0.2125, 0.7875]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.2124688]]
+tensor([[0.2712, 0.7288]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+
+  5%|███████                                                                                                                                 | 51/977 [00:51<15:42,  1.02s/it]
+tensor([[0.5127, 0.4873]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+[[0.51270145]]
+tensor([[0.7936, 0.2064]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+label:  [0]
+  5%|███████                                                                                                                                 | 51/977 [00:52<15:53,  1.03s/it]
+Traceback (most recent call last):
+  File "train_MHIST.py", line 222, in <module>
+    train(train_data, test_data, model_backbone, max_epoch)
+  File "train_MHIST.py", line 191, in train
+    time.sleep(1)
+KeyboardInterrupt

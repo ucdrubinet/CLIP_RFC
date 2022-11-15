@@ -1,0 +1,118 @@
+wandb_version: 1
+
+Augmentation:
+  desc: null
+  value: true
+Augmentation_type:
+  desc: null
+  value: "Compose(\n    RandomHorizontalFlip(p=0.5)\n    RandomVerticalFlip(p=0.5)\n\
+    \    ToTensor()\n    Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224,\
+    \ 0.225])\n)"
+Backbone:
+  desc: null
+  value: "ResNet(\n  (conv1): Conv2d(3, 64, kernel_size=(7, 7), stride=(2, 2), padding=(3,\
+    \ 3), bias=False)\n  (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True,\
+    \ track_running_stats=True)\n  (relu): ReLU(inplace=True)\n  (maxpool): MaxPool2d(kernel_size=3,\
+    \ stride=2, padding=1, dilation=1, ceil_mode=False)\n  (layer1): Sequential(\n\
+    \    (0): BasicBlock(\n      (conv1): Conv2d(64, 64, kernel_size=(3, 3), stride=(1,\
+    \ 1), padding=(1, 1), bias=False)\n      (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1,\
+    \ affine=True, track_running_stats=True)\n      (relu): ReLU(inplace=True)\n \
+    \     (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1),\
+    \ bias=False)\n      (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True,\
+    \ track_running_stats=True)\n    )\n    (1): BasicBlock(\n      (conv1): Conv2d(64,\
+    \ 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)\n      (bn1):\
+    \ BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)\n\
+    \      (relu): ReLU(inplace=True)\n      (conv2): Conv2d(64, 64, kernel_size=(3,\
+    \ 3), stride=(1, 1), padding=(1, 1), bias=False)\n      (bn2): BatchNorm2d(64,\
+    \ eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)\n    )\n  )\n\
+    \  (layer2): Sequential(\n    (0): BasicBlock(\n      (conv1): Conv2d(64, 128,\
+    \ kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)\n      (bn1):\
+    \ BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)\n\
+    \      (relu): ReLU(inplace=True)\n      (conv2): Conv2d(128, 128, kernel_size=(3,\
+    \ 3), stride=(1, 1), padding=(1, 1), bias=False)\n      (bn2): BatchNorm2d(128,\
+    \ eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)\n      (downsample):\
+    \ Sequential(\n        (0): Conv2d(64, 128, kernel_size=(1, 1), stride=(2, 2),\
+    \ bias=False)\n        (1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True,\
+    \ track_running_stats=True)\n      )\n    )\n    (1): BasicBlock(\n      (conv1):\
+    \ Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)\n\
+    \      (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)\n\
+    \      (relu): ReLU(inplace=True)\n      (conv2): Conv2d(128, 128, kernel_size=(3,\
+    \ 3), stride=(1, 1), padding=(1, 1), bias=False)\n      (bn2): BatchNorm2d(128,\
+    \ eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)\n    )\n  )\n\
+    \  (layer3): Sequential(\n    (0): BasicBlock(\n      (conv1): Conv2d(128, 256,\
+    \ kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)\n      (bn1):\
+    \ BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)\n\
+    \      (relu): ReLU(inplace=True)\n      (conv2): Conv2d(256, 256, kernel_size=(3,\
+    \ 3), stride=(1, 1), padding=(1, 1), bias=False)\n      (bn2): BatchNorm2d(256,\
+    \ eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)\n      (downsample):\
+    \ Sequential(\n        (0): Conv2d(128, 256, kernel_size=(1, 1), stride=(2, 2),\
+    \ bias=False)\n        (1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True,\
+    \ track_running_stats=True)\n      )\n    )\n    (1): BasicBlock(\n      (conv1):\
+    \ Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)\n\
+    \      (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)\n\
+    \      (relu): ReLU(inplace=True)\n      (conv2): Conv2d(256, 256, kernel_size=(3,\
+    \ 3), stride=(1, 1), padding=(1, 1), bias=False)\n      (bn2): BatchNorm2d(256,\
+    \ eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)\n    )\n  )\n\
+    \  (layer4): Sequential(\n    (0): BasicBlock(\n      (conv1): Conv2d(256, 512,\
+    \ kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)\n      (bn1):\
+    \ BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)\n\
+    \      (relu): ReLU(inplace=True)\n      (conv2): Conv2d(512, 512, kernel_size=(3,\
+    \ 3), stride=(1, 1), padding=(1, 1), bias=False)\n      (bn2): BatchNorm2d(512,\
+    \ eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)\n      (downsample):\
+    \ Sequential(\n        (0): Conv2d(256, 512, kernel_size=(1, 1), stride=(2, 2),\
+    \ bias=False)\n        (1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True,\
+    \ track_running_stats=True)\n      )\n    )\n    (1): BasicBlock(\n      (conv1):\
+    \ Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)\n\
+    \      (bn1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)\n\
+    \      (relu): ReLU(inplace=True)\n      (conv2): Conv2d(512, 512, kernel_size=(3,\
+    \ 3), stride=(1, 1), padding=(1, 1), bias=False)\n      (bn2): BatchNorm2d(512,\
+    \ eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)\n    )\n  )\n\
+    \  (avgpool): AdaptiveAvgPool2d(output_size=(1, 1))\n  (fc): Linear(in_features=512,\
+    \ out_features=1000, bias=True)\n)"
+Shuffle:
+  desc: null
+  value: true
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.1
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.8.13
+    start_time: 1667540504.392963
+    t:
+      1:
+      - 1
+      - 5
+      - 41
+      - 53
+      - 55
+      2:
+      - 1
+      - 5
+      - 41
+      - 53
+      - 55
+      3:
+      - 1
+      - 23
+      4: 3.8.13
+      5: 0.13.1
+      8:
+      - 5
+batch_size:
+  desc: null
+  value: 32
+epochs:
+  desc: null
+  value: 50
+lr:
+  desc: null
+  value: 0.001
+rate_decay:
+  desc: null
+  value: 0.93
+scheduler:
+  desc: null
+  value: ExponentialLR

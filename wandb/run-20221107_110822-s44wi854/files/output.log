@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "train_MHIST.py", line 50, in <module>
+    model_backbone = torchvision.models.ResNet18_Weights("default").to(device)
+  File "/opt/anaconda/envs/dassl/lib/python3.8/enum.py", line 339, in __call__
+    return cls.__new__(cls, value)
+  File "/opt/anaconda/envs/dassl/lib/python3.8/enum.py", line 663, in __new__
+    raise ve_exc
+ValueError: 'default' is not a valid ResNet18_Weights

@@ -1,0 +1,1322 @@
+2022-11-07 23:01:15,893 INFO    StreamThr :3582948 [internal.py:wandb_internal():90] W&B internal server running at pid: 3582948, started at: 2022-11-07 23:01:15.892186
+2022-11-07 23:01:15,896 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: status
+2022-11-07 23:01:15,899 DEBUG   SenderThread:3582948 [sender.py:send_request():316] send_request: status
+2022-11-07 23:01:15,902 DEBUG   SenderThread:3582948 [sender.py:send():302] send: header
+2022-11-07 23:01:15,903 INFO    WriterThread:3582948 [datastore.py:open_for_write():75] open: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/run-29vl0yxe.wandb
+2022-11-07 23:01:15,912 DEBUG   SenderThread:3582948 [sender.py:send():302] send: run
+2022-11-07 23:01:16,171 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: check_version
+2022-11-07 23:01:16,176 INFO    SenderThread:3582948 [dir_watcher.py:__init__():216] watching files in: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files
+2022-11-07 23:01:16,177 INFO    SenderThread:3582948 [sender.py:_start_run_threads():913] run started: 29vl0yxe with start time 1667890875.884366
+2022-11-07 23:01:16,177 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:16,177 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:16,178 DEBUG   SenderThread:3582948 [sender.py:send_request():316] send_request: check_version
+2022-11-07 23:01:17,180 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_created():275] file/dir created: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:01:21,193 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: run_start
+2022-11-07 23:01:21,201 DEBUG   HandlerThread:3582948 [meta.py:__init__():35] meta init
+2022-11-07 23:01:21,201 DEBUG   HandlerThread:3582948 [meta.py:__init__():50] meta init done
+2022-11-07 23:01:21,201 DEBUG   HandlerThread:3582948 [meta.py:probe():216] probe
+2022-11-07 23:01:21,209 DEBUG   HandlerThread:3582948 [meta.py:_setup_git():206] setup git
+2022-11-07 23:01:21,235 DEBUG   HandlerThread:3582948 [meta.py:_setup_git():213] setup git done
+2022-11-07 23:01:21,235 DEBUG   HandlerThread:3582948 [meta.py:_save_pip():54] save pip
+2022-11-07 23:01:21,236 DEBUG   HandlerThread:3582948 [meta.py:_save_pip():68] save pip done
+2022-11-07 23:01:21,236 DEBUG   HandlerThread:3582948 [meta.py:_save_conda():75] save conda
+2022-11-07 23:01:22,180 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_created():275] file/dir created: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/conda-environment.yaml
+2022-11-07 23:01:22,180 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_created():275] file/dir created: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/requirements.txt
+2022-11-07 23:01:22,755 DEBUG   HandlerThread:3582948 [meta.py:_save_conda():85] save conda done
+2022-11-07 23:01:22,755 DEBUG   HandlerThread:3582948 [meta.py:probe():254] probe done
+2022-11-07 23:01:22,778 DEBUG   SenderThread:3582948 [sender.py:send():302] send: files
+2022-11-07 23:01:22,779 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-metadata.json with policy now
+2022-11-07 23:01:22,788 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-07 23:01:22,788 DEBUG   SenderThread:3582948 [sender.py:send_request():316] send_request: stop_status
+2022-11-07 23:01:22,881 DEBUG   SenderThread:3582948 [sender.py:send():302] send: telemetry
+2022-11-07 23:01:23,180 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/conda-environment.yaml
+2022-11-07 23:01:23,180 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_created():275] file/dir created: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-metadata.json
+2022-11-07 23:01:24,523 DEBUG   SenderThread:3582948 [sender.py:send():302] send: config
+2022-11-07 23:01:24,529 DEBUG   SenderThread:3582948 [sender.py:send():302] send: telemetry
+2022-11-07 23:01:24,927 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:24,928 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:24,929 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:24,932 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:25,148 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:25,149 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:25,149 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:25,150 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:25,181 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:01:25,181 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_created():275] file/dir created: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:01:25,406 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:25,406 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:25,407 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:25,407 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:25,672 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:25,673 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:25,673 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:25,674 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:25,888 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:25,889 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:25,889 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:25,890 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:26,121 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:26,122 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:26,122 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:26,123 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:26,181 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:01:26,345 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:26,346 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:26,346 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:26,347 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:26,580 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:26,581 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:26,581 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:26,581 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:26,824 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:26,825 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:26,825 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:26,826 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:27,047 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:27,048 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:27,049 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:27,051 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:27,181 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:01:27,182 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:01:27,265 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:27,265 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:27,266 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:27,266 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:27,485 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:27,486 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:27,486 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:27,487 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:27,707 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:27,708 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:27,708 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:27,709 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:27,929 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:27,929 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:27,930 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:27,931 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:28,147 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:28,148 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:28,148 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:28,149 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:28,182 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:01:28,366 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:28,367 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:28,367 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:28,367 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:28,588 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:28,589 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:28,589 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:28,590 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:28,824 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:28,825 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:28,825 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:28,826 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:29,055 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:29,056 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:29,057 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:29,059 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:29,182 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:01:29,182 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:01:29,273 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:29,273 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:29,274 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:29,274 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:29,492 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:29,493 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:29,493 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:29,494 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:29,713 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:29,714 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:29,714 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:29,715 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:29,931 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:29,932 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:29,933 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:29,933 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:30,152 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:30,153 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:30,153 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:30,154 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:30,182 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:01:30,376 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:30,376 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:30,377 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:30,377 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:30,592 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:30,593 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:30,593 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:30,594 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:30,813 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:30,814 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:30,814 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:30,815 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:31,033 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:31,033 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:31,034 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:31,034 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:31,183 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:01:31,183 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:01:31,254 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:31,254 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:31,255 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:31,257 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:31,469 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:31,470 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:31,470 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:31,487 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:31,693 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:31,694 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:31,694 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:31,694 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:31,912 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:31,913 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:31,913 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:31,914 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:32,132 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:32,133 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:32,133 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:32,133 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:32,183 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:01:32,344 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:32,344 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:32,345 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:32,345 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:32,569 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:32,570 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:32,570 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:32,571 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:32,790 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:32,791 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:32,791 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:32,792 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:33,010 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:33,011 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:33,012 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:33,012 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:33,183 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:01:33,183 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:01:33,228 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:33,229 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:33,229 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:33,230 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:33,493 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:33,494 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:33,495 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:33,497 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:33,752 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:33,752 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:33,753 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:33,754 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:34,028 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:34,028 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:34,028 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:34,029 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:34,183 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:01:34,244 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:34,244 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:34,245 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:34,245 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:34,461 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:34,461 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:34,462 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:34,462 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:34,683 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:34,683 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:34,684 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:34,684 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:34,894 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:34,895 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:34,895 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:34,895 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:35,115 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:35,115 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:35,116 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:35,116 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:35,184 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:01:35,184 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:01:35,330 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:35,330 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:35,331 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:35,331 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:35,546 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:35,547 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:35,547 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:35,549 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:35,761 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:35,762 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:35,762 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:35,763 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:35,974 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:35,975 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:35,975 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:35,976 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:36,184 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:01:36,196 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:36,196 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:36,196 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:36,197 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:36,421 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:36,422 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:36,422 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:36,422 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:36,637 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:36,638 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:36,638 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:36,639 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:36,864 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:36,865 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:36,865 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:36,866 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:37,081 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:37,082 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:37,082 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:37,083 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:37,184 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:01:37,184 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:01:37,297 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:37,297 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:37,298 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:37,298 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:37,525 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:37,525 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:37,526 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:37,526 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:37,742 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:37,742 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:37,743 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:37,745 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:37,886 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-07 23:01:37,886 DEBUG   SenderThread:3582948 [sender.py:send_request():316] send_request: stop_status
+2022-11-07 23:01:37,972 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:38,018 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:38,018 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:38,019 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:38,185 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:01:38,205 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:38,206 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:38,206 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:38,206 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:38,424 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:38,425 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:38,425 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:38,426 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:38,651 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:38,652 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:38,652 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:38,652 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:38,871 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:38,871 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:38,871 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:38,872 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:39,088 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:39,089 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:39,089 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:39,090 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:39,185 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:01:39,185 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:01:39,308 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:39,308 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:39,308 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:39,309 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:39,528 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:39,528 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:39,528 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:39,529 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:39,744 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:39,745 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:39,745 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:39,747 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:39,957 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:39,958 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:39,958 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:39,959 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:40,185 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:01:41,205 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:01:43,781 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:01:45,040 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:01:47,353 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:01:47,373 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/config.yaml
+2022-11-07 23:01:49,068 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:49,069 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:49,148 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:49,155 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:49,446 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:49,451 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:49,457 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:49,462 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:49,493 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:49,499 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:49,504 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:49,587 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:01:49,592 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:49,592 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:49,598 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:01:49,619 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:49,624 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:49,660 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:49,812 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:49,828 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:49,838 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:49,874 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:50,078 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:50,099 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:50,104 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:50,135 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:50,277 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:50,282 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:50,283 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:50,319 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:50,513 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:50,536 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:50,536 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:50,563 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:50,629 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:01:50,866 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:50,880 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:50,891 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:50,912 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:50,958 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:50,983 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:50,988 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:51,052 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:51,255 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:51,266 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:51,302 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:51,352 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:51,383 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:51,389 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:51,389 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:51,508 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:51,613 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:51,626 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:51,632 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:51,673 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:51,925 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:01:51,936 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:01:52,007 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:52,099 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:52,104 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:52,148 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:52,202 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:52,225 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:52,230 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:52,283 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:52,308 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:52,326 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:52,326 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:52,363 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:52,576 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:52,589 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:52,594 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:52,667 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:52,763 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:52,769 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:52,770 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:52,790 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:53,001 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:01:53,074 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:01:53,082 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:53,090 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:53,096 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:53,116 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-07 23:01:53,138 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:53,143 DEBUG   SenderThread:3582948 [sender.py:send_request():316] send_request: stop_status
+2022-11-07 23:01:53,199 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:53,420 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:53,426 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:53,432 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:53,449 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:53,460 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:53,465 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:53,595 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:53,643 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:53,654 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:53,664 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:53,680 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:54,016 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:54,028 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:54,058 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:01:54,175 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:54,244 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:54,333 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:54,363 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:54,368 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:54,394 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:54,629 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:54,650 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:54,656 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:54,656 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:54,722 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:54,733 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:54,738 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:54,764 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:55,039 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:55,051 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:55,057 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:55,062 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:55,135 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:01:55,140 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:55,151 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:01:55,151 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:55,172 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:55,199 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:55,262 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:55,439 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:55,450 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:55,471 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:55,498 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:55,519 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:55,524 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:55,555 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:55,989 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:55,990 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:56,001 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:56,011 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:56,053 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:56,063 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:56,069 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:56,104 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:56,212 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:01:56,296 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:56,512 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:56,513 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:56,546 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:56,556 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:56,572 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:56,577 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:56,603 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:56,770 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:56,786 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:56,791 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:56,816 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:57,073 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:57,084 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:57,089 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:57,115 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:57,406 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:57,412 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:57,418 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:57,443 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:57,464 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:01:57,475 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:01:57,629 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:57,629 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:57,640 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:57,682 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:58,163 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:58,174 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:58,184 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:58,200 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:58,242 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:58,269 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:58,280 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:58,291 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:58,316 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:58,327 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:58,332 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:58,342 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:58,498 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:58,499 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:58,509 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:58,540 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:58,545 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:01:58,725 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:58,736 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:58,742 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:58,767 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:59,178 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:59,189 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:59,194 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:59,194 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:59,225 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:59,241 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:59,241 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:59,267 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:59,462 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:59,478 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:59,483 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:59,504 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:01:59,638 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:01:59,654 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:01:59,664 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:01:59,680 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:01:59,686 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:01:59,731 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:02:00,239 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:02:00,255 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:02:00,265 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:02:00,276 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:02:00,354 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:02:00,365 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:02:00,375 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:02:00,381 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:02:00,438 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:02:00,454 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:02:00,459 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:02:00,495 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:02:00,601 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:02:00,616 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:02:00,617 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:02:00,653 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:02:00,714 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:02:00,816 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:02:00,824 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:02:00,829 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:02:00,865 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:02:01,509 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:02:01,520 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:02:01,525 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:02:01,525 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:02:01,552 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:02:01,562 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:02:01,578 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:02:01,604 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:02:01,630 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:02:01,635 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:02:01,635 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:02:01,656 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:02:01,771 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:02:01,772 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:02:01,772 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:02:01,779 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:02:01,825 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:02:01,851 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:02:01,986 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:02:02,008 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:02:02,013 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:02:02,025 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:02:02,246 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:02:02,263 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:02:02,268 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:02:02,289 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:02:03,003 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:02:03,013 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:02:03,014 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:02:03,026 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:02:03,031 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:02:03,041 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:02:03,062 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:02:03,063 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:02:03,074 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:02:03,095 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:02:03,122 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:02:03,128 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:02:03,128 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:02:03,150 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:02:03,171 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:02:03,177 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:02:03,182 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:02:03,212 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:02:03,377 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:02:03,388 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:02:03,408 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:02:03,426 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:02:03,581 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:02:03,597 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:02:03,597 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:02:03,623 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:02:03,870 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:02:03,885 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:02:03,891 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:02:03,928 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:02:04,082 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:02:04,093 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:02:04,155 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:02:04,183 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:02:04,188 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:02:04,198 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:02:04,754 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:02:04,765 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:02:04,770 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:02:04,771 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:02:04,802 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:02:04,812 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:02:04,818 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:02:04,854 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:02:04,940 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:02:04,941 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:02:04,941 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:02:04,973 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:02:05,172 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:02:05,178 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:02:05,186 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:02:05,196 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:02:05,239 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:02:05,290 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:02:06,771 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:02:07,853 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:02:09,028 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:02:11,538 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:02:14,187 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:02:17,131 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:02:21,873 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:02:24,845 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:02:29,553 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:02:31,690 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:02:34,004 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:02:38,450 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:02:43,139 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:02:45,339 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:02:48,602 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:02:52,559 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:02:54,910 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:02:57,249 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:02:58,328 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:03:00,636 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:03:02,977 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:03:05,233 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:03:06,466 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:03:09,513 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-07 23:03:09,523 DEBUG   SenderThread:3582948 [sender.py:send_request():316] send_request: stop_status
+2022-11-07 23:03:11,724 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:03:12,792 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:03:13,593 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,593 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,594 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,596 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,597 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,597 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,598 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,600 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,601 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,602 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,602 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,604 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,605 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,606 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,607 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,608 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,609 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,610 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,611 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,612 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,613 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,614 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,615 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,616 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,617 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,618 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,620 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,622 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,623 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,624 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,625 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,626 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,627 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,629 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,630 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,632 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,633 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,634 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,636 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,636 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,637 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,638 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,639 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,641 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,642 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,643 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,644 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,645 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,647 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,648 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,648 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,650 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,650 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,652 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,653 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,654 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,655 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,656 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,657 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,659 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,660 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,662 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,662 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:13,739 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:13,828 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:13,834 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:13,839 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:13,866 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,882 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,916 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:03:13,931 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:03:13,937 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:13,947 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:13,947 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:13,963 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:14,009 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:14,019 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:14,024 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:14,045 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:14,058 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:14,068 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:14,073 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:14,084 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:14,094 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:14,095 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:14,126 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:14,137 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:14,153 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:14,189 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:14,230 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:14,246 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:14,246 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:14,251 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:14,282 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:14,295 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:14,300 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:14,331 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:14,356 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:14,395 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:14,401 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:14,446 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:14,446 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:14,454 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:14,471 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:03:14,487 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:14,493 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:14,498 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:14,555 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:14,569 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:14,575 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:14,601 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:14,612 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:14,612 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:14,648 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:14,663 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:14,668 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:14,706 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:14,717 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:14,722 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:14,749 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:14,760 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:14,765 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:14,787 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:14,820 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:14,826 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:14,890 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:14,896 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:14,896 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:14,937 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:14,949 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:14,954 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:14,990 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:03:14,996 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:15,023 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:15,028 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:15,080 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:15,094 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:15,099 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:15,162 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:15,167 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:15,173 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:15,209 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:15,215 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:15,221 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:15,248 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:15,270 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:15,275 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:15,304 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:15,314 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:15,330 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:15,357 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:15,373 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:15,373 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:15,448 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:15,454 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:15,454 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:15,515 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:15,531 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:15,547 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:15,580 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:15,604 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:15,609 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:15,675 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:15,681 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:15,688 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:15,718 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:15,736 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:15,758 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:15,807 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:15,829 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:15,838 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:15,872 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:15,883 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:15,889 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:15,937 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:15,948 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:15,959 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:16,022 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:16,027 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:16,028 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:16,044 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:03:16,046 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:16,057 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:03:16,072 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:16,127 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:16,148 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:16,208 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:16,214 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:16,236 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:16,283 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:16,289 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:16,358 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:16,369 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:16,369 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:16,390 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:16,438 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:16,449 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:16,473 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:16,489 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:16,494 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:16,532 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:16,615 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:16,620 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:16,691 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:16,703 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:16,730 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:16,762 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:16,768 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:16,773 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:16,832 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:16,890 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:16,946 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:16,978 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:16,999 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:17,004 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:17,028 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:17,060 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:17,066 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:17,155 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:17,160 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:03:17,217 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:17,234 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:17,273 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:17,283 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:17,283 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:17,435 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:17,446 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:17,452 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:17,528 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:17,547 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:17,547 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:17,607 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:17,618 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:17,623 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:17,651 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:17,671 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:17,677 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:17,684 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:17,690 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:17,690 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:17,746 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:17,776 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:17,777 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:17,897 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:17,908 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:17,908 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:17,955 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:17,971 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:17,976 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:18,019 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:18,051 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:18,061 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:18,088 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:18,104 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:18,109 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:18,137 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:18,148 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:18,148 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:18,195 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:18,195 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:18,201 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:18,269 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:18,313 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:18,334 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:18,405 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:18,405 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:03:18,422 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:18,427 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:03:18,452 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:18,615 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:18,653 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:18,653 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:18,710 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:18,725 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:18,731 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:18,761 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:18,766 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:18,777 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:18,788 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:18,799 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:18,804 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:18,822 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:18,832 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:18,837 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:18,849 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:18,865 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:03:18,872 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:03:18,906 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:03:19,519 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:03:19,524 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:03:20,588 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:03:21,625 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:03:23,978 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:03:25,265 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:03:26,353 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:03:27,503 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:03:28,555 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-07 23:03:28,571 DEBUG   SenderThread:3582948 [sender.py:send_request():316] send_request: stop_status
+2022-11-07 23:03:29,677 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:03:32,393 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:03:34,111 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:03:36,282 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:03:39,019 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:03:41,182 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:03:46,007 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:03:47,053 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:03:49,337 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:03:51,541 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:03:53,423 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:03:55,625 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:03:57,866 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:04:00,162 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:04:01,276 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:04:02,325 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:04:03,520 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:04:04,671 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:04:05,880 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:04:06,910 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:04:08,111 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:04:09,853 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:09,869 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:09,874 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:09,895 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:09,954 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:09,965 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:09,976 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:09,982 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:09,987 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:09,998 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:10,003 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:10,024 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:10,035 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:10,045 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:10,046 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:10,069 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:10,125 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:10,131 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:10,136 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:10,146 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:10,222 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:04:10,227 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:10,233 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:04:10,233 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:10,233 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:10,256 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:10,319 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:10,345 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:10,351 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:10,721 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:10,737 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:10,748 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:10,748 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:10,759 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:10,786 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:10,792 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:10,797 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:10,813 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:10,845 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:10,855 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:10,861 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:10,886 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:10,957 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:10,969 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:10,975 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:11,001 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:11,032 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:11,032 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:11,038 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:11,063 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:11,120 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:11,120 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:11,136 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:11,158 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:11,164 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:11,170 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:11,175 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:11,228 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:11,256 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:11,262 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:11,267 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:11,278 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:11,309 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:04:11,747 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:11,755 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:11,761 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:11,792 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:11,808 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:11,819 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:11,829 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:11,872 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:11,911 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:11,922 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:11,922 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:11,943 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:11,959 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:11,964 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:11,965 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:12,006 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:12,011 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:12,027 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:12,032 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:12,058 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:12,064 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:12,069 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:12,070 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:12,107 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:12,213 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:12,213 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:12,219 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:12,250 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:12,286 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:12,303 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:12,308 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:12,362 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:12,362 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:04:12,383 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:04:12,424 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:12,445 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:12,456 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:12,477 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:12,500 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:12,505 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:12,511 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:12,558 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:13,022 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:13,037 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:13,043 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:13,074 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:13,134 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:13,151 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:13,151 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:13,177 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:13,280 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:13,281 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:13,286 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:13,343 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:13,390 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:13,402 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:13,407 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:13,431 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:04:13,431 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:13,474 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:13,480 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:13,490 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:13,501 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:13,529 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:13,550 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:13,556 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:13,574 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:13,615 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:13,626 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:13,631 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:13,663 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:13,717 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:13,729 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:13,734 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:13,750 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:13,835 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:13,846 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:13,852 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:13,879 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:13,890 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:13,892 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:13,892 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:14,410 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:14,456 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:14,461 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:14,461 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:14,467 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:14,472 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:14,473 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:04:14,473 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:14,488 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:04:14,499 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:14,499 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:14,533 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:14,544 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:14,550 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:14,561 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:14,598 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:14,609 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:14,609 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:14,630 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:14,681 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:14,687 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:14,708 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:14,719 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:14,750 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:14,761 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:14,762 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:14,783 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:14,810 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:14,822 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:14,827 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:14,848 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:14,854 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:14,875 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:14,875 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:14,902 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:14,921 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:14,933 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:14,933 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:14,944 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:14,962 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:14,967 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:14,978 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:15,018 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:15,078 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:15,089 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:15,089 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:15,125 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:15,218 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:15,229 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:15,239 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:15,260 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:15,302 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:15,303 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:15,303 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:15,309 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:15,360 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:15,381 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:15,413 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:15,434 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:15,453 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:15,460 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:15,472 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:15,472 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:15,483 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:15,504 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:15,510 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:16,108 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:16,114 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:16,119 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:16,150 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:16,150 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:04:16,161 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:16,166 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:04:16,176 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:16,213 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:16,229 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:16,240 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:16,245 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:16,266 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:16,271 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:16,287 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:16,297 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:16,329 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:16,334 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:16,340 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:16,366 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:16,382 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:16,382 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:16,388 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:16,445 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:16,488 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:16,494 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:16,530 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:16,556 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:16,567 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:16,568 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:16,604 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:16,646 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:16,667 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:16,672 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:16,693 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:16,698 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-07 23:04:16,708 DEBUG   SenderThread:3582948 [sender.py:send_request():316] send_request: stop_status
+2022-11-07 23:04:16,774 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:16,871 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:16,909 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:16,909 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:16,956 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:16,961 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:16,961 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:16,989 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:17,011 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:17,021 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:17,027 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:17,058 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:17,058 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:17,107 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:17,107 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:17,133 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:17,216 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:17,232 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:17,243 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:17,243 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:04:17,255 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:17,271 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:17,968 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:17,979 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:18,006 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:18,047 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:18,058 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:18,064 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:18,101 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:18,111 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:18,117 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:18,122 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:18,143 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:18,164 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:18,170 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:18,175 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:18,212 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:18,218 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:18,245 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:18,251 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:18,251 DEBUG   HandlerThread:3582948 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-07 23:04:18,268 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:04:18,278 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:18,279 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:04:18,284 DEBUG   SenderThread:3582948 [sender.py:send():302] send: history
+2022-11-07 23:04:18,335 DEBUG   SenderThread:3582948 [sender.py:send():302] send: summary
+2022-11-07 23:04:18,351 INFO    SenderThread:3582948 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-07 23:04:19,325 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:04:20,451 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:04:22,949 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:04:26,073 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:04:27,220 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:04:29,436 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:04:31,777 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:04:33,695 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:04:34,623 INFO    MainThread:3582948 [internal.py:handle_exit():80] Internal process exited
+2022-11-07 23:04:34,783 WARNING MsgRouterThr:3582948 [router.py:message_loop():73] EOFError seen in message_loop
+2022-11-07 23:04:38,729 WARNING StreamThr :3582948 [internal.py:is_dead():387] Internal process exiting, parent pid 3582906 disappeared
+2022-11-07 23:04:38,730 ERROR   StreamThr :3582948 [internal.py:wandb_internal():149] Internal process shutdown.
+2022-11-07 23:04:38,745 INFO    HandlerThread:3582948 [handler.py:finish():810] shutting down handler
+2022-11-07 23:04:38,766 INFO    WriterThread:3582948 [datastore.py:close():279] close: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/run-29vl0yxe.wandb
+2022-11-07 23:04:38,766 INFO    SenderThread:3582948 [sender.py:finish():1312] shutting down sender
+2022-11-07 23:04:40,573 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:04:44,876 INFO    SenderThread:3582948 [sender.py:_output_raw_finish():975] processing output...
+2022-11-07 23:05:01,990 WARNING OutRawWr-stdout:3582948 [sender.py:_output_raw_writer_thread():998] Terminal output too large. Logging without processing.
+2022-11-07 23:05:26,096 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:05:27,606 INFO    SenderThread:3582948 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-11-07 23:05:28,096 INFO    Thread-12 :3582948 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log
+2022-11-07 23:05:28,097 INFO    SenderThread:3582948 [dir_watcher.py:finish():392] scan: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files
+2022-11-07 23:05:28,097 INFO    SenderThread:3582948 [dir_watcher.py:finish():406] scan save: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log output.log
+2022-11-07 23:05:28,097 INFO    SenderThread:3582948 [dir_watcher.py:finish():406] scan save: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/config.yaml config.yaml
+2022-11-07 23:05:28,097 INFO    SenderThread:3582948 [dir_watcher.py:finish():406] scan save: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/requirements.txt requirements.txt
+2022-11-07 23:05:28,100 INFO    SenderThread:3582948 [dir_watcher.py:finish():406] scan save: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json wandb-summary.json
+2022-11-07 23:05:28,102 INFO    SenderThread:3582948 [dir_watcher.py:finish():406] scan save: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-metadata.json wandb-metadata.json
+2022-11-07 23:05:28,104 INFO    SenderThread:3582948 [dir_watcher.py:finish():406] scan save: /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/conda-environment.yaml conda-environment.yaml
+2022-11-07 23:05:28,107 INFO    SenderThread:3582948 [file_pusher.py:finish():171] shutting down file pusher
+2022-11-07 23:05:28,107 INFO    SenderThread:3582948 [file_pusher.py:join():176] waiting for file pusher
+2022-11-07 23:10:06,636 INFO    Thread-16 :3582948 [upload_job.py:push():138] Uploaded file /tmp/tmpej5_0ilqwandb/1i4o61td-wandb-metadata.json
+2022-11-07 23:14:12,377 INFO    Thread-19 :3582948 [upload_job.py:push():138] Uploaded file /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/requirements.txt
+2022-11-07 23:14:12,388 INFO    Thread-20 :3582948 [upload_job.py:push():138] Uploaded file /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/wandb-summary.json
+2022-11-07 23:14:12,412 INFO    Thread-18 :3582948 [upload_job.py:push():138] Uploaded file /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/config.yaml
+2022-11-07 23:14:12,449 INFO    Thread-21 :3582948 [upload_job.py:push():138] Uploaded file /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/conda-environment.yaml
+2022-11-07 23:14:13,099 INFO    Thread-17 :3582948 [upload_job.py:push():138] Uploaded file /home/zhli/Current-Work/Pcam_Experiment/wandb/run-20221107_230115-29vl0yxe/files/output.log

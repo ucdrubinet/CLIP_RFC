@@ -1,0 +1,85 @@
+
+  7%|██████████▏                                                                                                                               | 5/68 [00:01<00:15,  3.95it/s]
+loss:  tensor(0.7502, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6989, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.8802, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.9952, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(1.7153, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.8076, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 21%|████████████████████████████▏                                                                                                            | 14/68 [00:03<00:12,  4.48it/s]
+loss:  tensor(0.8131, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3704, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(1.2454, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.8815, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5320, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.8134, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5940, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4322, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 34%|██████████████████████████████████████████████▎                                                                                          | 23/68 [00:05<00:09,  4.58it/s]
+loss:  tensor(0.9026, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5140, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5811, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5144, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6066, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4846, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5379, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4889, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 47%|████████████████████████████████████████████████████████████████▍                                                                        | 32/68 [00:07<00:07,  4.57it/s]
+loss:  tensor(0.5100, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5314, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5356, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6406, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6475, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5358, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5007, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4589, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 62%|████████████████████████████████████████████████████████████████████████████████████▌                                                    | 42/68 [00:09<00:05,  4.58it/s]
+loss:  tensor(0.4538, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5060, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4742, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3954, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.7761, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3905, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3918, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6791, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 75%|██████████████████████████████████████████████████████████████████████████████████████████████████████▊                                  | 51/68 [00:11<00:03,  4.63it/s]
+loss:  tensor(0.4358, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4692, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4665, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5463, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5014, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5647, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5211, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4609, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.5289, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+ 88%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉                | 60/68 [00:13<00:01,  4.35it/s]
+loss:  tensor(0.4661, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3814, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4699, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.2952, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3211, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4775, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6149, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3845, device='cuda:0', grad_fn=<NllLossBackward0>)
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 68/68 [00:15<00:00,  4.43it/s]
+  0%|                                                                                                                                                 | 0/977 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "train_MHIST.py", line 224, in <module>
+    train(train_data, test_data, model_backbone, max_epoch)
+  File "train_MHIST.py", line 187, in train
+    scores.extend((prob[label]).item())
+ValueError: only one element tensors can be converted to Python scalars
+loss:  tensor(0.6297, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.4709, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3950, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3219, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3885, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.3741, device='cuda:0', grad_fn=<NllLossBackward0>)
+Training loss: 0.01808234838233597, accuracy: 0.7268965517241379
+prob:  tensor([[0.7456, 0.2544]])
