@@ -4,6 +4,10 @@ from torch.utils.data import DataLoader
 import clip
 import sklearn.metrics as metrics
 from tqdm import tqdm
+import sys
+
+# add the directory to the path
+sys.path.insert(0, '../Pcam_Experiment')
 
 from dataset.Pcam import Pcam
 
@@ -75,7 +79,7 @@ def train(train_data, test_data, model, clip_model, epochs):
         
 if __name__ == "__main__":
     # define dataset
-    DATA_DIR = "/home/zhli/Current-Work/Pcam_Experiment/dataset/DATA/pcamv1/"
+    DATA_DIR = "dataset/DATA/pcamv1/"
     train_path = DATA_DIR + 'camelyonpatch_level_2_split_train'
     valid_path = DATA_DIR + 'camelyonpatch_level_2_split_valid'
     test_path = DATA_DIR + 'camelyonpatch_level_2_split_test'
