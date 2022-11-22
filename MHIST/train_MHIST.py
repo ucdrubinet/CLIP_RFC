@@ -7,7 +7,7 @@ from torch.utils.data import DataLoader
 from dataset.MHIST import MHIST
 from dataset.Pcam import Pcam
 from tqdm import tqdm
-import sklearn.metrics as metrics
+
 import wandb
 import numpy as np
 from PIL import Image
