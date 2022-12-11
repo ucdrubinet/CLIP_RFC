@@ -90,7 +90,7 @@ if __name__ == "__main__":
     CLIP_RFC = CustomCLIP(config=config, in_features=in_features).to(device)
 
     # training on dataset
-    # CLIP_RFC.train()
+    CLIP_RFC.train()
   
     # testing 
     CLIP_RFC.test()
