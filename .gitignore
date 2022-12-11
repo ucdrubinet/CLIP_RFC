@@ -1,3 +1,4 @@
 dataset/DATA
 wandb
 Pcam/src/model/checkpoints
+Pcam/train_CustomCLIP.py
