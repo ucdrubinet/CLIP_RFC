@@ -36,6 +36,7 @@ class config():
         self.epochs = 5
         self.alpha = 0.8
         self.percent_training_set = 0.5
+        self.seed = 1
 
         # initialize dataset
         self.train_dataset = train_dataset
@@ -50,6 +51,7 @@ class config():
 
         wandb.config.update({
             "dataset": "Pcam",
+            "seed": self.seed,
             "epoch": self.epochs,
             "alpha": self.alpha,
             "percent_data_training": str(self.percent_training_set*100) + "%",
@@ -88,11 +90,9 @@ if __name__ == "__main__":
     CLIP_RFC = CustomCLIP(config=config, in_features=in_features).to(device)
 
     # training on dataset
-    # CLIP_RFC.train()
+    CLIP_RFC.train()
 
-    # TODO load checkpoint
     # TODO load few shot code
-
-    # testing
-    CLIP_RFC.save()
-    CLIP_RFC.test()
+  
+    # testing 
+    # CLIP_RFC.test()
