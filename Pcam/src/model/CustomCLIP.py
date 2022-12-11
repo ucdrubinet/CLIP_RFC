@@ -36,7 +36,7 @@ def print_metrices(y_true, y_pred, y_score, y_class_score):
     
     # following https://docs.wandb.ai/guides/track/log/plots
     wandb.log({"roc": wandb.plot.roc_curve(
-        y_true, y_class_score, label={"healthy lymph node tissue", "lymph node tumor tissue"})})
+        y_true, y_class_score, labels=["healthy lymph node tissue", "lymph node tumor tissue"])})
 
 class CustomCLIP(nn.Module):
     def __init__(self, config, in_features, reduction=4):
@@ -182,11 +182,13 @@ class CustomCLIP(nn.Module):
                 wandb.log({"Training loss - Step": loss.item(),
                            "Training accuracy - Step": metrics.accuracy_score(true, pred)})
 
-        epoch_score = running_score/sampling_size
-        epoch_loss = running_loss/sampling_size
-        print("Training loss: {}, accuracy: {}".format(epoch_loss, epoch_score))
-        wandb.log({"Training loss - Epoch": epoch_loss,
-                  "Training accuracy": epoch_score})
+            epoch_score = running_score/sampling_size
+            epoch_loss = running_loss/sampling_size
+            print("Training loss: {}, accuracy: {}".format(epoch_loss, epoch_score))
+            wandb.log({"Training loss - Epoch": epoch_loss,
+                    "Training accuracy": metrics.accuracy_score(true, pred)})
+
+        print("Saving model...")
         self.save()
 
     def test(self):
@@ -194,7 +196,7 @@ class CustomCLIP(nn.Module):
         true = []
         score = [] # for roc_auc metric, only record prob of true label in binary classification
         class_score = [] # for roc metric, record both false and true label probability
-        for images, labels, index in tqdm(DataLoader(self.test_dataset, shuffle=True)):
+        for images, labels, index in tqdm(DataLoader(self.test_dataset)):
             image_input = images.to(self.device)
             labels = labels.to(self.device)
 

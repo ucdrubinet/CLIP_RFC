@@ -35,7 +35,7 @@ class config():
         self.batch_size = 32
         self.epochs = 5
         self.alpha = 0.8
-        self.percent_training_set = 0.5
+        self.percent_training_set = 0.001
         self.seed = 1
 
         # initialize dataset
@@ -44,7 +44,7 @@ class config():
         self.valid_dataset = val_dataset
 
         # initialize weights and biases
-        # self.init_wandb()
+        self.init_wandb()
 
     def init_wandb(self):
         wandb.init(project="CustomCLIP")
@@ -90,9 +90,7 @@ if __name__ == "__main__":
     CLIP_RFC = CustomCLIP(config=config, in_features=in_features).to(device)
 
     # training on dataset
-    CLIP_RFC.train()
-
-    # TODO load few shot code
+    # CLIP_RFC.train()
   
     # testing 
-    # CLIP_RFC.test()
+    CLIP_RFC.test()
