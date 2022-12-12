@@ -9,7 +9,7 @@ import clip
 
 
 class config():
-    def __init__(self, backbone, CLIP, device, train_dataset, test_dataset, val_dataset):
+    def __init__(self, backbone, CLIP, device, seed, train_dataset, test_dataset, val_dataset):
         """
         config file for running CLIP + Residual Feature Connection
         @param device: CUDA or CPU
@@ -34,9 +34,9 @@ class config():
         self.weight_decay = 5e-3
         self.batch_size = 32
         self.epochs = 5
-        self.alpha = 0.8
-        self.percent_training_set = 0.001
-        self.seed = 1
+        self.alpha = 0.4
+        self.percent_training_set = 0.5
+        self.seed = seed
 
         # initialize dataset
         self.train_dataset = train_dataset
@@ -80,17 +80,20 @@ if __name__ == "__main__":
     val_dataset = Pcam(path=valid_path, transform=preprocess)
 
     # init config
-    config = config(backbone=backbone, CLIP=openai_clip, device=device, train_dataset=train_dataset,
-                    test_dataset=test_dataset, val_dataset=val_dataset)
+    
     # define model
     sample_image = train_dataset[0][0].unsqueeze(0).to(device)
     image_features = openai_clip.encode_image(sample_image)
     in_features = image_features.size()[1]
 
-    CLIP_RFC = CustomCLIP(config=config, in_features=in_features).to(device)
+    seed = sys.argv[2]
+    print(seed)
+    config = config(backbone=backbone, CLIP=openai_clip, seed=seed, device=device, train_dataset=train_dataset, test_dataset=test_dataset, val_dataset=val_dataset)
 
-    # training on dataset
-    CLIP_RFC.train()
-  
-    # testing 
-    CLIP_RFC.test()
+    CLIP_RFC = CustomCLIP(config=config, in_features=in_features).to(device)
+    
+        # # training on dataset
+        # CLIP_RFC.train()
+    
+        # # testing 
+        # CLIP_RFC.test()
