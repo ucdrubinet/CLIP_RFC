@@ -1,7 +1,7 @@
 import sys
 sys.path.insert(0, '../AI-Pathology')
-from dataset.Pcam import Pcam
-from Pcam.src.model.CustomCLIP import CustomCLIP
+from dataset.MHIST import MHIST
+from MHIST.src.model.CustomCLIP import CustomCLIP
 from torch.cuda.amp import GradScaler
 import wandb
 import torch
@@ -9,7 +9,7 @@ import clip
 
 
 class config():
-    def __init__(self, backbone, CLIP, device, seed, percent, alpha, train_dataset, test_dataset, val_dataset):
+    def __init__(self, backbone, CLIP, device, seed, percent, alpha, train_dataset, test_dataset):
         """
         config file for running CLIP + Residual Feature Connection
         @param device: CUDA or CPU
@@ -41,7 +41,6 @@ class config():
         # initialize dataset
         self.train_dataset = train_dataset
         self.test_dataset = test_dataset
-        self.valid_dataset = val_dataset
 
         # initialize weights and biases
         self.init_wandb()
@@ -50,7 +49,7 @@ class config():
         wandb.init(project="CustomCLIP")
 
         wandb.config.update({
-            "dataset": "Pcam",
+            "dataset": "MHIST",
             "seed": self.seed,
             "epoch": self.epochs,
             "alpha": self.alpha,
@@ -70,14 +69,12 @@ if __name__ == "__main__":
     openai_clip, preprocess = clip.load(backbone, device)
 
     # define dataset
-    DATA_DIR = "dataset/DATA/pcamv1/"
-    train_path = DATA_DIR + 'camelyonpatch_level_2_split_train'
-    valid_path = DATA_DIR + 'camelyonpatch_level_2_split_valid'
-    test_path = DATA_DIR + 'camelyonpatch_level_2_split_test'
+    DATA_DIR = "dataset/DATA/MHIST/"
+    train_path = DATA_DIR + 'train'
+    test_path = DATA_DIR + 'test'
 
-    train_dataset = Pcam(path=train_path, transform=preprocess)
-    test_dataset = Pcam(path=test_path, transform=preprocess)
-    val_dataset = Pcam(path=valid_path, transform=preprocess)
+    train_dataset = MHIST(path=train_path, transform=preprocess)
+    test_dataset = MHIST(path=test_path, transform=preprocess)
 
     # init config
     
@@ -92,7 +89,7 @@ if __name__ == "__main__":
     print(percent)
     print(seed)
     print(alpha)
-    config = config(backbone=backbone, CLIP=openai_clip, seed=seed, percent=percent, alpha=alpha, device=device, train_dataset=train_dataset, test_dataset=test_dataset, val_dataset=val_dataset)
+    config = config(backbone=backbone, CLIP=openai_clip, seed=seed, percent=percent, alpha=alpha, device=device, train_dataset=train_dataset, test_dataset=test_dataset)
 
     CLIP_RFC = CustomCLIP(config=config, in_features=in_features).to(device)
     

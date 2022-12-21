@@ -1,3 +1,4 @@
 dataset/DATA
 wandb
 Pcam/src/model/checkpoints
+MHIST/src/model/checkpoints
