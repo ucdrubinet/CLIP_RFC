@@ -214,3 +214,4 @@ class CustomCLIP(nn.Module):
                        "Test accuracy - Step": metrics.accuracy_score(true, pred)})
 
         print_metrices(true, pred, score, class_score)
+

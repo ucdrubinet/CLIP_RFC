@@ -186,7 +186,7 @@ class CustomCLIP(nn.Module):
 
         print("Saving model...")
         self.save()
-
+    
     def test(self):
         pred = []
         true = []
