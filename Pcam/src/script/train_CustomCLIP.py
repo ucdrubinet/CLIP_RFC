@@ -100,5 +100,5 @@ if __name__ == "__main__":
         # training on dataset
         CLIP_RFC.train()
     
-    # testing 
+    # testing on dataset
     CLIP_RFC.test()

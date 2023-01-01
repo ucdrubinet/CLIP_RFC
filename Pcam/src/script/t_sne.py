@@ -1,5 +1,6 @@
 import sys
 sys.path.insert(0, '../AI-Pathology')
+import time
 import clip
 import torch
 import wandb
@@ -8,6 +9,7 @@ from torch.cuda.amp import GradScaler
 from torch.utils.data import DataLoader
 from Pcam.src.model.CustomCLIP import CustomCLIP
 from dataset.Pcam import Pcam
+from dataset.MHIST import MHIST
 
 
 class config():
@@ -52,7 +54,9 @@ if __name__ == "__main__":
     openai_clip, preprocess = clip.load(backbone, device)
 
     # define dataset
+    mhist = "dataset/DATA/MHIST/"
     DATA_DIR = "dataset/DATA/pcamv1/"
+    test_mhist = mhist + 'test'
     train_path = DATA_DIR + 'camelyonpatch_level_2_split_train'
     valid_path = DATA_DIR + 'camelyonpatch_level_2_split_valid'
     test_path = DATA_DIR + 'camelyonpatch_level_2_split_test'
@@ -60,6 +64,11 @@ if __name__ == "__main__":
     train_dataset = Pcam(path=train_path, transform=preprocess)
     test_dataset = Pcam(path=test_path, transform=preprocess)
     val_dataset = Pcam(path=valid_path, transform=preprocess)
+    pcam_class = ["tumor", "normal"]
+
+    test_dataset_m = MHIST(path=test_mhist, transform=preprocess)
+    mhist_class = ["hyperplastic papilloma", "sessile serrated adenoma"]
+
 
     # init config
 
@@ -77,18 +86,17 @@ if __name__ == "__main__":
 
     # init wandb
     wandb.init(project='CustomCLIP_Validation')
-    embedding_cols = [f'e_{i}' for i in range(1024)]
-    pretrained_embedding_table = wandb.Table(columns=['image', 'label'] + embedding_cols)
+    pretrained_embedding_table = wandb.Table(columns=['label', 'embedding'])
     # init dataloader
-    for image, label, index in tqdm(DataLoader(test_dataset, batch_size=1, shuffle=False)):
+    for image, label, index in tqdm(DataLoader(train_dataset)):
         image = image.to(device)
-        label = label.to(device)
 
         # get CLIP embedding
         image_features = CLIP_RFC.CLIP.encode_image(image)
         CLIP_embedding = CLIP_RFC.fc(image_features)
 
-        pretrained_embedding_table.add_data(wandb.Image(image), label, *CLIP_embedding[0].tolist())
+        pretrained_embedding_table.add_data(pcam_class[label], CLIP_embedding[0].tolist())
 
+    print("Logging embedding table")
     wandb.log({'embedding_table': pretrained_embedding_table})
     wandb.finish()

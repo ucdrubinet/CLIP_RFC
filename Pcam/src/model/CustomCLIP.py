@@ -148,9 +148,14 @@ class CustomCLIP(nn.Module):
         return loss, logit
 
     def save(self):
-        date = dt.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-        path = './Pcam/src/model/checkpoints/CustomCLIP:' + date + '.pt'
-        torch.save(self.state_dict(), path)
+
+        path = './Pcam/src/model/checkpoints/CustomCLIP:' + str(self.percent_train) + '_' + str(self.alpha) + '_' + str(self.seed)+ '.pt'
+
+        if not exists(path):
+            torch.save(self.state_dict(), path)
+            print("Model saved to {}".format(path))
+        else:
+            print("Model already exists")
 
     def train(self):
         optimizer = torch.optim.Adam(

@@ -71,7 +71,7 @@ if __name__ == "__main__":
     # define dataset
     DATA_DIR = "dataset/DATA/MHIST/"
     train_path = DATA_DIR + 'train'
-    test_path = DATA_DIR + 'test'
+    
 
     train_dataset = MHIST(path=train_path, transform=preprocess)
     test_dataset = MHIST(path=test_path, transform=preprocess)
