@@ -1,19 +1,16 @@
+import sys
+sys.path.insert(0, '../AI-Pathology')
 
 import numpy as np
 import clip
 import torch
 from tqdm import tqdm
-from torch.functional import F
 from torch.cuda.amp import GradScaler
 from torch.utils.data import DataLoader
-from Pcam.src.model.CustomCLIP import CustomCLIP
-from dataset.Pcam import Pcam
+from MHIST.src.model.CustomCLIP import CustomCLIP
 from dataset.MHIST import MHIST
 import matplotlib.pyplot as plt
-from scipy import interp
 from sklearn.metrics import roc_curve, auc
-import sys
-sys.path.insert(0, '../AI-Pathology')
 
 
 class config():
@@ -58,19 +55,14 @@ if __name__ == "__main__":
     backbone = "RN50"
     openai_clip, preprocess = clip.load(backbone, device)
 
-    # define dataset
-    mhist = "dataset/DATA/MHIST/"
-    DATA_DIR = "dataset/DATA/pcamv1/"
-    test_mhist = mhist + 'test'
-    train_path = DATA_DIR + 'camelyonpatch_level_2_split_train'
-    valid_path = DATA_DIR + 'camelyonpatch_level_2_split_valid'
-    test_path = DATA_DIR + 'camelyonpatch_level_2_split_test'
+     # define dataset
+    DATA_DIR = "dataset/DATA/MHIST/"
 
-    train_dataset = Pcam(path=train_path, transform=preprocess)
-    test_dataset = Pcam(path=test_path, transform=preprocess)
-    val_dataset = Pcam(path=valid_path, transform=preprocess)
-    pcam_class = ["tumor", "normal"]
-    # init config
+    train_path = DATA_DIR + 'train'
+    test_path = DATA_DIR + 'test'
+
+    train_dataset = MHIST(path=train_path, transform=preprocess)
+    test_dataset = MHIST(path=test_path, transform=preprocess)
 
     # define model
     sample_image = train_dataset[0][0].unsqueeze(0).to(device)
@@ -92,28 +84,29 @@ if __name__ == "__main__":
     config_4 = config(backbone=backbone, CLIP=openai_clip, seed=None, percent=percent,
                       alpha=0.8, device=device, train_dataset=train_dataset, test_dataset=test_dataset)
     config_5 = config(backbone=backbone, CLIP=openai_clip, seed=None, percent=percent,
-                      alpha=0.1, device=device, train_dataset=train_dataset, test_dataset=test_dataset)
+                      alpha=1, device=device, train_dataset=train_dataset, test_dataset=test_dataset)
 
     CLIP_RFC_0 = CustomCLIP(config_0, in_features=in_features).to(device)
+
     CLIP_RFC_1 = CustomCLIP(config_1, in_features=in_features).to(device)
     CLIP_RFC_1.load_state_dict(torch.load(
-        "Pcam/src/model/checkpoints/CustomCLIP:{percent}_{alpha}_{seed}.pt".format(percent=percent, alpha=0.2, seed=1)))
+        "MHIST/src/model/checkpoints/CustomCLIP:{percent}_{alpha}_{seed}.pt".format(percent=percent, alpha=0.2, seed=1)))
 
     CLIP_RFC_2 = CustomCLIP(config_2, in_features=in_features).to(device)
     CLIP_RFC_2.load_state_dict(torch.load(
-        "Pcam/src/model/checkpoints/CustomCLIP:{percent}_{alpha}_{seed}.pt".format(percent=percent, alpha=0.4, seed=1)))
+        "MHIST/src/model/checkpoints/CustomCLIP:{percent}_{alpha}_{seed}.pt".format(percent=percent, alpha=0.4, seed=1)))
 
     CLIP_RFC_3 = CustomCLIP(config_3, in_features=in_features).to(device)
     CLIP_RFC_3.load_state_dict(torch.load(
-        "Pcam/src/model/checkpoints/CustomCLIP:{percent}_{alpha}_{seed}.pt".format(percent=percent, alpha=0.6, seed=1)))
+        "MHIST/src/model/checkpoints/CustomCLIP:{percent}_{alpha}_{seed}.pt".format(percent=percent, alpha=0.6, seed=1)))
 
     CLIP_RFC_4 = CustomCLIP(config_4, in_features=in_features).to(device)
     CLIP_RFC_4.load_state_dict(torch.load(
-        "Pcam/src/model/checkpoints/CustomCLIP:{percent}_{alpha}_{seed}.pt".format(percent=percent, alpha=0.8, seed=1)))
+        "MHIST/src/model/checkpoints/CustomCLIP:{percent}_{alpha}_{seed}.pt".format(percent=percent, alpha=0.8, seed=1)))
 
     CLIP_RFC_5 = CustomCLIP(config_5, in_features=in_features).to(device)
     CLIP_RFC_5.load_state_dict(torch.load(
-        "Pcam/src/model/checkpoints/CustomCLIP:{percent}_{alpha}_{seed}.pt".format(percent=percent, alpha=1.0, seed=1)))
+        "MHIST/src/model/checkpoints/CustomCLIP:{percent}_{alpha}_{seed}.pt".format(percent=percent, alpha=1.0, seed=1)))
 
     CLIP_RFC_GROUP = [CLIP_RFC_0, CLIP_RFC_1,
                       CLIP_RFC_2, CLIP_RFC_3, CLIP_RFC_4, CLIP_RFC_5]
@@ -139,21 +132,22 @@ if __name__ == "__main__":
         roc_auc = auc(fpr, tpr)
         aucs.append(roc_auc)
         plt.plot(fpr, tpr, lw=2, alpha=0.3,
-                 label='ROC fold %0.1f (AUC = %0.2f)' % (alpha, roc_auc))
+                 label='ROC Alpha=%0.1f (AUC = %0.2f)' % (alpha, roc_auc))
         alpha += 0.2
-    plt.plot([0, 1], [0, 1], linestyle='--', lw=2, color='black')
-mean_tpr = np.mean(tprs, axis=0)
-mean_auc = auc(mean_fpr, mean_tpr)
-plt.plot(mean_fpr, mean_tpr, color='blue',
-         label=r'Mean ROC (AUC = %0.2f )' % (mean_auc), lw=2, alpha=1)
 
-plt.xlabel('False Positive Rate', fontsize=22)
-plt.xticks(fontsize=20)
-plt.yticks(fontsize=20)
-plt.ylabel('True Positive Rate', fontsize=22)
-plt.title('ROC', fontsize=26)
-plt.legend(loc="lower right", fontsize=10)
-plt.text(0.32, 0.7, 'More accurate ', fontsize=22)
-# plt.text(0.63,0.4,'Less accurate area',fontsize = 22)
-plt.savefig('./ROC_C.png', bbox_inches='tight', dpi=800)
-plt.show()
+    plt.plot([0, 1], [0, 1], linestyle='--', lw=2, color='black')
+    mean_tpr = np.mean(tprs, axis=0)
+    mean_auc = auc(mean_fpr, mean_tpr)
+    plt.plot(mean_fpr, mean_tpr, color='blue',
+             label=r'Mean ROC (AUC = %0.2f )' % (mean_auc), lw=2, alpha=1)
+
+    plt.xlabel('False Positive Rate', fontsize=14)
+    plt.xticks(fontsize=10)
+    plt.yticks(fontsize=10)
+    plt.ylabel('True Positive Rate', fontsize=14)
+    plt.title('ROC (training = {percent}%)'.format(
+        percent=percent*100), fontsize=15)
+    plt.legend(loc="lower right", fontsize=8)
+    plt.savefig('./MHIST/src/figure/ROC_Curve_MHIST_%0.3f.png' %
+                (percent), dpi=800)
+    plt.close()

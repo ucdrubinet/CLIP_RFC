@@ -1,3 +1,5 @@
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from sklearn.metrics import roc_curve, auc
 import sys
@@ -59,9 +61,8 @@ if __name__ == "__main__":
     openai_clip, preprocess = clip.load(backbone, device)
 
     # define dataset
-    mhist = "dataset/DATA/MHIST/"
     DATA_DIR = "dataset/DATA/pcamv1/"
-    test_mhist = mhist + 'test'
+
     train_path = DATA_DIR + 'camelyonpatch_level_2_split_train'
     valid_path = DATA_DIR + 'camelyonpatch_level_2_split_valid'
     test_path = DATA_DIR + 'camelyonpatch_level_2_split_test'
@@ -69,10 +70,6 @@ if __name__ == "__main__":
     train_dataset = Pcam(path=train_path, transform=preprocess)
     test_dataset = Pcam(path=test_path, transform=preprocess)
     val_dataset = Pcam(path=valid_path, transform=preprocess)
-
-    test_mhist = MHIST(path=test_mhist, transform=preprocess)
-    pcam_class = ["tumor", "normal"]
-    # init config
 
     # define model
     sample_image = train_dataset[0][0].unsqueeze(0).to(device)
@@ -151,5 +148,4 @@ if __name__ == "__main__":
     plt.ylabel('True Positive Rate', fontsize=14)
     plt.title('ROC (training = {percent}%)'.format(percent=percent*100), fontsize=15)
     plt.legend(loc="lower right", fontsize=8)
-    # plt.text(0.63,0.4,'Less accurate area',fontsize = 22)
     plt.savefig('./Pcam/src/figure/ROC_Curve_Pcam_%0.3f.png' % (percent), dpi=800)

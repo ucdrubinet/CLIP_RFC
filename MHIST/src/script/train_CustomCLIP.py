@@ -43,7 +43,7 @@ class config():
         self.test_dataset = test_dataset
 
         # initialize weights and biases
-        self.init_wandb()
+        # self.init_wandb()
 
     def init_wandb(self):
         wandb.init(project="CustomCLIP")
@@ -71,6 +71,7 @@ if __name__ == "__main__":
     # define dataset
     DATA_DIR = "dataset/DATA/MHIST/"
     train_path = DATA_DIR + 'train'
+    test_path = DATA_DIR + 'test'
     
 
     train_dataset = MHIST(path=train_path, transform=preprocess)
@@ -98,4 +99,4 @@ if __name__ == "__main__":
         CLIP_RFC.train()
     
     # testing 
-    CLIP_RFC.test()
+    # CLIP_RFC.test()

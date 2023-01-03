@@ -185,12 +185,12 @@ class CustomCLIP(nn.Module):
                 true.extend(label)
 
                 running_loss += loss.item()
-                wandb.log({"Training loss - Step": loss.item(),
-                           "Training accuracy - Step": metrics.accuracy_score(true, pred)})
+                # wandb.log({"Training loss - Step": loss.item(),
+                #            "Training accuracy - Step": metrics.accuracy_score(true, pred)})
 
             epoch_loss = running_loss/sampling_size
-            wandb.log({"Training loss - Epoch": epoch_loss,
-                    "Training accuracy": metrics.accuracy_score(true, pred)})
+            # wandb.log({"Training loss - Epoch": epoch_loss,
+            #         "Training accuracy": metrics.accuracy_score(true, pred)})
 
         print("Saving model...")
         self.save()
