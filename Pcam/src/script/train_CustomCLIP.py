@@ -1,3 +1,4 @@
+import matplotlib.pyplot as plt
 import sys
 sys.path.insert(0, '../AI-Pathology')
 from dataset.Pcam import Pcam
@@ -86,9 +87,9 @@ if __name__ == "__main__":
     image_features = openai_clip.encode_image(sample_image)
     in_features = image_features.size()[1]
 
-    seed = int(sys.argv[2])
-    percent = float(sys.argv[4])
-    alpha = float(sys.argv[6])
+    seed = 1
+    percent = 0.2
+    alpha = float(sys.argv[1])
     print(percent)
     print(seed)
     print(alpha)
@@ -100,5 +101,7 @@ if __name__ == "__main__":
         # training on dataset
         CLIP_RFC.train()
     
-    # testing on dataset
-    CLIP_RFC.test()
+    # # testing on dataset
+    # CLIP_RFC.test()
+
+    # save image

@@ -10,6 +10,7 @@ import random
 from torch.utils.data import DataLoader, SubsetRandomSampler
 from torch.cuda.amp import autocast
 from os.path import exists
+from time import sleep
 
 
 def print_metrices(y_true, y_pred, y_score, y_class_score):
@@ -167,7 +168,7 @@ class CustomCLIP(nn.Module):
         for _ in range(self.epochs):
             running_score = 0.0
             running_loss = 0.0
-            for images, labels, index in tqdm(DataLoader(self.train_dataset, batch_size=self.batch_size, sampler=SubsetRandomSampler(train_index))):
+            for images, labels, index in tqdm(DataLoader(self.train_dataset, batch_size=1, sampler=SubsetRandomSampler(train_index))):
                 image_input = images.to(self.device)
                 labels = labels.to(self.device)
 
@@ -176,6 +177,9 @@ class CustomCLIP(nn.Module):
                 self.scaler.scale(loss).backward()
                 self.scaler.step(optimizer)
                 self.scaler.update()
+
+                print(logit.shape)
+                sleep(3)
 
                 val, index = torch.max(logit, 1)
                 label = labels.data.cpu().numpy()
