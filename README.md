@@ -1,4 +1,4 @@
-# Fine-Tune CLIP by Residual Feature Connection
+# CLIP + Residual Feature Connection
 
 ## Please write your updates per week here. 
 
