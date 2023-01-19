@@ -6,4 +6,4 @@ Residual Feature Connection(RFC) aims to fuse the task-specific knowledge learne
 <img width="750" alt="Residual_Feature_Connection_v5" src="https://user-images.githubusercontent.com/40489953/213370883-ed6b540b-de66-44f2-bc66-2d88d58b4f63.png">
 
 ## Installation
-follow the guidance to run the script
+### Environment Set up
