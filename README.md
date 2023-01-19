@@ -1,4 +1,4 @@
-# Efficiently Fine-Tune CLIP by Residual Feature Connection for Pathology Image Classification with Limited Labeled Data
+Fine-Tune CLIP by Residual Feature Connection
 
 ## Please write your updates per week here. 
 
