@@ -1,3 +1,4 @@
+import matplotlib.pyplot as plt
 import sys
 sys.path.insert(0, '../AI-Pathology')
 from dataset.Pcam import Pcam
@@ -9,7 +10,7 @@ import clip
 
 
 class config():
-    def __init__(self, backbone, CLIP, device, train_dataset, test_dataset, val_dataset):
+    def __init__(self, backbone, CLIP, device, seed, percent, alpha, train_dataset, test_dataset, val_dataset):
         """
         config file for running CLIP + Residual Feature Connection
         @param device: CUDA or CPU
@@ -34,8 +35,9 @@ class config():
         self.weight_decay = 5e-3
         self.batch_size = 32
         self.epochs = 5
-        self.alpha = 0.8
-        self.percent_training_set = 0.5
+        self.alpha = alpha
+        self.percent_training_set = percent
+        self.seed = seed
 
         # initialize dataset
         self.train_dataset = train_dataset
@@ -43,13 +45,14 @@ class config():
         self.valid_dataset = val_dataset
 
         # initialize weights and biases
-        # self.init_wandb()
+        self.init_wandb()
 
     def init_wandb(self):
         wandb.init(project="CustomCLIP")
 
         wandb.config.update({
             "dataset": "Pcam",
+            "seed": self.seed,
             "epoch": self.epochs,
             "alpha": self.alpha,
             "percent_data_training": str(self.percent_training_set*100) + "%",
@@ -78,21 +81,27 @@ if __name__ == "__main__":
     val_dataset = Pcam(path=valid_path, transform=preprocess)
 
     # init config
-    config = config(backbone=backbone, CLIP=openai_clip, device=device, train_dataset=train_dataset,
-                    test_dataset=test_dataset, val_dataset=val_dataset)
+    
     # define model
     sample_image = train_dataset[0][0].unsqueeze(0).to(device)
     image_features = openai_clip.encode_image(sample_image)
     in_features = image_features.size()[1]
 
+    seed = 1
+    percent = 0.2
+    alpha = float(sys.argv[1])
+    print(percent)
+    print(seed)
+    print(alpha)
+    config = config(backbone=backbone, CLIP=openai_clip, seed=seed, percent=percent, alpha=alpha, device=device, train_dataset=train_dataset, test_dataset=test_dataset, val_dataset=val_dataset)
+
     CLIP_RFC = CustomCLIP(config=config, in_features=in_features).to(device)
+    
+    if(config.alpha > 0):
+        # training on dataset
+        CLIP_RFC.train()
+    
+    # # testing on dataset
+    # CLIP_RFC.test()
 
-    # training on dataset
-    # CLIP_RFC.train()
-
-    # TODO load checkpoint
-    # TODO load few shot code
-
-    # testing
-    CLIP_RFC.save()
-    CLIP_RFC.test()
+    # save image
