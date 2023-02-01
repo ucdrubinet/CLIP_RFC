@@ -6,6 +6,7 @@ Residual Feature Connection(RFC) aims to fuse the task-specific knowledge learne
 <img width="750" alt="Residual_Feature_Connection_v5" src="https://user-images.githubusercontent.com/40489953/213370883-ed6b540b-de66-44f2-bc66-2d88d58b4f63.png">
 
 ## Installation
+
 ### Environment Set up
 
 ```
@@ -25,8 +26,34 @@ datasets/
     - MHIST
 ```
 
-### Training
+## Running our model
+### Training Pcam
+```
+$ python Pcam/src/script/train_CustomCLIP.py --seed 1 --percent $percent --alpha $alpha
+```
 
-### Evluating
+### Training MHIST
+```
+$ python MHIST/src/script/train_CustomCLIP.py --seed 1 --percent $percent --alpha $alpha
+```
+
+### Testing
+Testing Result including, Acc, recall, precision, f1, and AUC, will automaticaly link to the wandb account you created.
+
+## Evluation
+
+### Draw ROC Curve
+```
+# PCam
+$ python Pcam/src/script/generate_roc.py $percent
+
+# MHIST
+$ python MHIST/src/script/generate_roc.py $percent
+```
+
+### Draw T-SNE(PCam Only)
+```
+$ python Pcam/src/script/t_sne.py $alpha
+```
 
 
