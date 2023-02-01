@@ -7,3 +7,26 @@ Residual Feature Connection(RFC) aims to fuse the task-specific knowledge learne
 
 ## Installation
 ### Environment Set up
+
+```
+$ conda create --name <env_name> --file requirements.txt
+```
+#### Setup Weights & Biaes
+```
+$ wandb login
+```
+### Prepare Dataset
+We put all our dataset in the same folder for simplicity
+
+```
+datasets/
+  DATA/
+    - pcamv1
+    - MHIST
+```
+
+### Training
+
+### Evluating
+
+
