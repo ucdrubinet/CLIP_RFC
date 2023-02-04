@@ -87,12 +87,12 @@ if __name__ == "__main__":
     image_features = openai_clip.encode_image(sample_image)
     in_features = image_features.size()[1]
 
-    seed = 1
-    percent = 0.2
-    alpha = float(sys.argv[1])
-    print(percent)
-    print(seed)
-    print(alpha)
+    seed = alpha = float(sys.argv[2])
+    percent = float(sys.argv[4])
+    alpha = float(sys.argv[6])
+    print("percentage: " + str(percent))
+    print("seed: " + str(seed))
+    print("alpha: " + str(alpha))
     config = config(backbone=backbone, CLIP=openai_clip, seed=seed, percent=percent, alpha=alpha, device=device, train_dataset=train_dataset, test_dataset=test_dataset, val_dataset=val_dataset)
 
     CLIP_RFC = CustomCLIP(config=config, in_features=in_features).to(device)
