@@ -1,6 +1,3 @@
-# AI-Pathology
+# CLIPath
 
-## Please write your updates per week here. 
-
-### Week 0(Nov.14th - Nov.21)
-#### 
+## Efficiently Fine-Tune CLIP for Pathology Image Analysis
