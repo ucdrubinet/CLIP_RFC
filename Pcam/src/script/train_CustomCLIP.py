@@ -66,7 +66,7 @@ class config():
 
 if __name__ == "__main__":
     # init CLIP
-    device = "cuda" if torch.cuda.is_available() else "cpu"
+    device = "cuda:0" if torch.cuda.is_available() else "cpu"
     backbone = "RN50"
     openai_clip, preprocess = clip.load(backbone, device)
 

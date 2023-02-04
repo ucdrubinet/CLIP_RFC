@@ -178,9 +178,6 @@ class CustomCLIP(nn.Module):
                 self.scaler.step(optimizer)
                 self.scaler.update()
 
-                print(logit.shape)
-                sleep(3)
-
                 val, index = torch.max(logit, 1)
                 label = labels.data.cpu().numpy()
                 pred.extend(index.data.cpu().numpy())
